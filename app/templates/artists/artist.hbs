@@ -1,1 +1,20 @@
-{{outlet}}
+<div class="border-b-2 border-gray-800 pb-3 md:pb-4">
+  <h2 class="text-xl md:text-3xl font-bold">{{@model.firstName}} {{@model.lastName}}</h2>
+  <div class="flex w-full">
+    <div class="w-1/3">
+      <img src="{{@model.avatarUrl}}" class="w-full object-cover" alt="{{@model.firstName}} {{@model.lastName}}" />
+      <p><a href="{{@model.websiteUrl}}">Artist Website</a></p>
+    </div>
+    <div class="pl-2 md:pl-5 w-2/3">
+      <div class="flex justify-between">
+        <img src="{{@model.country.flagUrl}}" class="h-8" alt="{{@model.country.countryName}} flag" />
+        {{svg-jar @model.team.slug class="h-8"}}
+      </div>
+      <p>{{@model.bio}}</p>
+      
+
+
+
+    </div>
+  </div>
+</div>

@@ -11,10 +11,9 @@ export default Factory.extend({
     return faker.name.lastName();
   },
 
-  slug(i) {
+  id(i) {
     return `artist-${i}`;
   },
-
 
   bio() {
     return faker.lorem.paragraph();

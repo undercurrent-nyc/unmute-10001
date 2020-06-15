@@ -7,35 +7,35 @@ export default function(server) {
     countryName: "Malta",
     orgName: "Maltese Cultural Org",
     locale: "mt-mt",
-    flagUrl: "https://www.countryflags.io/mt/flag/64.png",
+    flagUrl: "https://www.countryflags.io/mt/flat/64.png",
   });
   const at = server.create("country", {
     slug: "austria",
     countryName: "Austria",
     orgName: "Austrian Cultural Org",
     locale: "de-at",
-    flagUrl: "https://www.countryflags.io/at/flag/64.png",
+    flagUrl: "https://www.countryflags.io/at/flat/64.png",
   });
   const lt = server.create("country", {
     slug: "lithuania",
     countryName: "Lithuania",
     orgName: "Lithuanian Cultural Org",
     locale: "lt-lt",
-    flagUrl: "https://www.countryflags.io/lt/flag/64.png",
+    flagUrl: "https://www.countryflags.io/lt/flat/64.png",
   });
   const ee = server.create("country", {
     slug: "estonia",
     countryName: "Estonia",
     orgName: "Estonian Cultural Org",
     locale: "et-ee",
-    flagUrl: "https://www.countryflags.io/ee/flag/64.png",
+    flagUrl: "https://www.countryflags.io/ee/flat/64.png",
   });
   const fi = server.create("country", {
     slug: "finland",
     countryName: "Finland",
     orgName: "Finnish Cultural Org",
     locale: "fi-fi",
-    flagUrl: "https://www.countryflags.io/fi/flag/64.png",
+    flagUrl: "https://www.countryflags.io/fi/flat/64.png",
   });
   const vl = server.create("country", {
     slug: "flanders",
