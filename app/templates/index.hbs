@@ -18,19 +18,23 @@
   <h2>Ū</h2>
 </nav>
 
-<div>
-  <div>
-    <h2>Team O</h2>
-    <hr>
-    <p>Artist 1 Name (LT)</p>
-    <p>Artist 2 Name (VL)</p>
-  </div>
+{{#each @model as |team|}}
   <div>
     <div>
-      <h3>clip 1</h3>
+      <h2>{{team.name}}</h2>
+      <img src="/assets/png/{{team.slug}}.png" alt="{{team.name}}" />
+      <hr>
+      {{#each team.artists as |artist|}}
+        <p>{{artist.firstName}} {{artist.lastName}}</p>
+      {{/each}}
+    </div>
+    <div>
+      <div>
+        <h3>clip 1</h3>
+      </div>
     </div>
   </div>
-</div>
+{{/each}}
 
 <hr>
 
