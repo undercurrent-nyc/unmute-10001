@@ -7,7 +7,7 @@ const purgeCSS = {
   module: require('@fullhuman/postcss-purgecss'),
   options: {
     content: [
-      '.app/components/**/*.hbs',
+      './app/components/**/*.hbs',
       './app/index.html',
       './app/templates/**/*.hbs'
     ],
