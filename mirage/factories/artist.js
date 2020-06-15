@@ -3,10 +3,6 @@ import faker from "faker";
 
 export default Factory.extend({
 
-  slug() {
-    faker.helpers.slugify(`${this.firstName} ${this.lastName}`);
-  },
-
   firstName() {
     return faker.name.firstName();
   },
@@ -14,6 +10,11 @@ export default Factory.extend({
   lastName() {
     return faker.name.lastName();
   },
+
+  slug(i) {
+    return `artist-${i}`;
+  },
+
 
   bio() {
     return faker.lorem.paragraph();
