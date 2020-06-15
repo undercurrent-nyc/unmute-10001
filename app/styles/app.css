@@ -9,3 +9,8 @@ body {
   font-family: "Trebuchet MS";
 }
 
+.hanging-indent {
+  margin-left: 0.5rem;
+  text-indent: -0.5rem;
+}
+

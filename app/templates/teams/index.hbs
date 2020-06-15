@@ -1,6 +1,6 @@
 {{outlet}}
 
-{{#each @model as |team|}}
+{{#each (shuffle @model) as |team|}}
   <TeamBlock @team={{team}} />
 {{/each}}
 
