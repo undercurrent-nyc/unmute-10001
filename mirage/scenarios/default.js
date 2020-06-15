@@ -85,43 +85,49 @@ export default function(server) {
     slug: "team-i",
     tetrominoUrl: "/assets/png/team-i.png",
     artists: [mtA, eeB],
+    clips: server.createList("clip", 3),
   });
   const teamO = server.create("team", {
     name: "Team O",
     slug: "team-o",
     tetrominoUrl: "/assets/png/team-o.png",
     artists: [ltA, fiB],
+    clips: server.createList("clip", 3),
   });
   const teamS = server.create("team", {
     name: "Team S",
     slug: "team-s",
     tetrominoUrl: "/assets/png/team-s.png",
     artists: [eeA, vlB],
+    clips: server.createList("clip", 3),
   });
   const teamZ = server.create("team", {
     name: "Team Z",
     slug: "team-z",
     tetrominoUrl: "/assets/png/team-z.png",
     artists: [fiA, atB],
+    clips: server.createList("clip", 3),
   });
   const teamL = server.create("team", {
     name: "Team L",
     slug: "team-l",
     tetrominoUrl: "/assets/png/team-l.png",
     artists: [vlA, mtB],
+    clips: server.createList("clip", 3),
   });
   const teamJ = server.create("team", {
     name: "Team J",
     slug: "team-j",
     tetrominoUrl: "/assets/png/team-j.png",
     artists: [atA, wlB],
+    clips: server.createList("clip", 3),
   });
   const teamT = server.create("team", {
     name: "Team T",
     slug: "team-t",
     tetrominoUrl: "/assets/png/team-t.png",
     artists: [wlA, ltB],
+    clips: server.createList("clip", 3),
   });
   
-  // create clips
 }

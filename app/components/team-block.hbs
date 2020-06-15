@@ -1,15 +1,19 @@
-<div class="flex">
-  <div>
-    <h2>{{@team.name}}</h2>
-    {{svg-jar @team.slug}}
+<div class="flex p-5">
+  <div class="w-40 flex-grow-0 pr-5">
+    <h2 class="text-xl">{{@team.name}}</h2>
+    <div class="flex p-3 justify-center items-center w-40">
+      {{svg-jar @team.slug height="2rem"}}
+    </div>
     <hr>
     {{#each @team.artists as |artist|}}
       <p>{{artist.firstName}} {{artist.lastName}}</p>
     {{/each}}
   </div>
-  <div>
-    <div>
-      <h3>clip 1</h3>
-    </div>
+  <div class="flex flex-grow overflow-auto">
+    {{#each @team.clips as |clip|}}
+      <div class="flex justify-center items-center px-5">
+        <div class="bg-black h-32 w-32">&nbsp;</div>
+      </div>
+    {{/each}}
   </div>
 </div>
