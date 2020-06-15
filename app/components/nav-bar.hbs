@@ -1,5 +1,5 @@
 <nav class="nav-bar flex p-2">
-  <div class="flex-grow-0 pr-3">
+  <div class="flex-grow-0 pr-2">
     <h1 class="leading-none text-4xl md:text-6xl font-bold"><LinkTo @route="index">10001</LinkTo></h1>
     <ul class="pl-2 text-2xs md:text-sm">
       <li><LinkTo @route="about">{{t "about"}}</LinkTo></li>
@@ -7,13 +7,13 @@
       <li>{{t "podcast"}}</li>
     </ul>
   </div>
-  <div class="flex-grow px-2 flex items-start flex-wrap">
+  <div class="flex-grow px-1 flex items-start flex-wrap">
     <LocaleButton @locale="en-us" />
     {{#each (shuffle (array "de-at" "mt-mt" "fi-fi" "nl-be" "lt-lt" "fr-be" "et-ee")) as |locale|}}
       <LocaleButton @locale={{locale}} />
     {{/each}}
   </div>
-  <div class="flex-grow-0 pl-3">
+  <div class="flex-grow-0 pl-2">
     <a href="https://undercurrent.nyc">
       {{svg-jar "undercurrent" class="fill-current" height="5rem"}}
     </a>
