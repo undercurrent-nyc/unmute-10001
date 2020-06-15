@@ -1,19 +1,27 @@
-<div class="flex px-0 py-2 md:p-5 items-start">
-  <div class="max-w-lg w-32 md:w-40 md:max-w-2xl flex-grow-0 pr-3 md:pr-5">
+<div class="flex px-0 py-2 md:p-3 items-start">
+  {{#let (random 4 0) as |rand|}}
+  <div class="min-w-lg max-w-lg w-32 md:w-40 md:max-w-2xl flex-grow-0 pr-3 md:pr-5">
     <h2 class="text-base md:text-xl font-bold">{{@team.name}}</h2>
-    <div class="flex p-1 justify-center items-center">
-      {{svg-jar @team.slug height="2rem"}}
+    <div class="py-1">
+      <LinkTo @route="teams.team" @model={{@team.slug}} class="hover:text-accent-500"> 
+        {{svg-jar @team.slug class="fill-current" height="2rem"}}
+      </LinkTo>
     </div>
-    <hr>
     {{#each (shuffle @team.artists) as |artist|}}
       <p class="hanging-indent leading-snug text-xs md:text-base">{{artist.firstName}} {{artist.lastName}}</p>
     {{/each}}
   </div>
   <div class="flex flex-grow overflow-auto">
+    {{#if (eq rand 3)}}
+      <div class="flex justify-center items-center pr-3">
+        <div class="bg-white h-32 w-32">&nbsp;</div>
+      </div>
+    {{/if}}
     {{#each @team.clips as |clip|}}
       <div class="flex justify-center items-center pr-3">
         <div class="bg-black h-32 w-32">&nbsp;</div>
       </div>
     {{/each}}
   </div>
+  {{/let}}
 </div>
