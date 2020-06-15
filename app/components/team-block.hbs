@@ -18,9 +18,11 @@
       </div>
     {{/if}}
     {{#each @team.clips as |clip|}}
-      <div class="flex justify-center items-center pr-3">
-        <div class="bg-black h-32 w-32">&nbsp;</div>
-      </div>
+      <LinkTo @route="teams.index.clip" @model={{clip}}>
+        <div class="flex justify-center items-center pr-3">
+          <div class="bg-black h-32 w-32">&nbsp;</div>
+        </div>
+      </LinkTo>
     {{/each}}
   </div>
   {{/let}}
