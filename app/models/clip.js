@@ -6,5 +6,4 @@ export default class ClipModel extends Model {
   @attr('string') duration;
   @attr('date') postDate;
   @belongsTo('team') team;
-  @belongsTo('artist') artist;
 }

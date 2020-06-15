@@ -1,11 +1,12 @@
 import Model, { attr, belongsTo, hasMany } from '@ember-data/model';
 
 export default class ArtistModel extends Model {
+  @attr('string') slug;
   @attr('string') firstName;
   @attr('string') lastName;
   @attr('string') bio;
   @attr('string') avatarUrl;
+  @attr('string') websiteUrl;
   @belongsTo('country') country;
   @belongsTo('team') team;
-  @hasMany('clip') clips;
 }
