@@ -1,14 +1,18 @@
 <NavBar />
 
-<main class="main">
-  <article class="article">
+<main class="bg-gray-200 p-2">
+  <article class="bg-gray-400">
     {{outlet}}
   </article>
 </main>
 
-<footer>
-  <ul>
-    <li>Sponsor A</li>
-    <li>Sponsor B</li>
-  </ul>
+<footer class="p-2 border-t-2 border-gray-800">
+  <div class="flex flex-col md:flex-row p-3">
+    {{svg-jar "flanders-logo" height="5rem"}}
+    <img src="http://lorempixel.com/80/200/abstract" />
+    <img src="http://lorempixel.com/80/200/abstract" />
+    <img src="http://lorempixel.com/80/200/abstract" />
+    <img src="http://lorempixel.com/80/200/abstract" />
+  </div>
+  <p>&copy; 2020, <a href="https://undercurrent.nyc">Undercurrent</a> and other stakeholders.</p>
 </footer>
