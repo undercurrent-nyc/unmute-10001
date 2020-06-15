@@ -1,0 +1,15 @@
+<div class="flex">
+  <div>
+    <h2>{{@team.name}}</h2>
+    {{svg-jar @team.slug}}
+    <hr>
+    {{#each @team.artists as |artist|}}
+      <p>{{artist.firstName}} {{artist.lastName}}</p>
+    {{/each}}
+  </div>
+  <div>
+    <div>
+      <h3>clip 1</h3>
+    </div>
+  </div>
+</div>

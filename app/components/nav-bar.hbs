@@ -1,0 +1,41 @@
+<nav class="flex p-5">
+  <div class="flex-grow-0 px-5">
+    <h1 class="text-5xl"><LinkTo @route="index">10001</LinkTo></h1>
+    <ul class="pl-4">
+      <li><LinkTo @route="about">about</LinkTo></li>
+      <li><LinkTo @route="artists">artists</LinkTo></li>
+      <li>podcast</li>
+    </ul>
+  </div>
+  <div class="flex-grow px-5 flex items-start">
+    <button class="p-2">
+    {{svg-jar "usa" height="1rem"}}
+    </button>
+    <button class="p-2">
+    {{svg-jar "austria" height="1rem"}}
+    </button>
+    <button class="p-2">
+    {{svg-jar "malta" height="1rem"}}
+    </button>
+    <button class="p-2">
+    {{svg-jar "finland" height="1rem"}}
+    </button>
+    <button class="p-2">
+    {{svg-jar "flanders" height="1rem"}}
+    </button>
+    <button class="p-2">
+    {{svg-jar "lithuania" height="1rem"}}
+    </button>
+    <button class="p-2">
+    {{svg-jar "wallonia" height="1rem"}}
+    </button>
+    <button class="p-2">
+    {{svg-jar "estonia" height="1rem"}}
+    </button>
+  </div>
+  <div class="flex-grow-0 px-5">
+    <a href="https://undercurrent.nyc">
+      {{svg-jar "undercurrent" height="4rem"}}
+    </a>
+  </div>
+</nav>

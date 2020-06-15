@@ -1,0 +1,7 @@
+<NavBar />
+<h1>Artists</h1>
+<ul>
+  {{#each @model as |artist|}}
+    <li>{{artist.firstName}} {{artist.lastName}}</li>
+  {{/each}}
+</ul>
