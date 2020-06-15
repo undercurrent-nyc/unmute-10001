@@ -1,0 +1,19 @@
+.nav-bar {
+  @apply bg-white;
+}
+
+.nav-bar a:hover {
+  @apply text-pink-700;
+}
+
+.nav-bar a.active {
+  @apply text-gray-600;
+}
+
+.nav-bar h1>a:hover {
+  @apply text-gray-800;
+}
+
+.nav-bar h1>a.active {
+  @apply text-black;
+}

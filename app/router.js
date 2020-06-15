@@ -15,8 +15,8 @@ Router.map(function() {
     this.route('team', { path: '/:slug' }, function() {
       this.route('clip', { path: '/:id' });
     });
-    this.route('index', function() {
-      this.route('clip', { path: '/:id' });
+    this.route('index', { path: '/' }, function() {
+      this.route('clip', { path: '/clip/:id' });
     });
   });
 });

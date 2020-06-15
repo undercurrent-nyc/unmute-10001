@@ -1,13 +1,13 @@
-<nav class="nav-bar flex p-2">
-  <div class="flex-grow-0 pr-3">
-    <h1 class="leading-none text-4xl md:text-6xl font-bold"><LinkTo @route="index">10001</LinkTo></h1>
-    <ul class="pl-2 text-2xs md:text-sm">
+<nav class="flex p-2">
+  <div class="flex-grow-0 pr-5 bg-gray-400">
+    <h1 class="text-4xl md:text-6xl font-bold"><LinkTo @route="index">10001</LinkTo></h1>
+    <ul class="pl-2 text-sm">
       <li><LinkTo @route="about">{{t "about"}}</LinkTo></li>
-      <li class="py-1 md:py-0"><LinkTo @route="artists">{{t "artists"}}</LinkTo></li>
+      <li><LinkTo @route="artists">{{t "artists"}}</LinkTo></li>
       <li>{{t "podcast"}}</li>
     </ul>
   </div>
-  <div class="flex-grow px-2 flex items-start flex-wrap">
+  <div class="flex-grow px-5 flex items-start flex-wrap bg-gray-200">
     <button class="px-2" type="button" {{action this.setLocale "en-us"}}>
     {{svg-jar "usa" height="1rem"}}
     </button>
@@ -33,9 +33,9 @@
     {{svg-jar "estonia" height="1rem"}}
     </button>
   </div>
-  <div class="flex-grow-0 pl-3">
+  <div class="flex-grow-0 pl-5 bg-gray-400">
     <a href="https://undercurrent.nyc">
-      {{svg-jar "undercurrent" class="fill-current" height="5rem"}}
+      {{svg-jar "undercurrent" height="4rem"}}
     </a>
   </div>
 </nav>
