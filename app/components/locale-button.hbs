@@ -1,0 +1,4 @@
+<button class="hover:text-accent-500 px-1 md:px-2 {{if (eq @locale this.intl.primaryLocale) "text-accent-500"}}" type="button" {{on "click" this.setLocale }}>
+  {{svg-jar @locale class="fill-current" height="1rem"}}
+</button>
+

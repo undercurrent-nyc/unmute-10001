@@ -2,11 +2,10 @@ import Component from '@glimmer/component';
 import { inject as service } from "@ember/service";
 import { action } from "@ember/object";
 
-export default class NavBarComponent extends Component {
-
+export default class LocaleButtonComponent extends Component {
   @service intl;
   
-  @action setLocale(locale) {
-    this.intl.setLocale([locale]);
+  @action setLocale() {
+    this.intl.setLocale([this.args.locale]);
   }
 }

@@ -3,7 +3,7 @@
 }
 
 .nav-bar a:hover {
-  @apply text-pink-700;
+  @apply text-accent-500;
 }
 
 .nav-bar a.active {
