@@ -1,1 +1,30 @@
-{{outlet}}
+<h2 class="text-xl md:text-2xl">{{svg-jar @model.id class="inline-block h-8"}} {{@model.name}}</h2>
+<h3 class="font-bold text-xl md:text-3xl">{{@model.projectTitle}}</h3>
+
+<div class="flex w-full">
+  {{#each @model.artists as |artist|}}
+    <div class="w-1/2 p-1 md:p-4 flex flex-wrap">
+      <div class="w-full md:w-1/2 md:pr-4">
+        <img class="w-full" src="{{artist.avatarUrl}}" alt="{{artist.firstName}} {{artist.lastName}}">
+      </div>
+      <div class="flex justify-between align-top w-full pt-2">
+        <p>{{artist.firstName}} {{artist.lastName}}</p>
+        <img class="h-4" src="{{artist.country.flagUrl}}" alt="Flag of {{artist.country.countryName}}" />
+      </div>
+    </div>
+  {{/each}}
+</div>
+
+<h3 class="text-2xl w-full">Clips</h3>
+<div class="w-full flex">
+  {{#each @model.clips as |clip|}}
+    <div class="p-1 md:p-4">
+      <img src="http://lorempixel.com/640/480/cats" alt="thumbnail" class="w-full"/>
+      <h4 class="text-xl">{{clip.title}}</h4>
+      <p>{{clip.duration}}</p>
+      <p>{{format-date clip.postDate}}</p>
+    </div>
+  {{/each}}
+</div>
+
+      
