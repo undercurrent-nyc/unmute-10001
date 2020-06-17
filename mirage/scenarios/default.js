@@ -3,42 +3,42 @@ import faker from "faker";
 export default function(server) {
   // create countries
   const mt = server.create("country", {
-    slug: "malta",
+    id: "malta",
     countryName: "Malta",
     orgName: "Maltese Cultural Org",
     locale: "mt-mt",
     flagUrl: "https://www.countryflags.io/mt/flat/64.png",
   });
   const at = server.create("country", {
-    slug: "austria",
+    id: "austria",
     countryName: "Austria",
     orgName: "Austrian Cultural Org",
     locale: "de-at",
     flagUrl: "https://www.countryflags.io/at/flat/64.png",
   });
   const lt = server.create("country", {
-    slug: "lithuania",
+    id: "lithuania",
     countryName: "Lithuania",
     orgName: "Lithuanian Cultural Org",
     locale: "lt-lt",
     flagUrl: "https://www.countryflags.io/lt/flat/64.png",
   });
   const ee = server.create("country", {
-    slug: "estonia",
+    id: "estonia",
     countryName: "Estonia",
     orgName: "Estonian Cultural Org",
     locale: "et-ee",
     flagUrl: "https://www.countryflags.io/ee/flat/64.png",
   });
   const fi = server.create("country", {
-    slug: "finland",
+    id: "finland",
     countryName: "Finland",
     orgName: "Finnish Cultural Org",
     locale: "fi-fi",
     flagUrl: "https://www.countryflags.io/fi/flat/64.png",
   });
   const vl = server.create("country", {
-    slug: "flanders",
+    id: "flanders",
     countryName: "Flanders",
     orgName: "Flanders Government Delegation in the USA",
     locale: "nl-be",
@@ -46,7 +46,7 @@ export default function(server) {
     flagUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Flag_of_Flanders.svg/320px-Flag_of_Flanders.svg.png",
   });
   const wl = server.create("country", {
-    slug: "wallonia",
+    id: "wallonia",
     countryName: "Wallonia",
     orgName: "Walloon Cultural Org",
     locale: "fr-be",
@@ -82,49 +82,49 @@ export default function(server) {
   // create teams
   const teamI = server.create("team", {
     name: "Team I",
-    slug: "team-i",
+    id: "team-i",
     tetrominoUrl: "/assets/png/team-i.png",
     artists: [mtA, eeB],
     clips: server.createList("clip", 3),
   });
   const teamO = server.create("team", {
     name: "Team O",
-    slug: "team-o",
+    id: "team-o",
     tetrominoUrl: "/assets/png/team-o.png",
     artists: [ltA, fiB],
     clips: server.createList("clip", 3),
   });
   const teamS = server.create("team", {
     name: "Team S",
-    slug: "team-s",
+    id: "team-s",
     tetrominoUrl: "/assets/png/team-s.png",
     artists: [eeA, vlB],
     clips: server.createList("clip", 3),
   });
   const teamZ = server.create("team", {
     name: "Team Z",
-    slug: "team-z",
+    id: "team-z",
     tetrominoUrl: "/assets/png/team-z.png",
     artists: [fiA, atB],
     clips: server.createList("clip", 3),
   });
   const teamL = server.create("team", {
     name: "Team L",
-    slug: "team-l",
+    id: "team-l",
     tetrominoUrl: "/assets/png/team-l.png",
     artists: [vlA, mtB],
     clips: server.createList("clip", 3),
   });
   const teamJ = server.create("team", {
     name: "Team J",
-    slug: "team-j",
+    id: "team-j",
     tetrominoUrl: "/assets/png/team-j.png",
     artists: [atA, wlB],
     clips: server.createList("clip", 3),
   });
   const teamT = server.create("team", {
     name: "Team T",
-    slug: "team-t",
+    id: "team-t",
     tetrominoUrl: "/assets/png/team-t.png",
     artists: [wlA, ltB],
     clips: server.createList("clip", 3),

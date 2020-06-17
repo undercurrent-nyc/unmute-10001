@@ -7,10 +7,6 @@ export default Factory.extend({
     return `Team ${i}`;
   },
 
-  slug() {
-    return faker.slugify(this.name);
-  },
-
   tetrominoSvg() {
     return faker.lorem.sentence();
   },
