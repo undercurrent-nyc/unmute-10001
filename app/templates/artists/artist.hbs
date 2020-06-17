@@ -8,7 +8,9 @@
     <div class="pl-2 md:pl-5 w-2/3">
       <div class="flex justify-between">
         <img src="{{@model.country.flagUrl}}" class="h-8" alt="{{@model.country.countryName}} flag" />
-        {{svg-jar @model.team.id class="h-8"}}
+        <LinkTo @route="teams.team" @model={{@model.team}}>
+          {{svg-jar @model.team.id class="fill-current h-8"}}
+        </LinkTo>
       </div>
       <p>{{@model.bio}}</p>
       

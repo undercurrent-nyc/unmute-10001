@@ -14,3 +14,7 @@ body {
   text-indent: -0.5rem;
 }
 
+a:hover {
+  @apply text-accent-500;
+}
+
