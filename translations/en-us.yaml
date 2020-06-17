@@ -1,4 +1,3 @@
-price_banner: The {product} costs {price, number, USD}
 about: about
 artists: artists
 podcast: podcast
