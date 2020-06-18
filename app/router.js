@@ -19,4 +19,5 @@ Router.map(function() {
       this.route('clip', { path: '/clip/:id' });
     });
   });
+  this.route('splash_page');
 });
