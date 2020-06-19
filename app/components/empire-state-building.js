@@ -11,7 +11,7 @@ export default class EmpireStateBuildingComponent extends Component {
     let tetrominoIndices = d3.shuffle(d3.range(1, 74));
     let fadeTimer = setInterval(() => {
       if(tetrominoIndices.length > 0){
-        let opacity = d3.randomNormal(80, 15)()/100;
+        let opacity = d3.randomNormal(75, 10)()/100;
         d3.select(`.tetromino_${tetrominoIndices.pop()}`)
           .transition()
             .duration(1000)
@@ -24,6 +24,12 @@ export default class EmpireStateBuildingComponent extends Component {
             })
       } else {
         clearInterval(fadeTimer);
+        d3.select(".empire_state_tetrominoes")
+          .selectAll("g")
+          .transition()
+            .duration(500)
+            .ease(d3.easeLinear)
+            .style("opacity", 1);
       }
     }, 200);
   }
