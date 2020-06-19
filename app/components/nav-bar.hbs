@@ -1,21 +1,18 @@
-<nav class="nav-bar flex p-2">
-  <div class="flex-grow-0 pr-2">
-    <h1 class="leading-none text-4xl md:text-6xl font-bold"><LinkTo @route="index">10001</LinkTo></h1>
-    <ul class="pl-2 text-2xs md:text-sm">
-      <li><LinkTo @route="about">{{t "about"}}</LinkTo></li>
-      <li class="py-1 md:py-0"><LinkTo @route="artists">{{t "artists"}}</LinkTo></li>
-      <li>{{t "podcast"}}</li>
-    </ul>
-  </div>
-  <div class="flex-grow px-1 flex items-start flex-wrap">
-    <LocaleButton @locale="en-us" />
-    {{#each (shuffle (array "de-at" "mt-mt" "fi-fi" "nl-be" "lt-lt" "fr-be" "et-ee")) as |locale|}}
-      <LocaleButton @locale={{locale}} />
-    {{/each}}
-  </div>
-  <div class="flex-grow-0 pl-2">
+<div class="flex p-3 px-7">
+  <div class="flex-grow-0">
     <a href="https://undercurrent.nyc">
-      {{svg-jar "undercurrent" class="fill-current" height="5rem"}}
+      {{svg-jar "undercurrent" class="fill-current h-16"}}
     </a>
   </div>
-</nav>
+  <nav class="pl-10 flex flex-grow justify-between">
+    <LinkTo @route="about" class="block relative">
+        /ABOUT
+    </LinkTo>
+    <LinkTo @route="artists" class="block relative">
+        /ARTISTS
+    </LinkTo>
+    <LinkTo @route="index" class="block relative">
+        /PODCAST
+    </LinkTo>
+  </nav>
+</div>

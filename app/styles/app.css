@@ -18,3 +18,7 @@ a:hover {
   @apply text-accent-500;
 }
 
+.active {
+  @apply text-accent-500;
+}
+
