@@ -1,19 +1,27 @@
 import Component from '@glimmer/component';
-import { shuffle } from "../helpers/shuffle";
+import * as d3 from "d3";
+// import { shuffle } from "../helpers/shuffle";
 
 export default class EmpireStateBuildingComponent extends Component {
 
   fadeInTetrominoes() {
-    const classNames = []
-    for (let i = 1; i < 74; i += 1) {
-      classNames.push(`tetromino_${i}`);
-    }
-    const shuffledClasses = shuffle(classNames);
+    d3.select(".empire_state_tetrominoes")
+      .selectAll("g")
+      .style("opacity", 0.0);
+    let tetrominoIndices = d3.shuffle(d3.range(1, 74));
     let fadeTimer = setInterval(() => {
-      if(shuffledClasses.length > 0){
-        const className = shuffledClasses.pop();
-        const tetromino = document.getElementsByClassName(className)[0];
-        tetromino.classList.add("opacity-100");
+      if(tetrominoIndices.length > 0){
+        let opacity = d3.randomNormal(80, 15)()/100;
+        d3.select(`.tetromino_${tetrominoIndices.pop()}`)
+          .transition()
+            .duration(1000)
+            .ease(d3.easeLinear)
+            .style("opacity", () => {
+              if(opacity >= 1) {
+                return 1;
+              }
+              return opacity;
+            })
       } else {
         clearInterval(fadeTimer);
       }
