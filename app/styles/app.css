@@ -22,3 +22,6 @@ a:hover {
   @apply text-accent-500;
 }
 
+.active > .artist-overlay {
+  opacity: 75 !important;
+}
