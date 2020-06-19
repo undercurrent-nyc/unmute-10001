@@ -1,438 +1,438 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640.63 1593.07">
   <title>Empire State Building</title>
-  <g class="opacity-0 tetromino_73" data-name="73">
+  <g class="empire_state_tetromino tetromino_73" data-name="73">
     <rect x="306.14" width="28.35" height="28.35"/>
     <rect x="306.14" y="34.02" width="28.35" height="28.35"/>
     <rect x="306.14" y="68.03" width="28.35" height="28.35"/>
     <rect x="306.14" y="102.05" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_72" data-name="72">
+  <g class="empire_state_tetromino tetromino_72" data-name="72">
     <rect x="306.14" y="136.06" width="28.35" height="28.35"/>
     <rect x="272.13" y="170.08" width="28.35" height="28.35"/>
     <rect x="306.14" y="170.08" width="28.35" height="28.35"/>
     <rect x="272.13" y="204.09" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_71" data-name="71">
+  <g class="empire_state_tetromino tetromino_71" data-name="71">
     <rect x="340.16" y="170.08" width="28.35" height="28.35"/>
     <rect x="340.16" y="204.09" width="28.35" height="28.35"/>
     <rect x="340.16" y="238.11" width="28.35" height="28.35"/>
     <rect x="374.17" y="238.11" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_70" data-name="70">
+  <g class="empire_state_tetromino tetromino_70" data-name="70">
     <rect x="238.11" y="238.11" width="28.35" height="28.35"/>
     <rect x="272.13" y="238.11" width="28.35" height="28.35"/>
     <rect x="238.11" y="272.13" width="28.35" height="28.35"/>
     <rect x="238.11" y="306.14" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_69" data-name="69">
+  <g class="empire_state_tetromino tetromino_69" data-name="69">
     <rect x="374.17" y="272.13" width="28.35" height="28.35"/>
     <rect x="374.17" y="306.14" width="28.35" height="28.35"/>
     <rect x="408.19" y="306.14" width="28.35" height="28.35"/>
     <rect x="408.19" y="340.16" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_68" data-name="68">
+  <g class="empire_state_tetromino tetromino_68" data-name="68">
     <rect x="204.09" y="306.14" width="28.35" height="28.35"/>
     <rect x="204.09" y="340.16" width="28.35" height="28.35"/>
     <rect x="238.11" y="340.16" width="28.35" height="28.35"/>
     <rect x="204.09" y="374.17" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_67" data-name="67">
+  <g class="empire_state_tetromino tetromino_67" data-name="67">
     <rect x="340.16" y="306.14" width="28.35" height="28.35"/>
     <rect x="340.16" y="340.16" width="28.35" height="28.35"/>
     <rect x="374.17" y="340.16" width="28.35" height="28.35"/>
     <rect x="340.16" y="374.17" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_66" data-name="66">
+  <g class="empire_state_tetromino tetromino_66" data-name="66">
     <rect x="272.13" y="306.14" width="28.35" height="28.35"/>
     <rect x="272.13" y="340.16" width="28.35" height="28.35"/>
     <rect x="272.13" y="374.17" width="28.35" height="28.35"/>
     <rect x="272.13" y="408.19" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_65" data-name="65">
+  <g class="empire_state_tetromino tetromino_65" data-name="65">
     <rect x="204.09" y="408.19" width="28.35" height="28.35"/>
     <rect x="204.09" y="442.2" width="28.35" height="28.35"/>
     <rect x="238.11" y="442.2" width="28.35" height="28.35"/>
     <rect x="272.13" y="442.2" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_64" data-name="64">
+  <g class="empire_state_tetromino tetromino_64" data-name="64">
     <rect x="340.16" y="408.19" width="28.35" height="28.35"/>
     <rect x="340.16" y="442.2" width="28.35" height="28.35"/>
     <rect x="374.17" y="442.2" width="28.35" height="28.35"/>
     <rect x="340.16" y="476.22" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_63" data-name="63">
+  <g class="empire_state_tetromino tetromino_63" data-name="63">
     <rect x="408.19" y="374.17" width="28.35" height="28.35"/>
     <rect x="408.19" y="408.19" width="28.35" height="28.35"/>
     <rect x="408.19" y="442.2" width="28.35" height="28.35"/>
     <rect x="408.19" y="476.22" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_62" data-name="62">
+  <g class="empire_state_tetromino tetromino_62" data-name="62">
     <rect x="136.06" y="442.2" width="28.35" height="28.35"/>
     <rect x="170.08" y="442.2" width="28.35" height="28.35"/>
     <rect x="136.06" y="476.22" width="28.35" height="28.35"/>
     <rect x="136.06" y="510.24" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_61" data-name="61">
+  <g class="empire_state_tetromino tetromino_61" data-name="61">
     <rect x="442.2" y="442.2" width="28.35" height="28.35"/>
     <rect x="476.22" y="442.2" width="28.35" height="28.35"/>
     <rect x="476.22" y="476.22" width="28.35" height="28.35"/>
     <rect x="476.22" y="510.24" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_60" data-name="60">
+  <g class="empire_state_tetromino tetromino_60" data-name="60">
     <rect x="204.09" y="476.22" width="28.35" height="28.35"/>
     <rect x="204.09" y="510.24" width="28.35" height="28.35"/>
     <rect x="204.09" y="544.25" width="28.35" height="28.35"/>
     <rect x="204.09" y="578.27" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_59" data-name="59">
+  <g class="empire_state_tetromino tetromino_59" data-name="59">
     <rect x="272.13" y="476.22" width="28.35" height="28.35"/>
     <rect x="272.13" y="510.24" width="28.35" height="28.35"/>
     <rect x="272.13" y="544.25" width="28.35" height="28.35"/>
     <rect x="272.13" y="578.27" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_58" data-name="58">
+  <g class="empire_state_tetromino tetromino_58" data-name="58">
     <rect x="340.16" y="510.24" width="28.35" height="28.35"/>
     <rect x="340.16" y="544.25" width="28.35" height="28.35"/>
     <rect x="340.16" y="578.27" width="28.35" height="28.35"/>
     <rect x="340.16" y="612.28" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_57" data-name="57">
+  <g class="empire_state_tetromino tetromino_57" data-name="57">
     <rect x="408.19" y="510.24" width="28.35" height="28.35"/>
     <rect x="408.19" y="544.25" width="28.35" height="28.35"/>
     <rect x="408.19" y="578.27" width="28.35" height="28.35"/>
     <rect x="408.19" y="612.28" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_56" data-name="56">
+  <g class="empire_state_tetromino tetromino_56" data-name="56">
     <rect x="136.06" y="544.25" width="28.35" height="28.35"/>
     <rect x="136.06" y="578.27" width="28.35" height="28.35"/>
     <rect x="136.06" y="612.28" width="28.35" height="28.35"/>
     <rect x="136.06" y="646.3" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_55" data-name="55">
+  <g class="empire_state_tetromino tetromino_55" data-name="55">
     <rect x="476.22" y="544.25" width="28.35" height="28.35"/>
     <rect x="476.22" y="578.27" width="28.35" height="28.35"/>
     <rect x="476.22" y="612.28" width="28.35" height="28.35"/>
     <rect x="476.22" y="646.3" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_54" data-name="54">
+  <g class="empire_state_tetromino tetromino_54" data-name="54">
     <rect x="204.09" y="612.28" width="28.35" height="28.35"/>
     <rect x="204.09" y="646.3" width="28.35" height="28.35"/>
     <rect x="204.09" y="680.31" width="28.35" height="28.35"/>
     <rect x="204.09" y="714.33" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_53" data-name="53">
+  <g class="empire_state_tetromino tetromino_53" data-name="53">
     <rect x="272.13" y="612.28" width="28.35" height="28.35"/>
     <rect x="272.13" y="646.3" width="28.35" height="28.35"/>
     <rect x="272.13" y="680.31" width="28.35" height="28.35"/>
     <rect x="272.13" y="714.33" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_52" data-name="52">
+  <g class="empire_state_tetromino tetromino_52" data-name="52">
     <rect x="340.16" y="646.3" width="28.35" height="28.35"/>
     <rect x="340.16" y="680.31" width="28.35" height="28.35"/>
     <rect x="340.16" y="714.33" width="28.35" height="28.35"/>
     <rect x="340.16" y="748.35" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_51" data-name="51">
+  <g class="empire_state_tetromino tetromino_51" data-name="51">
     <rect x="408.19" y="646.3" width="28.35" height="28.35"/>
     <rect x="408.19" y="680.31" width="28.35" height="28.35"/>
     <rect x="408.19" y="714.33" width="28.35" height="28.35"/>
     <rect x="408.19" y="748.35" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_50" data-name="50">
+  <g class="empire_state_tetromino tetromino_50" data-name="50">
     <rect x="136.06" y="680.31" width="28.35" height="28.35"/>
     <rect x="136.06" y="714.33" width="28.35" height="28.35"/>
     <rect x="136.06" y="748.35" width="28.35" height="28.35"/>
     <rect x="136.06" y="782.36" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_49" data-name="49">
+  <g class="empire_state_tetromino tetromino_49" data-name="49">
     <rect x="476.22" y="680.31" width="28.35" height="28.35"/>
     <rect x="476.22" y="714.33" width="28.35" height="28.35"/>
     <rect x="476.22" y="748.35" width="28.35" height="28.35"/>
     <rect x="476.22" y="782.36" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_48" data-name="48">
+  <g class="empire_state_tetromino tetromino_48" data-name="48">
     <rect x="204.09" y="748.35" width="28.35" height="28.35"/>
     <rect x="204.09" y="782.36" width="28.35" height="28.35"/>
     <rect x="204.09" y="816.38" width="28.35" height="28.35"/>
     <rect x="204.09" y="850.39" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_47" data-name="47">
+  <g class="empire_state_tetromino tetromino_47" data-name="47">
     <rect x="272.13" y="748.35" width="28.35" height="28.35"/>
     <rect x="272.13" y="782.36" width="28.35" height="28.35"/>
     <rect x="272.13" y="816.38" width="28.35" height="28.35"/>
     <rect x="272.13" y="850.39" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_46" data-name="46">
+  <g class="empire_state_tetromino tetromino_46" data-name="46">
     <rect x="340.16" y="782.36" width="28.35" height="28.35"/>
     <rect x="340.16" y="816.38" width="28.35" height="28.35"/>
     <rect x="340.16" y="850.39" width="28.35" height="28.35"/>
     <rect x="340.16" y="884.41" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_45" data-name="45">
+  <g class="empire_state_tetromino tetromino_45" data-name="45">
     <rect x="408.19" y="782.36" width="28.35" height="28.35"/>
     <rect x="408.19" y="816.38" width="28.35" height="28.35"/>
     <rect x="408.19" y="850.39" width="28.35" height="28.35"/>
     <rect x="408.19" y="884.41" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_44" data-name="44">
+  <g class="empire_state_tetromino tetromino_44" data-name="44">
     <rect x="136.06" y="816.38" width="28.35" height="28.35"/>
     <rect x="136.06" y="850.39" width="28.35" height="28.35"/>
     <rect x="136.06" y="884.41" width="28.35" height="28.35"/>
     <rect x="136.06" y="918.43" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_43" data-name="43">
+  <g class="empire_state_tetromino tetromino_43" data-name="43">
     <rect x="476.22" y="816.38" width="28.35" height="28.35"/>
     <rect x="476.22" y="850.39" width="28.35" height="28.35"/>
     <rect x="476.22" y="884.41" width="28.35" height="28.35"/>
     <rect x="476.22" y="918.43" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_42" data-name="42">
+  <g class="empire_state_tetromino tetromino_42" data-name="42">
     <rect x="204.09" y="884.41" width="28.35" height="28.35"/>
     <rect x="204.09" y="918.43" width="28.35" height="28.35"/>
     <rect x="204.09" y="952.44" width="28.35" height="28.35"/>
     <rect x="204.09" y="986.46" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_41" data-name="41">
+  <g class="empire_state_tetromino tetromino_41" data-name="41">
     <rect x="272.13" y="884.41" width="28.35" height="28.35"/>
     <rect x="272.13" y="918.43" width="28.35" height="28.35"/>
     <rect x="272.13" y="952.44" width="28.35" height="28.35"/>
     <rect x="272.13" y="986.46" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_40" data-name="40">
+  <g class="empire_state_tetromino tetromino_40" data-name="40">
     <rect x="340.16" y="918.43" width="28.35" height="28.35"/>
     <rect x="340.16" y="952.44" width="28.35" height="28.35"/>
     <rect x="340.16" y="986.46" width="28.35" height="28.35"/>
     <rect x="340.16" y="1020.47" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_39" data-name="39">
+  <g class="empire_state_tetromino tetromino_39" data-name="39">
     <rect x="408.19" y="918.43" width="28.35" height="28.35"/>
     <rect x="408.19" y="952.44" width="28.35" height="28.35"/>
     <rect x="408.19" y="986.46" width="28.35" height="28.35"/>
     <rect x="408.19" y="1020.47" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_38" data-name="38">
+  <g class="empire_state_tetromino tetromino_38" data-name="38">
     <rect x="136.06" y="952.44" width="28.35" height="28.35"/>
     <rect x="136.06" y="986.46" width="28.35" height="28.35"/>
     <rect x="136.06" y="1020.47" width="28.35" height="28.35"/>
     <rect x="136.06" y="1054.49" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_37" data-name="37">
+  <g class="empire_state_tetromino tetromino_37" data-name="37">
     <rect x="476.22" y="952.44" width="28.35" height="28.35"/>
     <rect x="476.22" y="986.46" width="28.35" height="28.35"/>
     <rect x="476.22" y="1020.47" width="28.35" height="28.35"/>
     <rect x="476.22" y="1054.49" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_36" data-name="36">
+  <g class="empire_state_tetromino tetromino_36" data-name="36">
     <rect x="204.09" y="1020.47" width="28.35" height="28.35"/>
     <rect x="204.09" y="1054.49" width="28.35" height="28.35"/>
     <rect x="204.09" y="1088.5" width="28.35" height="28.35"/>
     <rect x="204.09" y="1122.52" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_35" data-name="35">
+  <g class="empire_state_tetromino tetromino_35" data-name="35">
     <rect x="272.13" y="1020.47" width="28.35" height="28.35"/>
     <rect x="272.13" y="1054.49" width="28.35" height="28.35"/>
     <rect x="272.13" y="1088.5" width="28.35" height="28.35"/>
     <rect x="272.13" y="1122.52" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_34" data-name="34">
+  <g class="empire_state_tetromino tetromino_34" data-name="34">
     <rect x="340.16" y="1054.49" width="28.35" height="28.35"/>
     <rect x="340.16" y="1088.5" width="28.35" height="28.35"/>
     <rect x="340.16" y="1122.52" width="28.35" height="28.35"/>
     <rect x="340.16" y="1156.54" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_33" data-name="33">
+  <g class="empire_state_tetromino tetromino_33" data-name="33">
     <rect x="408.19" y="1054.49" width="28.35" height="28.35"/>
     <rect x="408.19" y="1088.5" width="28.35" height="28.35"/>
     <rect x="408.19" y="1122.52" width="28.35" height="28.35"/>
     <rect x="408.19" y="1156.54" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_32" data-name="32">
+  <g class="empire_state_tetromino tetromino_32" data-name="32">
     <rect x="136.06" y="1088.5" width="28.35" height="28.35"/>
     <rect x="136.06" y="1122.52" width="28.35" height="28.35"/>
     <rect x="136.06" y="1156.54" width="28.35" height="28.35"/>
     <rect x="136.06" y="1190.55" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_31" data-name="31">
+  <g class="empire_state_tetromino tetromino_31" data-name="31">
     <rect x="476.22" y="1088.5" width="28.35" height="28.35"/>
     <rect x="476.22" y="1122.52" width="28.35" height="28.35"/>
     <rect x="476.22" y="1156.54" width="28.35" height="28.35"/>
     <rect x="476.22" y="1190.55" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_30" data-name="30">
+  <g class="empire_state_tetromino tetromino_30" data-name="30">
     <rect x="204.09" y="1156.54" width="28.35" height="28.35"/>
     <rect x="204.09" y="1190.55" width="28.35" height="28.35"/>
     <rect x="204.09" y="1224.57" width="28.35" height="28.35"/>
     <rect x="204.09" y="1258.58" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_29" data-name="29">
+  <g class="empire_state_tetromino tetromino_29" data-name="29">
     <rect x="272.13" y="1156.54" width="28.35" height="28.35"/>
     <rect x="272.13" y="1190.55" width="28.35" height="28.35"/>
     <rect x="272.13" y="1224.57" width="28.35" height="28.35"/>
     <rect x="272.13" y="1258.58" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_28" data-name="28">
+  <g class="empire_state_tetromino tetromino_28" data-name="28">
     <rect x="340.16" y="1190.55" width="28.35" height="28.35"/>
     <rect x="340.16" y="1224.57" width="28.35" height="28.35"/>
     <rect x="340.16" y="1258.58" width="28.35" height="28.35"/>
     <rect x="340.16" y="1292.6" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_27" data-name="27">
+  <g class="empire_state_tetromino tetromino_27" data-name="27">
     <rect x="408.19" y="1190.55" width="28.35" height="28.35"/>
     <rect x="408.19" y="1224.57" width="28.35" height="28.35"/>
     <rect x="408.19" y="1258.58" width="28.35" height="28.35"/>
     <rect x="408.19" y="1292.6" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_26" data-name="26">
+  <g class="empire_state_tetromino tetromino_26" data-name="26">
     <rect x="136.06" y="1224.57" width="28.35" height="28.35"/>
     <rect x="136.06" y="1258.58" width="28.35" height="28.35"/>
     <rect x="136.06" y="1292.6" width="28.35" height="28.35"/>
     <rect x="136.06" y="1326.61" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_25" data-name="25">
+  <g class="empire_state_tetromino tetromino_25" data-name="25">
     <rect x="476.22" y="1224.57" width="28.35" height="28.35"/>
     <rect x="476.22" y="1258.58" width="28.35" height="28.35"/>
     <rect x="476.22" y="1292.6" width="28.35" height="28.35"/>
     <rect x="476.22" y="1326.61" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_24" data-name="24">
+  <g class="empire_state_tetromino tetromino_24" data-name="24">
     <rect x="204.09" y="1292.6" width="28.35" height="28.35"/>
     <rect x="204.09" y="1326.61" width="28.35" height="28.35"/>
     <rect x="204.09" y="1360.63" width="28.35" height="28.35"/>
     <rect x="238.11" y="1360.63" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_23" data-name="23">
+  <g class="empire_state_tetromino tetromino_23" data-name="23">
     <rect x="272.13" y="1292.6" width="28.35" height="28.35"/>
     <rect x="306.14" y="1292.6" width="28.35" height="28.35"/>
     <rect x="272.13" y="1326.61" width="28.35" height="28.35"/>
     <rect x="272.13" y="1360.63" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_22" data-name="22">
+  <g class="empire_state_tetromino tetromino_22" data-name="22">
     <rect x="340.16" y="1326.61" width="28.35" height="28.35"/>
     <rect x="340.16" y="1360.63" width="28.35" height="28.35"/>
     <rect x="374.17" y="1360.63" width="28.35" height="28.35"/>
     <rect x="340.16" y="1394.65" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_21" data-name="21">
+  <g class="empire_state_tetromino tetromino_21" data-name="21">
     <rect x="510.24" y="1326.61" width="28.35" height="28.35"/>
     <rect x="510.24" y="1360.63" width="28.35" height="28.35"/>
     <rect x="544.25" y="1360.63" width="28.35" height="28.35"/>
     <rect x="544.25" y="1394.65" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_20" data-name="20">
+  <g class="empire_state_tetromino tetromino_20" data-name="20">
     <rect x="136.06" y="1360.63" width="28.35" height="28.35"/>
     <rect x="170.08" y="1360.63" width="28.35" height="28.35"/>
     <rect x="136.06" y="1394.65" width="28.35" height="28.35"/>
     <rect x="136.06" y="1428.66" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_19" data-name="19">
+  <g class="empire_state_tetromino tetromino_19" data-name="19">
     <rect x="408.19" y="1326.61" width="28.35" height="28.35"/>
     <rect x="408.19" y="1360.63" width="28.35" height="28.35"/>
     <rect x="408.19" y="1394.65" width="28.35" height="28.35"/>
     <rect x="408.19" y="1428.66" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_18" data-name="18">
+  <g class="empire_state_tetromino tetromino_18" data-name="18">
     <rect x="442.2" y="1360.63" width="28.35" height="28.35"/>
     <rect x="476.22" y="1360.63" width="28.35" height="28.35"/>
     <rect x="476.22" y="1394.65" width="28.35" height="28.35"/>
     <rect x="476.22" y="1428.66" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_17" data-name="17">
+  <g class="empire_state_tetromino tetromino_17" data-name="17">
     <rect x="102.05" y="1326.61" width="28.35" height="28.35"/>
     <rect x="102.05" y="1360.63" width="28.35" height="28.35"/>
     <rect x="68.03" y="1360.63" width="28.35" height="28.35"/>
     <rect x="68.03" y="1394.65" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_16" data-name="16">
+  <g class="empire_state_tetromino tetromino_16" data-name="16">
     <rect x="68.03" y="1428.66" width="28.35" height="28.35"/>
     <rect x="68.03" y="1462.68" width="28.35" height="28.35"/>
     <rect x="34.02" y="1496.69" width="28.35" height="28.35"/>
     <rect x="68.03" y="1496.69" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_15" data-name="15">
+  <g class="empire_state_tetromino tetromino_15" data-name="15">
     <rect x="136.06" y="1462.68" width="28.35" height="28.35"/>
     <rect x="102.05" y="1496.69" width="28.35" height="28.35"/>
     <rect x="136.06" y="1496.69" width="28.35" height="28.35"/>
     <rect x="170.08" y="1496.69" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_14" data-name="14">
+  <g class="empire_state_tetromino tetromino_14" data-name="14">
     <rect x="204.09" y="1394.65" width="28.35" height="28.35"/>
     <rect x="204.09" y="1428.66" width="28.35" height="28.35"/>
     <rect x="204.09" y="1462.68" width="28.35" height="28.35"/>
     <rect x="204.09" y="1496.69" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_13" data-name="13">
+  <g class="empire_state_tetromino tetromino_13" data-name="13">
     <rect x="272.13" y="1394.65" width="28.35" height="28.35"/>
     <rect x="272.13" y="1428.66" width="28.35" height="28.35"/>
     <rect x="272.13" y="1462.68" width="28.35" height="28.35"/>
     <rect x="272.13" y="1496.69" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_12" data-name="12">
+  <g class="empire_state_tetromino tetromino_12" data-name="12">
     <rect x="340.16" y="1428.66" width="28.35" height="28.35"/>
     <rect x="340.16" y="1462.68" width="28.35" height="28.35"/>
     <rect x="306.14" y="1496.69" width="28.35" height="28.35"/>
     <rect x="340.16" y="1496.69" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_11" data-name="11">
+  <g class="empire_state_tetromino tetromino_11" data-name="11">
     <rect x="476.22" y="1462.68" width="28.35" height="28.35"/>
     <rect x="442.2" y="1496.69" width="28.35" height="28.35"/>
     <rect x="476.22" y="1496.69" width="28.35" height="28.35"/>
     <rect x="510.24" y="1496.69" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_10" data-name="10">
+  <g class="empire_state_tetromino tetromino_10" data-name="10">
     <rect x="544.25" y="1428.66" width="28.35" height="28.35"/>
     <rect x="544.25" y="1462.68" width="28.35" height="28.35"/>
     <rect x="544.25" y="1496.69" width="28.35" height="28.35"/>
     <rect x="578.27" y="1496.69" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_9" data-name="9">
+  <g class="empire_state_tetromino tetromino_9" data-name="9">
     <rect x="408.19" y="1462.68" width="28.35" height="28.35"/>
     <rect x="374.17" y="1496.69" width="28.35" height="28.35"/>
     <rect x="408.19" y="1496.69" width="28.35" height="28.35"/>
     <rect x="374.17" y="1530.71" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_8" data-name="8">
+  <g class="empire_state_tetromino tetromino_8" data-name="8">
     <rect x="34.02" y="1530.71" width="28.35" height="28.35"/>
     <rect x="68.03" y="1530.71" width="28.35" height="28.35"/>
     <rect y="1564.72" width="28.35" height="28.35"/>
     <rect x="34.02" y="1564.72" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_7" data-name="7">
+  <g class="empire_state_tetromino tetromino_7" data-name="7">
     <rect x="136.06" y="1530.71" width="28.35" height="28.35"/>
     <rect x="68.03" y="1564.72" width="28.35" height="28.35"/>
     <rect x="102.05" y="1564.72" width="28.35" height="28.35"/>
     <rect x="136.06" y="1564.72" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_6" data-name="6">
+  <g class="empire_state_tetromino tetromino_6" data-name="6">
     <rect x="204.09" y="1530.71" width="28.35" height="28.35"/>
     <rect x="170.08" y="1564.72" width="28.35" height="28.35"/>
     <rect x="204.09" y="1564.72" width="28.35" height="28.35"/>
     <rect x="238.11" y="1564.72" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_5" data-name="5">
+  <g class="empire_state_tetromino tetromino_5" data-name="5">
     <rect x="238.11" y="1496.69" width="28.35" height="28.35"/>
     <rect x="238.11" y="1530.71" width="28.35" height="28.35"/>
     <rect x="272.13" y="1530.71" width="28.35" height="28.35"/>
     <rect x="272.13" y="1564.72" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_4" data-name="4">
+  <g class="empire_state_tetromino tetromino_4" data-name="4">
     <rect x="340.16" y="1530.71" width="28.35" height="28.35"/>
     <rect x="306.14" y="1530.71" width="28.35" height="28.35"/>
     <rect x="306.14" y="1564.72" width="28.35" height="28.35"/>
     <rect x="340.16" y="1564.72" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_3" data-name="3">
+  <g class="empire_state_tetromino tetromino_3" data-name="3">
     <rect x="408.19" y="1530.71" width="28.35" height="28.35"/>
     <rect x="374.17" y="1564.72" width="28.35" height="28.35"/>
     <rect x="408.19" y="1564.72" width="28.35" height="28.35"/>
     <rect x="442.2" y="1564.72" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_2" data-name="2">
+  <g class="empire_state_tetromino tetromino_2" data-name="2">
     <rect x="476.22" y="1530.71" width="28.35" height="28.35"/>
     <rect x="476.22" y="1564.72" width="28.35" height="28.35"/>
     <rect x="510.24" y="1564.72" width="28.35" height="28.35"/>
     <rect x="544.25" y="1564.72" width="28.35" height="28.35"/>
   </g>
-  <g class="opacity-0 tetromino_1" data-name="1">
+  <g class="empire_state_tetromino tetromino_1" data-name="1">
     <rect x="544.25" y="1530.71" width="28.35" height="28.35"/>
     <rect x="578.27" y="1530.71" width="28.35" height="28.35"/>
     <rect x="578.27" y="1564.72" width="28.35" height="28.35"/>
