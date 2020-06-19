@@ -1,0 +1,12 @@
+<footer class="flex flex-col space-y-3 p-4 border-t-2 border-gray-800">
+  <div class="grid grid-cols-3 grid-rows-3 gap-2">
+    {{#each (shuffle this.orgs) as |org index|}}
+    <div class="flex items-justify align-center p-2 md:w-48 md:p-4 {{if (not-eq (mod index 3) 0) "border-l border-black"}}"> 
+        {{svg-jar org.svg class="w-full"}}
+      </div>
+    {{/each}}
+  </div>
+  <UndercurrentSignup />
+  <p>Follow us on: {{svg-jar "facebook-official" class="inline-block h-4"}} {{svg-jar "instagram" class="inline-block h-4"}}</p>
+  <p class="text-2xs md:text-sm">&copy; 2020, <a href="https://undercurrent.nyc">/UNDERCURRENT</a> /70 John St. Brooklyn, NY 11201. All Rights Reserved.</p>
+</footer>

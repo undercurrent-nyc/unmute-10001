@@ -23,6 +23,10 @@ export default Factory.extend({
     return faker.internet.url();
   },
 
+  logoSvgName() {
+    return "random-cultural-org";
+  },
+
   logoUrl() {
     return "http://lorempixel.com/640/320/abstract/";
   },

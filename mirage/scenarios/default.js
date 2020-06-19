@@ -42,6 +42,7 @@ export default function(server) {
     countryName: "Flanders",
     orgName: "Flanders Government Delegation in the USA",
     locale: "nl-be",
+    logoSvgName: "flanders-logo",
     logoUrl: "https://i.imgur.com/1K49rs6.jpg",
     flagUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Flag_of_Flanders.svg/320px-Flag_of_Flanders.svg.png",
   });
