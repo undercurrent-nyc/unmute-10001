@@ -3,7 +3,7 @@
   >
   {{svg-jar "header" class="fill-current"}}
 </LinkTo>
-<header class="p-4 sticky top-0 bg-white flex flex-row">
+<header class="p-4 pb-2 sticky top-0 bg-white flex flex-row">
   <h1 class="sr-only">10001</h1>
   <div class="flex-grow-0">
     <a href="https://undercurrent.nyc">
@@ -12,9 +12,13 @@
     </a>
   </div>
   <div class="pl-10 flex flex-grow flex-col">
-    <div class="flex justify-end {{if this.showSmallHeader "pb-2 block" "hidden"}}">
-      {{svg-jar "header-small" class="h-10"}}
-    </div>
+    <AnimatedContainer>
+      {{#animated-if this.showSmallHeader use=this.transition}}
+        <div class="flex justify-end pb-2">
+          {{svg-jar "header-small" class="h-10"}}
+        </div>
+      {{/animated-if}}
+    </AnimatedContainer>
     <NavBar />
   </div>
 </header>
