@@ -1,7 +1,7 @@
 <footer class="flex flex-col space-y-3 p-4 border-t-2 border-gray-800">
   <div class="grid grid-cols-3 grid-rows-3 gap-2">
-    {{#each (shuffle this.orgs) as |org index|}}
-    <div class="flex items-justify align-center p-2 md:w-48 md:p-4 {{if (not-eq (mod index 3) 0) "border-l border-black"}}"> 
+    {{#each this.shuffledOrgs as |org index|}}
+    <div class="flex items-justify align-center p-2 md:w-48 md:p-4 {{if (eq org.svg "austria-logo") "row-span-2"}}"> 
         {{svg-jar org.svg class="w-full"}}
       </div>
     {{/each}}
