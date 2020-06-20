@@ -1,18 +1,11 @@
-<div class="flex p-3 px-7">
-  <div class="flex-grow-0">
-    <a href="https://undercurrent.nyc">
-      {{svg-jar "undercurrent" class="fill-current h-16"}}
-    </a>
-  </div>
-  <nav class="pl-10 flex flex-grow justify-between">
-    <LinkTo @route="about" class="block relative">
-        /ABOUT
-    </LinkTo>
-    <LinkTo @route="artists" class="block relative">
-        /ARTISTS
-    </LinkTo>
-    <LinkTo @route="index" class="block relative">
-        /PODCAST
-    </LinkTo>
-  </nav>
-</div>
+<nav class="flex justify-between">
+  <LinkTo @route="about" class="block relative">
+      /ABOUT
+  </LinkTo>
+  <LinkTo @route="artists" class="block relative">
+      /ARTISTS
+  </LinkTo>
+  <LinkTo @route="index" class="block relative">
+      /PODCAST
+  </LinkTo>
+</nav>
