@@ -27,6 +27,7 @@ module.exports = function(defaults) {
             }
           },
           require('tailwindcss')('./app/tailwind/config.js'),
+          require('autoprefixer'),
           ...isProduction ? [purgeCSS] : []
         ]
       }
