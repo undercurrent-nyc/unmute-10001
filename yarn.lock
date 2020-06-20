@@ -5129,11 +5129,6 @@ elliptic@^6.0.0, elliptic@^6.5.2:
     ember-compatibility-helpers "^1.0.2"
     silent-error "^1.1.1"
 
-ember-animate@^0.3.7:
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/ember-animate/-/ember-animate-0.3.7.tgz#e83d7592dd03d9ae33dfef402861ff83cc67c55c"
-  integrity sha1-6D11kt0D2a4z3+9AKGH/g8xnxVw=
-
 ember-animated@^0.10.1:
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/ember-animated/-/ember-animated-0.10.1.tgz#f347d7ef22511781b29c1f5201b65352c86c8ff8"
