@@ -1,0 +1,136 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 142.17 13.04">
+  <g class="tetrominoes">
+    <g id="tetromino tetromino_21">
+      <rect x="3.4" width="2.83" height="2.83"/>
+      <rect x="6.8" width="2.83" height="2.83"/>
+      <rect y="3.4" width="2.83" height="2.83"/>
+      <rect x="3.4" y="3.4" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_20">
+      <rect x="91.76" width="2.83" height="2.83"/>
+      <rect x="95.16" width="2.83" height="2.83"/>
+      <rect x="88.36" y="3.4" width="2.83" height="2.83"/>
+      <rect x="91.76" y="3.4" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_19">
+      <rect x="13.59" width="2.83" height="2.83"/>
+      <rect x="16.99" width="2.83" height="2.83"/>
+      <rect x="13.59" y="3.4" width="2.83" height="2.83"/>
+      <rect x="13.59" y="6.8" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_18">
+      <rect x="57.77" y="3.4" width="2.83" height="2.83"/>
+      <rect x="61.17" y="6.8" width="2.83" height="2.83"/>
+      <rect x="57.77" y="6.8" width="2.83" height="2.83"/>
+      <rect x="61.17" y="10.2" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_17">
+      <rect x="71.37" width="2.83" height="2.83"/>
+      <rect x="74.76" width="2.83" height="2.83"/>
+      <rect x="71.37" y="3.4" width="2.83" height="2.83"/>
+      <rect x="71.37" y="6.8" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_16">
+      <rect x="101.95" width="2.83" height="2.83"/>
+      <rect x="105.35" width="2.83" height="2.83"/>
+      <rect x="101.95" y="3.4" width="2.83" height="2.83"/>
+      <rect x="101.95" y="6.8" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_15">
+      <rect x="115.55" width="2.83" height="2.83"/>
+      <rect x="118.94" width="2.83" height="2.83"/>
+      <rect x="115.55" y="3.4" width="2.83" height="2.83"/>
+      <rect x="115.55" y="6.8" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_14">
+      <rect y="6.8" width="2.83" height="2.83"/>
+      <rect x="3.4" y="6.8" width="2.83" height="2.83"/>
+      <rect x="3.4" y="10.2" width="2.83" height="2.83"/>
+      <rect x="6.8" y="10.2" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_14-2" data-name="t_14">
+      <rect x="20.39" y="3.4" width="2.83" height="2.83"/>
+      <rect x="20.39" y="6.8" width="2.83" height="2.83"/>
+      <rect x="16.99" y="10.2" width="2.83" height="2.83"/>
+      <rect x="20.39" y="10.2" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_13">
+      <rect x="30.59" y="3.4" width="2.83" height="2.83"/>
+      <rect x="27.19" y="6.8" width="2.83" height="2.83"/>
+      <rect x="30.59" y="6.8" width="2.83" height="2.83"/>
+      <rect x="27.19" y="10.2" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_12">
+      <rect x="33.98" width="2.83" height="2.83"/>
+      <rect x="33.98" y="3.4" width="2.83" height="2.83"/>
+      <rect x="33.98" y="6.8" width="2.83" height="2.83"/>
+      <rect x="33.98" y="10.2" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_11">
+      <rect x="37.38" y="3.4" width="2.83" height="2.83"/>
+      <rect x="37.38" y="6.8" width="2.83" height="2.83"/>
+      <rect x="40.78" y="6.8" width="2.83" height="2.83"/>
+      <rect x="40.78" y="10.2" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_10">
+      <rect x="47.58" width="2.83" height="2.83"/>
+      <rect x="47.58" y="3.4" width="2.83" height="2.83"/>
+      <rect x="47.58" y="6.8" width="2.83" height="2.83"/>
+      <rect x="47.58" y="10.2" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_9">
+      <rect x="54.37" width="2.83" height="2.83"/>
+      <rect x="54.37" y="3.4" width="2.83" height="2.83"/>
+      <rect x="54.37" y="6.8" width="2.83" height="2.83"/>
+      <rect x="54.37" y="10.2" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_8">
+      <rect x="64.57" width="2.83" height="2.83"/>
+      <rect x="64.57" y="3.4" width="2.83" height="2.83"/>
+      <rect x="64.57" y="6.8" width="2.83" height="2.83"/>
+      <rect x="64.57" y="10.2" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_7">
+      <rect x="74.76" y="6.8" width="2.83" height="2.83"/>
+      <rect x="78.16" y="6.8" width="2.83" height="2.83"/>
+      <rect x="74.76" y="10.2" width="2.83" height="2.83"/>
+      <rect x="78.16" y="10.2" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_6">
+      <rect x="95.16" y="6.8" width="2.83" height="2.83"/>
+      <rect x="88.36" y="10.2" width="2.83" height="2.83"/>
+      <rect x="91.76" y="10.2" width="2.83" height="2.83"/>
+      <rect x="95.16" y="10.2" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_5">
+      <rect x="108.75" y="3.4" width="2.83" height="2.83"/>
+      <rect x="108.75" y="6.8" width="2.83" height="2.83"/>
+      <rect x="105.35" y="10.2" width="2.83" height="2.83"/>
+      <rect x="108.75" y="10.2" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_4">
+      <rect x="122.34" y="3.4" width="2.83" height="2.83"/>
+      <rect x="122.34" y="6.8" width="2.83" height="2.83"/>
+      <rect x="118.94" y="10.2" width="2.83" height="2.83"/>
+      <rect x="122.34" y="10.2" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_3">
+      <rect x="129.14" width="2.83" height="2.83"/>
+      <rect x="129.14" y="3.4" width="2.83" height="2.83"/>
+      <rect x="129.14" y="6.8" width="2.83" height="2.83"/>
+      <rect x="129.14" y="10.2" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_2">
+      <rect x="132.54" y="3.4" width="2.83" height="2.83"/>
+      <rect x="132.54" y="6.8" width="2.83" height="2.83"/>
+      <rect x="135.94" y="6.8" width="2.83" height="2.83"/>
+      <rect x="135.94" y="10.2" width="2.83" height="2.83"/>
+    </g>
+    <g id="tetromino tetromino_1">
+      <rect x="139.33" width="2.83" height="2.83"/>
+      <rect x="139.33" y="3.4" width="2.83" height="2.83"/>
+      <rect x="139.33" y="6.8" width="2.83" height="2.83"/>
+      <rect x="139.33" y="10.2" width="2.83" height="2.83"/>
+    </g>
+  </g>
+</svg>
