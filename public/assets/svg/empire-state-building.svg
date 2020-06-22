@@ -1,6 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640.63 1593.07">
-  <title>Empire State Building</title>
   <g class="empire_state_tetrominoes">
+    <g class="tetromino tetromino_74" data-name="74">
+      <rect x="306.14" y="204.09" width="28.35" height="28.35"/>
+      <rect x="306.14" y="238.11" width="28.35" height="28.35"/>
+      <rect x="306.14" y="272.13" width="28.35" height="28.3"/>
+      <rect x="306.14" y="306.14" width="28.35" height="28.35"/>
+    </g>
     <g class="tetromino tetromino_73" data-name="73">
       <rect x="306.14" width="28.35" height="28.35"/>
       <rect x="306.14" y="34.02" width="28.35" height="28.35"/>

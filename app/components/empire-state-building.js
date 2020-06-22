@@ -8,7 +8,7 @@ export default class EmpireStateBuildingComponent extends Component {
     d3.select(".empire_state_tetrominoes")
       .selectAll("g")
       .style("opacity", 0.0);
-    let tetrominoIndices = d3.shuffle(d3.range(1, 74));
+    let tetrominoIndices = d3.shuffle(d3.range(1, 75));
     let fadeTimer = setInterval(() => {
       if(tetrominoIndices.length > 0){
         let opacity = d3.randomNormal(75, 10)()/100;
