@@ -1,8 +1,6 @@
-<LinkTo @route="index" class="h-40 bg-white hover:text-gray-800"
-  {{in-viewport onEnter=this.onEnter onExit=this.onExit}}
-  >
-  {{svg-jar "header" class="fill-current"}}
-</LinkTo>
+{{#if (not-eq this.router.currentRouteName "splash_page")}}
+  <LargeHeader @onEnter={{this.onEnter}} @onExit={{this.onExit}} />
+{{/if}}
 <h1 class="sr-only">10001</h1>
 <header class="p-4 sticky top-0 bg-white flex flex-row justify-between z-50">
   <div class="flex-grow-0">
