@@ -34,15 +34,15 @@
     "alternate": "app/templates/{}.hbs"
   },
   "app/components/*.hbs": {
-    "type": "ctemplate",
-    "alternate": "tests/integration/components/{}-test.js"
+    "type": "component",
+    "alternate": "app/components/{}.js"
   },
   "tests/integration/components/*-test.js": {
     "type": "ctest",
-    "alternate": "app/components/{}.js"
+    "alternate": "app/components/{}.hbs"
   },
   "app/components/*.js": {
-    "type": "component",
+    "type": "cclass",
     "alternate": "app/components/{}.hbs"
   },
   "app/styles/components/*.css": {
