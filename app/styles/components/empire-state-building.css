@@ -1,0 +1,17 @@
+@media (min-width: 320px) {
+  .empire-state-building-svg {
+    height: 312px;
+  }
+}
+
+@media (min-width: 375px) {
+  .empire-state-building-svg {
+    height: 411px;
+  }
+}
+
+@media (min-width: 640px) {
+  .empire-state-building-svg {
+    height: 500px;
+  }
+}
