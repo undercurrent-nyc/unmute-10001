@@ -20,6 +20,7 @@ export default function(server) {
     id: "lithuania",
     countryName: "Lithuania",
     orgName: "Lithuanian Cultural Org",
+    logoSvgName: "lithuania-logo",
     locale: "lt-lt",
     flagUrl: "https://www.countryflags.io/lt/flat/64.png",
   });
@@ -27,15 +28,16 @@ export default function(server) {
     id: "estonia",
     countryName: "Estonia",
     orgName: "Estonian Cultural Org",
+    logoSvgName: "estonia-logo",
     locale: "et-ee",
     flagUrl: "https://www.countryflags.io/ee/flat/64.png",
   });
-  const fi = server.create("country", {
-    id: "finland",
-    countryName: "Finland",
-    orgName: "Finnish Cultural Org",
-    locale: "fi-fi",
-    flagUrl: "https://www.countryflags.io/fi/flat/64.png",
+  const pl = server.create("country", {
+    id: "poland",
+    countryName: "Poland",
+    orgName: "Polish Cultural Org",
+    locale: "pl-pl",
+    flagUrl: "https://www.countryflags.io/pl/flat/64.png",
   });
   const vl = server.create("country", {
     id: "flanders",
@@ -64,11 +66,11 @@ export default function(server) {
   });
   const eeA = server.create("artist", { country: ee });
   const eeB = server.create("artist", { country: ee });
-  const fiA = server.create("artist", { country: fi, 
-    firstName: "Totti", lastName: "Teikäläinen",
+  const fiA = server.create("artist", { country: pl, 
+    firstName: "Janina", lastName: "Kowalska",
   });
-  const fiB = server.create("artist", { country: fi, 
-    firstName: "Maija", lastName: "Meikäläinen",
+  const fiB = server.create("artist", { country: pl, 
+    firstName: "Jan", lastName: "Nowak",
   });
   faker.locale = "nl";
   const vlA = server.create("artist", { country: vl });
