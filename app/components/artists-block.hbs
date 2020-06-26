@@ -1,0 +1,17 @@
+<div class="grid grid-cols-3 grid-rows-6 md:grid-rows-5 md:grid-cols-4">
+  {{#each (shuffle 
+    (append 
+      (flatten @artists) 
+      (array "dummy" "dummy" "dummy" "dummy")
+    )
+   ) as |artist|}}
+      {{#if (eq artist "dummy")}}
+        <div class="artist-tile">
+          <p>&nbsp;</p>
+        </div>
+      {{else}}
+        <ArtistTile @artist={{artist}} />
+      {{/if}}
+  {{/each}}
+</div>
+
