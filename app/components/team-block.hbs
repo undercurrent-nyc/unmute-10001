@@ -1,26 +1,16 @@
-<div class="flex px-0 py-2 md:p-3 items-start overflow-y-auto">
+<div class="grid grid-cols-3 grid-rows-7 md:grid-cols-4 px-0 py-2 md:p-3 overflow-y-auto">
   {{#let (random 4 0) as |rand|}}
-  <div class="min-w-lg max-w-lg w-32 md:w-40 md:max-w-2xl flex-grow-0 pr-3 md:pr-5">
-    <h2 class="text-base md:text-xl font-bold">{{@team.name}}</h2>
-    <div class="py-1">
-      <LinkTo @route="teams.team" @model={{@team.id}} class="hover:text-accent-500"> 
-        {{svg-jar @team.id class="fill-current" height="2rem"}}
-      </LinkTo>
-    </div>
-    {{#each (shuffle @team.artists) as |artist|}}
-      <p class="hanging-indent leading-snug text-xs md:text-base">{{artist.firstName}} {{artist.lastName}}</p>
-    {{/each}}
-  </div>
-  <div class="flex flex-grow overflow-auto">
+  <TeamTile @team={{@team}} />
+  <div class="col-span-2 md:col-span-3 flex flex-grow overflow-auto">
     {{#if (eq rand 3)}}
       <div class="flex justify-center items-center pr-3">
-        <div class="bg-white h-32 w-32">&nbsp;</div>
+        <div class="bg-white h-40 w-40">&nbsp;</div>
       </div>
     {{/if}}
     {{#each @team.clips as |clip|}}
       <LinkTo @route="teams.index.clip" @model={{clip}}>
         <div class="flex justify-center items-center pr-3">
-          <div class="bg-black h-32 w-32">&nbsp;</div>
+          <div class="bg-black h-40 w-40">&nbsp;</div>
         </div>
       </LinkTo>
     {{/each}}
