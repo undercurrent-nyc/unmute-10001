@@ -20,10 +20,10 @@ export default class FooterComponent extends Component {
       svg: "estonia-logo",
     },
     {
-      svg: "random-cultural-org",
+      svg: "malta-logo",
     },
     {
-      svg: "random-cultural-org",
+      svg: "poland-logo",
     },
   ]
 
