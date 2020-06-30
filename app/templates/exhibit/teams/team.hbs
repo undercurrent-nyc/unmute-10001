@@ -5,12 +5,12 @@
   {{#each @model.artists as |artist|}}
       <div class="w-1/2 p-1 md:p-4 flex flex-wrap">
         <div class="w-full md:w-1/2 md:pr-4">
-          <LinkTo @route="artists.artist" @model={{artist}}>
+          <LinkTo @route="exhibit.artists.artist" @model={{artist}}>
             <img class="w-full" src="{{artist.avatarUrl}}" alt="{{artist.firstName}} {{artist.lastName}}">
           </LinkTo>
         </div>
         <div class="flex justify-between align-top w-full pt-2">
-          <LinkTo @route="artists.artist" @model={{artist}}>
+          <LinkTo @route="exhibit.artists.artist" @model={{artist}}>
             <p>{{artist.firstName}} {{artist.lastName}}</p>
           </LinkTo>
           <img class="h-4" src="{{artist.country.flagUrl}}" alt="Flag of {{artist.country.countryName}}" />

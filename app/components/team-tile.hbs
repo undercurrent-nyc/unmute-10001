@@ -1,7 +1,7 @@
   <div class="min-w-lg max-w-lg w-32 md:w-40 md:max-w-2xl flex-grow-0 pr-3 md:pr-5">
     <h2 class="text-base md:text-xl font-bold">{{@team.name}}</h2>
     <div class="py-1">
-      <LinkTo @route="teams.team" @model={{@team.id}} class="hover:text-accent-500"> 
+      <LinkTo @route="exhibit.teams.team" @model={{@team.id}} class="hover:text-accent-500"> 
         {{svg-jar @team.id class="fill-current" height="2rem"}}
       </LinkTo>
     </div>

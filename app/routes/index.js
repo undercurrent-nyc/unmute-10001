@@ -2,6 +2,6 @@ import Route from '@ember/routing/route';
 
 export default class IndexRoute extends Route {
   beforeModel(/* transition */) {
-    this.transitionTo('teams.index');
+    this.transitionTo('exhibit.teams.index');
   }
 }
