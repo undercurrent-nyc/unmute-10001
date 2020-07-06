@@ -1,0 +1,8 @@
+.large-header {
+  max-height: 270px;
+  min-height: 120px;
+}
+
+.large-header-svg {
+  max-width: 626px;
+}

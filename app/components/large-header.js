@@ -18,7 +18,7 @@ export default class LargeHeaderComponent extends Component {
       ["M93.29,63.53c0,38.15-15.45,64.67-46.93,64.67C14.31,128.2.19,99.39,0,64.29,0,28.23,15.07,0,47.12,0,80.13,0,93.29,29.57,93.29,63.53ZM29,64.29c0,28.43,6.87,42,17.93,42,11.26,0,17.36-14.11,17.36-42.35,0-27.47-5.91-42-17.55-42C36.25,21.94,29,35.29,29,64.29Z",
       "M47,27.85h-.39L23,39.11,18.22,17.36l33-15.26H75.07v124H47Z"]; 
     const vDistance = 150;
-    const svg = d3.select("svg.large-header");
+    const svg = d3.select("svg.large-header-svg");
     svg.insert("defs")
       .insert("clipPath")
         .attr("id", "numerals-mask")

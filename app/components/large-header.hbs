@@ -1,6 +1,10 @@
-<LinkTo @route="index" class="h-40 bg-white hover:text-black"
-  {{did-insert this.waitAndLaunch}}
-  {{in-viewport onEnter=@onEnter onExit=@onExit}}
-  >
-  {{svg-jar "header" class="large-header fill-current"}}
-</LinkTo>
+<div class="large-header w-full">
+  <LinkTo @route="index" class="bg-white hover:text-black"
+      {{did-insert this.waitAndLaunch}}
+      {{in-viewport onEnter=@onEnter onExit=@onExit}}
+      >
+    <div class="h-full bg-black w-full">
+      {{svg-jar "header" class="md:mx-auto md:w-3/4 h-full large-header-svg fill-current"}}
+    </div>
+  </LinkTo>
+</div>
