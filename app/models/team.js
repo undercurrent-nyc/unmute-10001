@@ -8,4 +8,8 @@ export default class TeamModel extends Model {
   @attr('string') projectTitle;
   @hasMany('artist') artists;
   @hasMany('clips') clips;
+
+  get slashName(){
+    return this.name.split(" ").join(" /");
+  }
 }

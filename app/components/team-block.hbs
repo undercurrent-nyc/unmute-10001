@@ -1,19 +1,37 @@
-<div class="grid grid-cols-3 grid-rows-7 md:grid-cols-4 px-0 py-2 md:p-3 overflow-y-auto">
-  {{#let (random 4 0) as |rand|}}
-  <TeamTile @team={{@team}} />
-  <div class="col-span-2 md:col-span-3 flex flex-grow overflow-auto">
-    {{#if (eq rand 3)}}
-      <div class="flex justify-center items-center pr-3">
-        <div class="bg-white h-40 w-40">&nbsp;</div>
-      </div>
-    {{/if}}
-    {{#each @team.clips as |clip|}}
-      <LinkTo @route="exhibit.teams.index.clip" @model={{clip}}>
-        <div class="flex justify-center items-center pr-3">
-          <div class="bg-black h-40 w-40">&nbsp;</div>
-        </div>
+<div class="flex flex-col py-4 md:py-6">
+  <div class="flex flex-row pb-4 md:pb-6">
+    <div class="w-1/3 md:w-48 md:max-w-2xl">
+      <LinkTo @route="exhibit.teams.team" @model={{@team.id}} class="hover:text-accent-500"> 
+        <h2 class="text-base md:text-xl font-bold uppercase">{{@team.slashName}}</h2>
       </LinkTo>
-    {{/each}}
+    </div>
+      <div class="flex-grow">
+        <h3 class="text-base md:text-xl font-bold uppercase">
+          {{#let (shuffle @team.artists) as |artists|}}
+            {{#let (object-at 0 artists) as |artist|}}
+              <LinkTo @route="exhibit.artists.artist" 
+                @model={{artist}}
+                class="hover:text-accent-500">
+                <span class="hidden md:inline">
+                  {{artist.firstName}}&nbsp;
+                </span>
+                <span class="mr-6">
+                  {{artist.lastName}}
+                </span>
+              </LinkTo>
+            {{/let}}
+            {{#let (object-at 1 artists) as |artist|}}
+              /<LinkTo @route="exhibit.artists.artist" 
+                @model={{artist}}
+                class="hover:text-accent-500"><span class="hidden md:inline">{{artist.firstName}}&nbsp;</span>{{artist.lastName}}
+              </LinkTo>
+            {{/let}}
+          {{/let}}
+        </h3>
+      </div>
   </div>
-  {{/let}}
+  <div class="flex flex-row">
+    <TeamTile @team={{@team}} />
+    <TeamClips @team={{@team}} />
+  </div>
 </div>

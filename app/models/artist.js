@@ -8,4 +8,8 @@ export default class ArtistModel extends Model {
   @attr('string') websiteUrl;
   @belongsTo('country') country;
   @belongsTo('team') team;
+
+  get fullName(){
+    return `${this.firstName} ${this.lastName}`;
+  }
 }
