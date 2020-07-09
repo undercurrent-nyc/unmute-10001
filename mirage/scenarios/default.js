@@ -12,7 +12,8 @@ export default function(server) {
   const at = server.create("country", {
     id: "austria",
     countryName: "Austria",
-    orgName: "Austrian Cultural Org",
+    orgName: "Austrian Cultural Forum NYC",
+    website: "https://www.acfny.org/",
     locale: "de-at",
     flagUrl: "https://www.countryflags.io/at/flat/64.png",
   });
@@ -27,7 +28,7 @@ export default function(server) {
   const ee = server.create("country", {
     id: "estonia",
     countryName: "Estonia",
-    orgName: "Estonian Cultural Org",
+    orgName: "Republic of Estonia Minstry of Culture",
     logoSvgName: "estonia-logo",
     locale: "et-ee",
     flagUrl: "https://www.countryflags.io/ee/flat/64.png",
@@ -43,6 +44,7 @@ export default function(server) {
     id: "flanders",
     countryName: "Flanders",
     orgName: "Flanders Government Delegation in the USA",
+    website: "https://flandersintheusa.org/",
     locale: "nl-be",
     logoSvgName: "flanders-logo",
     logoUrl: "https://i.imgur.com/1K49rs6.jpg",
@@ -52,27 +54,45 @@ export default function(server) {
   const mtA = server.create("artist", { country: mt });
   const mtB = server.create("artist", { country: mt });
   const ltA = server.create("artist", { country: lt,
-    firstName: "Jonė", lastName: "Petrė",
+    firstName: "Kira", lastName: "Nova",
+    websiteUrl: "",
   });
   const ltB = server.create("artist", { country: lt,
-    firstName: "Petras", lastName: "Jonaitis",
+    firstName: "Ieva", lastName: "Mediodia",
+    websiteUrl: "",
   });
-  const eeA = server.create("artist", { country: ee });
-  const eeB = server.create("artist", { country: ee });
-  const fiA = server.create("artist", { country: pl, 
-    firstName: "Janina", lastName: "Kowalska",
+  const eeA = server.create("artist", { country: ee,
+    firstName: "Terttu", lastName: "Uibopuu",
+    websiteUrl: "http://www.terttuphoto.com/Ese",
   });
-  const fiB = server.create("artist", { country: pl, 
-    firstName: "Jan", lastName: "Nowak",
+  const eeB = server.create("artist", { country: ee,
+    firstName: "Jonas", lastName: "Tarm",
+    websiteUrl: "http://jonastarm.com/list-of-works",
   });
   faker.locale = "nl";
-  const vlA = server.create("artist", { country: vl });
-  const vlB = server.create("artist", { country: vl });
+  const vlA = server.create("artist", { country: vl,
+    firstName: "Saddie", lastName: "Choua",
+    websiteUrl: "",
+  });
+  const vlB = server.create("artist", { country: vl,
+    firstName: "Ada", lastName: "Van Hoorebeke",
+    websiteUrl: "",
+  });
   faker.locale = "de_AT";
-  const atA = server.create("artist", { country: at });
-  const atB = server.create("artist", { country: at });
-  faker.locale = "fr";
+  const atA = server.create("artist", { country: at,
+    firstName: "Nicola", lastName: "Ginzel",
+    websiteUrl: "",
+  });
+  const atB = server.create("artist", { country: at,
+    firstName: "Luisa", lastName: "Muhr",
+    websiteUrl: "",
+  });
   faker.locale = "en_US";
+  const plA = server.create("artist", { country: pl,
+    firstName: "Justyna", lastName: "Górowska",
+    websiteUrl: "http://justynagorowska.com/",
+  });
+  const plB = server.create("artist", { country: pl });
   // create teams
   const teamI = server.create("team", {
     name: "Team I",
@@ -85,7 +105,7 @@ export default function(server) {
     name: "Team T",
     id: "team-t",
     tetrominoUrl: "/assets/png/team-t.png",
-    artists: [ltA, fiB],
+    artists: [ltA, plB],
     clips: server.createList("clip", 3),
   });
   const teamS = server.create("team", {
@@ -99,7 +119,7 @@ export default function(server) {
     name: "Team Z",
     id: "team-z",
     tetrominoUrl: "/assets/png/team-z.png",
-    artists: [fiA, atB],
+    artists: [plA, atB],
     clips: server.createList("clip", 3),
   });
   const teamL = server.create("team", {
