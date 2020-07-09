@@ -48,13 +48,6 @@ export default function(server) {
     logoUrl: "https://i.imgur.com/1K49rs6.jpg",
     flagUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Flag_of_Flanders.svg/320px-Flag_of_Flanders.svg.png",
   });
-  const wl = server.create("country", {
-    id: "wallonia",
-    countryName: "Wallonia",
-    orgName: "Walloon Cultural Org",
-    locale: "fr-be",
-    flagUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Wallonia.svg/320px-Flag_of_Wallonia.svg.png",
-  });
   // create artists
   const mtA = server.create("artist", { country: mt });
   const mtB = server.create("artist", { country: mt });
@@ -79,8 +72,6 @@ export default function(server) {
   const atA = server.create("artist", { country: at });
   const atB = server.create("artist", { country: at });
   faker.locale = "fr";
-  const wlA = server.create("artist", { country: wl });
-  const wlB = server.create("artist", { country: wl });
   faker.locale = "en_US";
   // create teams
   const teamI = server.create("team", {
@@ -90,10 +81,10 @@ export default function(server) {
     artists: [mtA, eeB],
     clips: server.createList("clip", 3),
   });
-  const teamO = server.create("team", {
-    name: "Team O",
-    id: "team-o",
-    tetrominoUrl: "/assets/png/team-o.png",
+  const teamT = server.create("team", {
+    name: "Team T",
+    id: "team-t",
+    tetrominoUrl: "/assets/png/team-t.png",
     artists: [ltA, fiB],
     clips: server.createList("clip", 3),
   });
@@ -122,15 +113,7 @@ export default function(server) {
     name: "Team J",
     id: "team-j",
     tetrominoUrl: "/assets/png/team-j.png",
-    artists: [atA, wlB],
+    artists: [atA, ltB],
     clips: server.createList("clip", 3),
   });
-  const teamT = server.create("team", {
-    name: "Team T",
-    id: "team-t",
-    tetrominoUrl: "/assets/png/team-t.png",
-    artists: [wlA, ltB],
-    clips: server.createList("clip", 3),
-  });
-  
 }

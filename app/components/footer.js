@@ -11,9 +11,6 @@ export default class FooterComponent extends Component {
       svg: "flanders-logo",
     },
     {
-      svg: "wallonia-logo",
-    },
-    {
       svg: "lithuania-logo",
     },
     {
@@ -32,7 +29,7 @@ export default class FooterComponent extends Component {
       svg: "austria-logo",
     }
     let shuffledOrgs = shuffle(this.orgs);
-    const austriaIndex = Math.floor(Math.random() * Math.floor(5));
+    const austriaIndex = Math.floor(Math.random() * Math.floor(4));
     shuffledOrgs.splice(austriaIndex, 0, austria);
     return shuffledOrgs;
   }
