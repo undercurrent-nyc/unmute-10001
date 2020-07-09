@@ -1,11 +1,13 @@
-<div class="border-b-2 border-gray-800 p-4 pb-3 md:pb-4">
+<div class="flex flex-col space-y-4 md:space-y-4 border-b-2 border-gray-800 p-4 pb-3 md:pb-4">
+  <SwallowtailFlag>
+    {{@model.country.countryName}}
+  </SwallowtailFlag>
   <div class="flex justify-between">
-    <p>Flag</p>
+    <h2 class="uppercase text-xl md:text-xl font-bold">{{@model.firstName}} {{@model.lastName}}</h2>
     <LinkTo @route="exhibit.teams.team" @model={{@model.team}}>
-      {{svg-jar @model.team.id class="fill-current h-8"}}
+      {{svg-jar @model.team.id class="fill-current h-10"}}
     </LinkTo>
   </div>
-  <h2 class="text-xl md:text-3xl font-bold">{{@model.firstName}} {{@model.lastName}}</h2>
   <div class="flex flex-col w-full">
     <img src="{{@model.avatarUrl}}" class="w-full object-cover" alt="{{@model.firstName}} {{@model.lastName}}" />
     <p><a href="{{@model.websiteUrl}}">Artist Website</a></p>
