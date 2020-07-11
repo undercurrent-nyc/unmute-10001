@@ -1,0 +1,4 @@
+.more-button {
+  background-image: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,1) 25%, rgba(255,255,255,0));
+  @apply absolute bottom-0 left-0 h-20 z-10 w-full flex items-end; 
+}
