@@ -101,47 +101,84 @@ export default function(server) {
     websiteUrl: "",
     avatarUrl: "/assets/jpg/korta.jpg",
   });
+  // create clip options
+  const clip1 = { 
+    vimeoCode: 11387248, 
+    thumbnailUrl: "https://i.imgur.com/UdM9jFt.png",
+  }
+  const clip2 = {
+    vimeoCode: 3346705, 
+    thumbnailUrl: "https://i.imgur.com/7muBvb0.png",
+  }
+  const clip3 = {
+    vimeoCode: 4556333,
+    thumbnailUrl: "https://i.imgur.com/X12fPSU.png",
+  }
   // create teams
   const teamI = server.create("team", {
     name: "Team I",
     id: "team-i",
     tetrominoUrl: "/assets/png/team-i.png",
     artists: [mtA, eeB],
-    clips: server.createList("clip", 3),
+    clips: [
+      server.create("clip", clip1),
+      server.create("clip", clip2),
+      server.create("clip", clip3),
+    ]
   });
   const teamT = server.create("team", {
     name: "Team T",
     id: "team-t",
     tetrominoUrl: "/assets/png/team-t.png",
     artists: [ltA, plB],
-    clips: server.createList("clip", 3),
+    clips: [
+      server.create("clip", clip1),
+      server.create("clip", clip2),
+      server.create("clip", clip3),
+    ]
   });
   const teamS = server.create("team", {
     name: "Team S",
     id: "team-s",
     tetrominoUrl: "/assets/png/team-s.png",
     artists: [eeA, vlB],
-    clips: server.createList("clip", 3),
+    clips: [
+      server.create("clip", clip1),
+      server.create("clip", clip2),
+      server.create("clip", clip3),
+    ]
   });
   const teamZ = server.create("team", {
     name: "Team Z",
     id: "team-z",
     tetrominoUrl: "/assets/png/team-z.png",
     artists: [plA, atB],
-    clips: server.createList("clip", 3),
+    clips: [
+      server.create("clip", clip1),
+      server.create("clip", clip2),
+      server.create("clip", clip3),
+    ]
   });
   const teamL = server.create("team", {
     name: "Team L",
     id: "team-l",
     tetrominoUrl: "/assets/png/team-l.png",
     artists: [vlA, mtB],
-    clips: server.createList("clip", 3),
+    clips: [
+      server.create("clip", clip1),
+      server.create("clip", clip2),
+      server.create("clip", clip3),
+    ]
   });
   const teamJ = server.create("team", {
     name: "Team J",
     id: "team-j",
     tetrominoUrl: "/assets/png/team-j.png",
     artists: [atA, ltB],
-    clips: server.createList("clip", 3),
+    clips: [
+      server.create("clip", clip1),
+      server.create("clip", clip2),
+      server.create("clip", clip3),
+    ]
   });
 }
