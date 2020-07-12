@@ -54,7 +54,6 @@ export default class LargeHeaderComponent extends Component {
         .attr("transform", d => {
           return `translate(${d.xPos}, ${vDistance * -(d.numbers.length - 2) + yPos})`
         });
-    console.log("machine launched");
   };
 
   data = [
