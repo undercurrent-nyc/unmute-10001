@@ -1,5 +1,5 @@
 <div class="relative">
-  <div class="{{if this.moreShown "" "h-40 overflow-y-hidden"}}">
+  <div class="{{if this.moreShown "" "h-40 md:h-64 overflow-y-hidden"}}">
 		{{yield}}
 	</div>
   <div class="more-button {{if this.moreShown "hidden"}}" role="button" {{on "click" this.showMore}}>
