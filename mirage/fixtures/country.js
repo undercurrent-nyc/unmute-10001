@@ -43,7 +43,7 @@ export default [
     orgName: "Maltese Cultural Org",
     locale: "mt-mt",
     flagUrl: "https://www.countryflags.io/mt/flat/64.png",
-    artistIds: ["alex-camilleri", "malta-two"],
+    artistIds: ["alex-camilleri", "mariella-cassar-cordina"],
   },
   {
     id: "poland",
@@ -51,6 +51,6 @@ export default [
     orgName: "Polish Cultural Org",
     locale: "pl-pl",
     flagUrl: "https://www.countryflags.io/pl/flat/64.png",
-    artistIds: ["justyna-gorowska", "poland-two"],
+    artistIds: ["justyna-gorowska", "anna-bera"],
   },
 ];
