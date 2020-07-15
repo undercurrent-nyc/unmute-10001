@@ -31,7 +31,7 @@ export default [
     id: "saddie-choua",
     countryId: "flanders",
     firstName: "Saddie", lastName: "Choua",
-    websiteUrl: "",
+    websiteUrl: "https://vimeo.com/saddiechoua",
     avatarUrl: "/assets/jpg/choua-1.jpg",
   },
   {
@@ -46,7 +46,7 @@ export default [
     countryId: "lithuania",
     firstName: "Kira", lastName: "Nova",
     avatarUrl: "/assets/jpg/nova-1.jpg",
-    websiteUrl: "",
+    websiteUrl: "http://powertrip.expert",
   },
   {
     id: "ieva-mediodia",
@@ -59,12 +59,12 @@ export default [
     id: "alex-camilleri",
     countryId: "malta",
     firstName: "Alex", lastName: "Camilleri",
-    websiteUrl: "",
+    websiteUrl: "https://alex-camilleri.com",
     avatarUrl: "/assets/jpg/camilleri-1.jpg",
   },
   {
-    id: "malta-two",
-    firstName: "Malta", lastName: "Two",
+    id: "mariella.cassar.cordina",
+    firstName: "Mariella", lastName: "Cassar Cordina",
     countryId: "malta" ,
     avatarUrl: "https://api.adorable.io/avatars/285/malta.two@10001.png",
   },
@@ -76,10 +76,10 @@ export default [
     websiteUrl: "http://justynagorowska.com/",
   },
   {
-    id: "poland-two",
+    id: "anna-bera",
     countryId: "poland",
-    firstName: "Poland", lastName: "Two",
-    websiteUrl: "",
+    firstName: "Abba", lastName: "Bera",
+    websiteUrl: "https://thewholeelements.com",
     avatarUrl: "https://api.adorable.io/avatars/285/poland.two@10001.png",
   },
 ];

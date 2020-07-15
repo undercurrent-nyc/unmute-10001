@@ -31,7 +31,7 @@ export default function(server) {
     name: "Team T",
     id: "team-t",
     tetrominoUrl: "/assets/png/team-t.png",
-    artistIds: ["kira-nova", "poland-two"],
+    artistIds: ["kira-nova", "anna-bera"],
     clips: [
       server.create("clip", clip1),
       server.create("clip", clip2),
@@ -64,7 +64,7 @@ export default function(server) {
     name: "Team L",
     id: "team-l",
     tetrominoUrl: "/assets/png/team-l.png",
-    artistIds: ["saddie-choua", "malta-two"],
+    artistIds: ["saddie-choua", "mariella-cassar-cordina"],
     clips: [
       server.create("clip", clip1),
       server.create("clip", clip2),
