@@ -9,7 +9,7 @@ export default class TeamClipsComponent extends Component {
 
     const clips = [];
     for(const [index, clip] of this.args.clips.toArray().entries()) {
-      if(Math.random() < 1/(2 + index)){
+      if(Math.random() < 1/(3 + index)){
         clips.push("dummy");
       }
       clips.push(clip);
