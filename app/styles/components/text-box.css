@@ -3,7 +3,7 @@
 }
 
 .text-box p {
-  @apply pb-8;
+  @apply pb-6;
 }
 
 .text-box a {
