@@ -190,7 +190,7 @@ export default [
   {
     id: "anna-bera",
     countryId: "poland",
-    firstName: "Abba", lastName: "Bera",
+    firstName: "Anna", lastName: "Bera",
     websiteUrl: "https://thewholeelements.com",
     avatarUrl: "https://api.adorable.io/avatars/285/poland.two@10001.png",
     bio: beraBio,
