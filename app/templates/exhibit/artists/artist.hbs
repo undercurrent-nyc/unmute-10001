@@ -10,7 +10,12 @@
   </div>
   <div class="flex flex-col w-full">
     <img src="{{@model.avatarUrl}}" class="w-full object-cover" alt="{{@model.firstName}} {{@model.lastName}}" />
-    <p><a href="{{@model.websiteUrl}}">Artist Website</a></p>
-    <p>{{@model.bio}}</p>
+    <MoreBox>
+      <TextBox>
+        <p><a href="{{@model.websiteUrl}}">Artist Website</a></p>
+
+        {{markdown-to-html @model.bio}}
+      </TextBox>
+    </MoreBox>
   </div>
 </div>

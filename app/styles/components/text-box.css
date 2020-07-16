@@ -1,0 +1,11 @@
+.text-box {
+  @apply pt-8;
+}
+
+.text-box p {
+  @apply pb-8;
+}
+
+.text-box a {
+  @apply text-gray-600;
+}
