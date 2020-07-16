@@ -2,8 +2,8 @@
   <!-- <div class="col-span-2 md:col-span-3 flex flex-grow overflow-auto"> -->
   <div class="{{@widthClass}} overflow-auto flex flex-row">
     {{#if (eq (random 4 0) 3)}}
-      <div class="flex justify-center items-center pr-3">
-        <div class="bg-white h-32 md:h-40 w-32 md:w-40">&nbsp;</div>
+      <div class="h-full flex justify-center items-center pr-1">
+        <div class="bg-white h-full w-32 md:w-64">&nbsp;</div>
       </div>
     {{/if}}
     {{#each @team.clips as |clip|}}

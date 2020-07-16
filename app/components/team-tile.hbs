@@ -1,7 +1,37 @@
-  <div class="w-1/3 md:w-48 md:max-w-2xl flex-grow-0 pr-3 md:pr-5">
+<header class="h-full w-1/3 md:w-64 flex-grow-0 flex flex-col justify-start space-y-2 md:space-y-4">
+    <h2 class="text-base md:text-xl font-bold uppercase">
+      <LinkTo 
+        @route="exhibit.teams.team" 
+        @model={{@team.id}} 
+        class="hover:text-accent-500"
+        > 
+        {{@team.slashName}}
+      </LinkTo>
+    </h2>
     <div class="py-1">
       <LinkTo @route="exhibit.teams.team" @model={{@team.id}} class="hover:text-accent-500"> 
-        {{svg-jar @team.id class="fill-current w-1/2"}}
+        {{svg-jar @team.id class="fill-current w-1/3"}}
       </LinkTo>
     </div>
-</div>
+    <h3 class="text-xs md:text-sm leading-tight pb-2 uppercase">
+      {{#let (shuffle @team.artists) as |artists|}}
+        {{#let (object-at 0 artists) as |artist|}}
+          <LinkTo @route="exhibit.artists.artist" 
+            @model={{artist}}
+            class="hover:text-accent-500">
+            <span class="hidden md:inline">
+              {{artist.firstName}}
+            </span>
+            {{artist.lastName}}
+          </LinkTo>
+        {{/let}}
+        {{#let (object-at 1 artists) as |artist|}}
+        <br>/<LinkTo @route="exhibit.artists.artist" 
+            @model={{artist}}
+            class="hover:text-accent-500"><span class="hidden md:inline">{{artist.firstName}}</span>
+            {{artist.lastName}}
+          </LinkTo>
+        {{/let}}
+      {{/let}}
+    </h3>
+</header>
