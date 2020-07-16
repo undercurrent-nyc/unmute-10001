@@ -26,10 +26,10 @@
           </LinkTo>
         {{/let}}
         {{#let (object-at 1 artists) as |artist|}}
-        <br>/<LinkTo @route="exhibit.artists.artist" 
+        <br>
+        /<LinkTo @route="exhibit.artists.artist" 
             @model={{artist}}
-            class="hover:text-accent-500"><span class="hidden md:inline">{{artist.firstName}}</span>
-            {{artist.lastName}}
+            class="hover:text-accent-500"><span class="hidden md:inline">{{artist.firstName}} </span>{{artist.lastName}}
           </LinkTo>
         {{/let}}
       {{/let}}
