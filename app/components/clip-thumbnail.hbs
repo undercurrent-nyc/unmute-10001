@@ -1,12 +1,16 @@
-<LinkTo @route={{@clickRoute}} @model={{@clip}}>
-  <div class="h-full flex justify-center items-center pr-1">
+<div class="h-full flex justify-center items-center pr-1">
+{{#if (eq @clip "dummy")}}
+    <div class="bg-white h-full w-32 md:w-64">&nbsp;</div>
+{{else}}
     <div class="h-full w-32 md:w-64 relative"> 
-      <img src="{{@clip.thumbnailUrl}}" class="absolute top-0 left-0 h-full w-full" alt="{{@clip.title}}">
-      <div class="absolute top-0 left-0 bg-black opacity-25 h-full w-full">&nbsp;</div>
-      <div class="absolute bottom-0 left-0 p-2 md:p-4 z-20 h-full w-full hover:bg-accent-500 flex flex-col justify-end">
-        <p class="uppercase text-white text-xs md:text-sm">{{@clip.title}}</p>
-        <p class="uppercase text-white text-xs md:text-sm">{{format-date @clip.postDate}}</p>
-      </div>
+      <LinkTo @route={{@clickRoute}} @model={{@clip}}>
+        <img src="{{@clip.thumbnailUrl}}" class="absolute top-0 left-0 h-full w-full" alt="{{@clip.title}}">
+        <div class="absolute top-0 left-0 bg-black opacity-25 h-full w-full">&nbsp;</div>
+        <div class="absolute bottom-0 left-0 p-2 md:p-4 z-20 h-full w-full hover:bg-accent-500 flex flex-col justify-end">
+          <p class="uppercase text-white text-xs md:text-sm">{{@clip.title}}</p>
+          <p class="uppercase text-white text-xs md:text-sm">{{format-date @clip.postDate}}</p>
+        </div>
+      </LinkTo>
     </div>
-  </div>
-</LinkTo>
+{{/if}}
+</div>
