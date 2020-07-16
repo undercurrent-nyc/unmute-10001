@@ -50,7 +50,9 @@
   </MoreBox>
 
   <h3 class="text-xl w-full py-4 md:py-8 font-bold uppercase">Clips</h3>
-  <TeamClips @clickRoute="exhibit.teams.team.clip" @widthClass="w-full" @team={{@model}} />
+  <div class="h-32 md:h-64">
+    <TeamClips @clickRoute="exhibit.teams.team.clip" @team={{@model}} />
+  </div>
 
 </div>
       
