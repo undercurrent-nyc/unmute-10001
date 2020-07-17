@@ -17,7 +17,7 @@
     <div class="w-full md:w-3/5 h-48 py-8 md:py-0">
       <MoreBox @heightClass="h-48">
         <TextBox>
-          <p><a href="{{@model.websiteUrl}}">Artist Website</a></p>
+          <p class="uppercase"><a href="{{@model.websiteUrl}}">/Artist Website</a></p>
 
           {{markdown-to-html @model.bio}}
         </TextBox>
