@@ -1,19 +1,19 @@
-<header class="h-full w-1/3 md:w-64 flex-grow-0 flex flex-col justify-start space-y-2 md:space-y-4">
+<header class="h-full w-2/5 flex-grow-0 flex flex-col justify-start space-y-2 md:space-y-4">
     <h2 class="text-base md:text-xl font-bold uppercase">
       <LinkTo 
         @route="exhibit.teams.team" 
         @model={{@team.id}} 
-        class="hover:text-accent-500"
+        class="hover:text-accent-500 text-base md:text-2xl"
         > 
         {{@team.slashName}}
       </LinkTo>
     </h2>
     <div class="py-1">
       <LinkTo @route="exhibit.teams.team" @model={{@team.id}} class="hover:text-accent-500"> 
-        {{svg-jar @team.id class="fill-current w-1/3"}}
+        {{svg-jar @team.id class="fill-current w-1/4 md:w-1/3"}}
       </LinkTo>
     </div>
-    <h3 class="text-xs md:text-sm leading-tight pb-2 uppercase">
+    <h3 class="text-xs md:text-xl leading-tight pb-2 uppercase">
       {{#let (shuffle @team.artists) as |artists|}}
         {{#let (object-at 0 artists) as |artist|}}
           <LinkTo @route="exhibit.artists.artist" 
