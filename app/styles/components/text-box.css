@@ -1,7 +1,3 @@
-.text-box {
-  @apply pt-8;
-}
-
 .text-box p {
   @apply pb-6;
 }

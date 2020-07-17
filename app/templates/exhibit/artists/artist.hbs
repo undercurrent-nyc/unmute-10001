@@ -1,21 +1,27 @@
-<div class="flex flex-col space-y-4 md:space-y-4 border-b-2 border-gray-800 p-4 pb-3 md:pb-4">
-  <SwallowtailFlag>
-    {{@model.country.countryName}}
-  </SwallowtailFlag>
-  <div class="flex justify-between">
-    <h2 class="uppercase text-xl md:text-xl font-bold">{{@model.firstName}} {{@model.lastName}}</h2>
-    <LinkTo @route="exhibit.teams.team" @model={{@model.team}}>
-      {{svg-jar @model.team.id class="fill-current h-10"}}
+<div class="flex flex-col space-y-4 md:space-y-4 pb-6 md:pb-4">
+  <div class="flex justify-between items-end">
+    <div class="space-y-2 md:space-y-4">
+      <SwallowtailFlag>
+        {{@model.country.countryName}}
+      </SwallowtailFlag>
+      <h2 class="uppercase text-xl md:text-xl font-bold">{{@model.firstName}} {{@model.lastName}}</h2>
+    </div>
+    <LinkTo @route="exhibit.teams.team" @model={{@model.team}} role="button">
+      {{svg-jar @model.team.id class="fill-current h-12 md:h-16"}}
     </LinkTo>
   </div>
-  <div class="flex flex-col w-full">
-    <img src="{{@model.avatarUrl}}" class="w-full object-cover" alt="{{@model.firstName}} {{@model.lastName}}" />
-    <MoreBox>
-      <TextBox>
-        <p><a href="{{@model.websiteUrl}}">Artist Website</a></p>
+  <div class="flex flex-col md:flex-row w-full">
+    <div class="w-full md:w-2/5 md:pr-16">
+      <img src="{{@model.avatarUrl}}" class="w-full" alt="{{@model.firstName}} {{@model.lastName}}" />
+    </div>
+    <div class="w-full md:w-3/5 h-48 py-8 md:py-0">
+      <MoreBox @heightClass="h-48">
+        <TextBox>
+          <p><a href="{{@model.websiteUrl}}">Artist Website</a></p>
 
-        {{markdown-to-html @model.bio}}
-      </TextBox>
-    </MoreBox>
+          {{markdown-to-html @model.bio}}
+        </TextBox>
+      </MoreBox>
+    </div>
   </div>
 </div>

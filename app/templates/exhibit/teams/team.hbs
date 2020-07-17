@@ -1,8 +1,8 @@
-<h2 class="text-xl pb-6 md:pb-8 text-right px-4 md:px-8">{{svg-jar @model.id class="inline-block h-12"}}</h2>
+<h2 class="text-xl pb-6 md:pb-8 text-right">{{svg-jar @model.id class="inline-block h-12"}}</h2>
 
 {{outlet}}
 
-<div class="flex flex-row w-full p-4 md:p-8 space-x-6 md:space-x-8 pb-8">
+<div class="flex flex-row w-full space-x-1 md:space-x-1 pb-8">
   {{#each (shuffle @model.artists) as |artist|}}
       <div class="flex flex-col w-1/2 space-y-4 md:space-y-6">
         <LinkTo @route="exhibit.artists.artist" @model={{artist}}>
@@ -16,8 +16,7 @@
   {{/each}}
 </div>
 
-<div class="p-4 md:p-8">
-  <MoreBox>
+<MoreBox>
 <h3 class="text-xl font-bold uppercase">{{@model.projectTitle}}</h3>
       <p class="pb-8">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum efficitur nisl, et ultricies nibh vehicula eget. Sed eget arcu mollis, placerat nunc sit amet, vehicula ligula. Pellentesque laoreet mattis ante id vulputate. Quisque facilisis aliquet magna, at facilisis ex dictum ac. Sed erat sem, scelerisque quis erat vitae, aliquet consectetur orci. Mauris varius accumsan nunc a iaculis. Duis eget est ultricies, rhoncus lacus at, ultricies felis. Duis placerat, diam in eleifend placerat, lorem ex rutrum ipsum, rhoncus malesuada augue turpis sit amet est. Curabitur aliquet volutpat egestas. Donec quis sem viverra, condimentum erat id, consequat nulla. Etiam viverra lorem risus, sagittis eleifend arcu tincidunt bibendum.
@@ -54,5 +53,4 @@
     <TeamClips @clickRoute="exhibit.teams.team.clip" @clips={{@model.clips}} @dummies={{false}} />
   </div>
 
-</div>
       
