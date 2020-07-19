@@ -192,7 +192,7 @@ export default [
     countryId: "poland",
     firstName: "Anna", lastName: "Bera",
     websiteUrl: "https://thewholeelements.com",
-    avatarUrl: "https://api.adorable.io/avatars/285/poland.two@10001.png",
+    avatarUrl: "/assets/jpg/bera-1.jpg",
     bio: beraBio,
   },
 ];

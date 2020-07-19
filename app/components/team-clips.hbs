@@ -1,7 +1,5 @@
-<!-- <div class="grid grid-cols-3 grid-rows-7 md:grid-cols-4 px-0 py-2 md:p-3 overflow-y-auto"> -->
-  <!-- <div class="col-span-2 md:col-span-3 flex flex-grow overflow-auto"> -->
-  <div class="w-full h-full overflow-x-auto overflow-y-hidden flex flex-row">
+  <div class="team-clips w-full h-full flex flex-row">
     {{#each this.clips as |clip|}}
-    <ClipThumbnail @clickRoute={{@clickRoute}} @clip={{clip}} />
+    <ClipThumbnail @showScrollBar={{this.showScrollBar}} @clickRoute={{@clickRoute}} @clip={{clip}} />
     {{/each}}
   </div>
