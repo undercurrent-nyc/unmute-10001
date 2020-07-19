@@ -15,8 +15,8 @@ export default class ComingSoonComponent extends Component {
         .each(function(d) {
           d3.select(this)
             .datum({
-            durationIn: d3.randomNormal(8,3)() * 1000,
-            durationOut: d3.randomNormal(8,3)() * 1000,
+            durationIn: d3.randomNormal(8,3)() * 1000 + 500,
+            durationOut: d3.randomNormal(8,3)() * 1000 + 500,
             delay: d3.randomNormal(7,3)() * 1000,
             });
         })
