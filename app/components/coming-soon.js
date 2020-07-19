@@ -7,7 +7,6 @@ export default class ComingSoonComponent extends Component {
   @action breathe() {
     const tetrominos = d3.select("svg.coming-soon-svg")
       .selectAll("g.coming-soon-tetronimo")
-      .style("opacity", 0);
     repeat();
 
     function repeat() {
@@ -24,12 +23,12 @@ export default class ComingSoonComponent extends Component {
         .delay(d => d.delay)
         .duration(d => d.durationIn)
         .ease(d3.easeSinInOut)
-        .style("opacity", 1)
+        .style("opacity", 0)
         .transition()
         .delay(d => 5000 + d.delay)
         .duration(d => d.durationOut)
         .ease(d3.easeSinInOut)
-        .style("opacity", 0)
+        .style("opacity", 1)
         .on("end", repeat);
     }
   }
