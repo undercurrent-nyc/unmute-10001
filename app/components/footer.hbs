@@ -2,7 +2,9 @@
   <div class="grid grid-cols-2 md:grid-cols-4 grid-rows-4 md:grid-rows-2 gap-2 py-6">
     {{#each this.shuffledOrgs as |org index|}}
     <div class="flex items-justify align-center {{if (eq org.svg "estonia-logo") "px-2 py-0 md:py-8 md:px-8" "px-4 py-0 md:px-10 md:py-10"}} {{if (eq org.svg "austria-logo") "row-span-2 w-4/5 md:w-full" "w-full"}}"> 
-      {{svg-jar org.svg class="w-full"}}
+        <a href="{{org.website}}">
+          {{svg-jar org.svg class="w-full"}}
+        </a>
       </div>
     {{/each}}
   </div>

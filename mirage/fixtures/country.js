@@ -12,6 +12,7 @@ export default [
     id: "estonia",
     countryName: "Estonia",
     orgName: "Republic of Estonia Minstry of Culture",
+    website: "https://kul.ee/en",
     logoSvgName: "estonia-logo",
     locale: "et-ee",
     flagUrl: "https://www.countryflags.io/ee/flat/64.png",
@@ -32,6 +33,7 @@ export default [
     id: "lithuania",
     countryName: "Lithuania",
     orgName: "Lithuanian Cultural Org",
+    website: "https:/english.lithuanianculture.lt/",
     logoSvgName: "lithuania-logo",
     locale: "lt-lt",
     flagUrl: "https://www.countryflags.io/lt/flat/64.png",
@@ -40,6 +42,7 @@ export default [
   {
     id: "malta",
     countryName: "Malta",
+    website: "https://artscouncilmalta.org",
     orgName: "Maltese Cultural Org",
     locale: "mt-mt",
     flagUrl: "https://www.countryflags.io/mt/flat/64.png",
@@ -48,6 +51,7 @@ export default [
   {
     id: "poland",
     countryName: "Poland",
+    website: "https://www.insytutpolski.pl/newyork/",
     orgName: "Polish Cultural Org",
     locale: "pl-pl",
     flagUrl: "https://www.countryflags.io/pl/flat/64.png",
