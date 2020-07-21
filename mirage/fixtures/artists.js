@@ -176,7 +176,7 @@ export default [
     id: "mariella-cassar-cordina",
     firstName: "Mariella", lastName: "Cassar Cordina",
     countryId: "malta" ,
-    avatarUrl: "https://api.adorable.io/avatars/285/malta.two@10001.png",
+    avatarUrl: "/assets/jpg/cassar-cordina-1.jpg",
     bio: cassarCordinaBio,
   },
   {
