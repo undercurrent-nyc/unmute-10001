@@ -174,7 +174,7 @@ export default [
   },
   {
     id: "mariella-cassar-cordina",
-    firstName: "Mariella", lastName: "Cassar Cordina",
+    firstName: "Mariella", lastName: "Cassar-Cordina",
     countryId: "malta" ,
     avatarUrl: "/assets/jpg/cassar-cordina-1.jpg",
     bio: cassarCordinaBio,
