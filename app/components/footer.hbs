@@ -1,9 +1,12 @@
 <footer class="px-6 md:px-10 flex flex-col space-y-3 border-t-2 border-gray-800">
   <div class="grid grid-cols-2 md:grid-cols-4 grid-rows-4 md:grid-rows-2 gap-2 py-6">
     {{#each this.shuffledOrgs as |org index|}}
-    <div class="flex items-justify align-center {{if (eq org.svg "estonia-logo") "px-2 py-0 md:py-8 md:px-8" "px-4 py-0 md:px-10 md:py-10"}} {{if (eq org.svg "austria-logo") "row-span-2 w-4/5 md:w-full" "w-full"}}"> 
-        <a href="{{org.website}}">
-          {{svg-jar org.svg class="w-full"}}
+    <div class="flex items-center align-center 
+      {{if (eq org.svg "estonia-logo") "px-2 md:px-8 xl:px-10" "px-4 md:px-10 md:py-10 xl:px-16"}} 
+      {{if (eq org.svg "austria-logo") "flex-col row-span-2 h-full py-10 md:py-18 xl:py-24" "py-0 md:py-10 xl:py-16 flex-row w-full"}}
+      "> 
+      <a href="{{org.website}}" class="block {{if (eq org.svg "austria-logo") "h-full" "w-full"}}">
+          {{svg-jar org.svg class=(if (eq org.svg "austria-logo") "h-full" "w-full")}}
         </a>
       </div>
     {{/each}}
