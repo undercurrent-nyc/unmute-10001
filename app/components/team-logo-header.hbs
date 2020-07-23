@@ -1,0 +1,6 @@
+  <div class="flex justify-between items-end h-16">
+    {{yield}}
+    <LinkTo @route="exhibit.teams.team" @model={{@team}} role="button">
+      {{svg-jar @team.id class="fill-current h-12 md:h-16"}}
+    </LinkTo>
+  </div>

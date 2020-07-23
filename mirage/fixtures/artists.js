@@ -102,7 +102,7 @@ In the process of painting, composition emerges organically into mental maps, st
 `;
 
 const ginzelBio = `
-Mixed media installation artist Nicola Ginzel, lives in Williamsburg, Brooklyn, and works at the Old American Can Factory in the Gowanus.  She is a recipient of a 2019–20 [Fulbright US Scholar Grant](https://www.fulbright.at/programs/in-austria/current-grantees/grantee-detail?tx_fulbrighterslive_fulbrighterslive%5Baction%5D=show&tx_fulbrighterslive_fulbrighterslive%5Bcontroller%5D=FulbrightersLive&tx_fulbrighterslive_fulbrighterslive%5Bgrantee%5D=245&cHash=e3ff56765485ef5af075c04ee396af6f), which enabled her to participate in the [Q21 Artist-in-Residence Program at the Museusmsquartier](http://www.quartier21.at) in Vienna, Austria, during the spring of 2020.
+Mixed media installation artist Nicola Ginzel lives in Williamsburg, Brooklyn, and works at the Old American Can Factory in the Gowanus.  She is a recipient of a 2019–20 [Fulbright US Scholar Grant](https://www.fulbright.at/programs/in-austria/current-grantees/grantee-detail?tx_fulbrighterslive_fulbrighterslive%5Baction%5D=show&tx_fulbrighterslive_fulbrighterslive%5Bcontroller%5D=FulbrightersLive&tx_fulbrighterslive_fulbrighterslive%5Bgrantee%5D=245&cHash=e3ff56765485ef5af075c04ee396af6f), which enabled her to participate in the [Q21 Artist-in-Residence Program at the Museusmsquartier](http://www.quartier21.at) in Vienna, Austria, during the spring of 2020.
 
 Other residencies include [SIM](https://sim.is/seljavegur-residency/), The Icelandic Visual Arts Association and Reykjavik Art Museum Residency; The Skaftfell Cultural Center Residency in Seydisfjördur, Iceland; and [BoxoPROJECTS](https://boxoprojects.com) in Joshua Tree, CA where she worked together with shamans in the community.
 
@@ -149,6 +149,7 @@ export default [
     websiteUrl: "http://nicolaginzel.com",
     avatarUrl: "/assets/jpg/ginzel.jpg",
     bio: ginzelBio,
+    instagramName: "nicolaginzel",
   },
   {
     id: "luisa-muhr",
@@ -157,6 +158,7 @@ export default [
     websiteUrl: "http://luisamuhr.com",
     avatarUrl: "/assets/jpg/muhr-1.jpg",
     bio: muirBio,
+    instagramName: "luisa.muhr",
   },
   {
     id: "terttu-uibopuu",
@@ -165,6 +167,7 @@ export default [
     websiteUrl: "http://www.terttuphoto.com/Ese",
     avatarUrl: "/assets/jpg/uibopuu-1.jpg",
     bio: uibopuuBio,
+    instagramName: "terttuuibopuu",
   },
   {
     id: "jonas-tarm",
@@ -173,6 +176,7 @@ export default [
     websiteUrl: "http://jonastarm.com/list-of-works",
     avatarUrl: "/assets/jpg/tarm-1.jpg",
     bio: tarmBio,
+    instagramName: "jonastarm",
   },
   {
     id: "saddie-choua",
@@ -181,6 +185,7 @@ export default [
     websiteUrl: "https://vimeo.com/saddiechoua",
     avatarUrl: "/assets/jpg/choua-1.jpg",
     bio: chouaBio,
+    instagramName: "saddiechoua",
   },
   {
     id: "ada-van-hoorebeke",
@@ -189,6 +194,7 @@ export default [
     websiteUrl: "http://adavanhoorebeke.blogspot.com",
     avatarUrl: "/assets/jpg/van-hoorebeke-1.jpg",
     bio: vanHoorebekeBio,
+    instagramName: "adavanho",
   },
   {
     id: "kira-nova",
@@ -197,6 +203,7 @@ export default [
     avatarUrl: "/assets/jpg/nova-1.jpg",
     websiteUrl: "http://powertrip.expert",
     bio: novaBio,
+    instagramName: "kira.nova_",
   },
   {
     id: "ieva-mediodia",
@@ -205,6 +212,7 @@ export default [
     websiteUrl: "http://ievamediodia.com/pages/statement.html",
     avatarUrl: "/assets/jpg/mediodia-1.jpg",
     bio: mediodiaBio,
+    instagramName: "ievamediodia",
   },
   {
     id: "alex-camilleri",
@@ -213,13 +221,16 @@ export default [
     websiteUrl: "https://alex-camilleri.com",
     avatarUrl: "/assets/jpg/camilleri-1.jpg",
     bio: camilleriBio,
+    instagramName: "alexcamilleri",
   },
   {
     id: "mariella-cassar-cordina",
     firstName: "Mariella", lastName: "Cassar-Cordina",
     countryId: "malta" ,
+    websiteUrl: "https://mariellacassar.net",
     avatarUrl: "/assets/jpg/cassar-cordina-1.jpg",
     bio: cassarCordinaBio,
+    instagramName: "cassarcordina",
   },
   {
     id: "justyna-gorowska",
@@ -228,6 +239,7 @@ export default [
     avatarUrl: "/assets/jpg/korta.jpg",
     websiteUrl: "http://justynagorowska.com/",
     bio: gorowskaBio,
+    instagramName: "metmewild",
   },
   {
     id: "anna-bera",
@@ -236,5 +248,6 @@ export default [
     websiteUrl: "https://thewholeelements.com",
     avatarUrl: "/assets/jpg/bera-1.jpg",
     bio: beraBio,
+    instagramName: "the_whole_elements",
   },
 ];

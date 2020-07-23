@@ -6,6 +6,7 @@ export default class ArtistModel extends Model {
   @attr('string') bio;
   @attr('string') avatarUrl;
   @attr('string') websiteUrl;
+  @attr('string') instagramName;
   @belongsTo('country') country;
   @belongsTo('team') team;
 
