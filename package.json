@@ -52,6 +52,7 @@
     "ember-qunit": "^4.6.0",
     "ember-resolver": "^8.0.0",
     "ember-router-scroll": "^3.3.2",
+    "ember-simplebar": "^3.0.1",
     "ember-source": "~3.18.0",
     "ember-svg-jar": "^2.2.3",
     "ember-template-lint": "^2.6.0",

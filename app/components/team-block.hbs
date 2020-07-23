@@ -1,4 +1,6 @@
 <section class="flex flex-row h-32 md:h-64 pb-1">
     <TeamTile @team={{@team}} />
-    <TeamClips @clickRoute="exhibit.teams.index.clip" @clips={{@team.clips}} @dummies={{true}} />
+    <div class="w-3/5">
+      <TeamClips @clickRoute="exhibit.teams.index.clip" @clips={{@team.clips}} @dummies={{true}} />
+    </div>
 </section>
