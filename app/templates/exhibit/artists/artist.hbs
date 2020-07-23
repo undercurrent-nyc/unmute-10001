@@ -14,14 +14,12 @@
     <div class="w-full md:w-2/5 md:pr-16">
       <img src="{{@model.avatarUrl}}" class="w-full" alt="{{@model.firstName}} {{@model.lastName}}" />
     </div>
-    <div class="w-full md:w-3/5 h-48 py-8 md:py-0">
-      <MoreBox @heightClass="h-48">
+    <div class="w-full md:w-3/5 py-8 md:py-0">
         <TextBox>
           <p class="uppercase"><a href="{{@model.websiteUrl}}">/Artist Website</a></p>
 
           {{markdown-to-html @model.bio}}
         </TextBox>
-      </MoreBox>
     </div>
   </div>
 </div>
