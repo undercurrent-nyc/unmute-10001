@@ -1,6 +1,7 @@
 {{outlet}}
-
+<div class="flex flex-col w-screen space-y-1">
 {{#each (shuffle @model) as |team|}}
   <TeamBlock @team={{team}} />
 {{/each}}
+</div>
 
