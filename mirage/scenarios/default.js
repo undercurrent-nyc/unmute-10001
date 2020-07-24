@@ -19,6 +19,7 @@ export default function(server) {
   const teamI = server.create("team", {
     name: "Team I",
     id: "team-i",
+    projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-i.png",
     artistIds: ["alex-camilleri", "jonas-tarm"],
     clips: [
@@ -30,6 +31,7 @@ export default function(server) {
   const teamT = server.create("team", {
     name: "Team T",
     id: "team-t",
+    projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-t.png",
     artistIds: ["kira-nova", "anna-bera"],
     clips: [
@@ -41,6 +43,7 @@ export default function(server) {
   const teamS = server.create("team", {
     name: "Team S",
     id: "team-s",
+    projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-s.png",
     artistIds: ["terttu-uibopuu", "ada-van-hoorebeke"],
     clips: [
@@ -52,6 +55,7 @@ export default function(server) {
   const teamZ = server.create("team", {
     name: "Team Z",
     id: "team-z",
+    projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-z.png",
     artistIds: ["justyna-gorowska", "luisa-muhr"],
     clips: [
@@ -63,6 +67,7 @@ export default function(server) {
   const teamL = server.create("team", {
     name: "Team L",
     id: "team-l",
+    projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-l.png",
     artistIds: ["saddie-choua", "mariella-cassar-cordina"],
     clips: [
@@ -74,6 +79,7 @@ export default function(server) {
   const teamJ = server.create("team", {
     name: "Team J",
     id: "team-j",
+    projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-j.png",
     artistIds: ["nicola-ginzel", "ieva-mediodia"],
     clips: [
