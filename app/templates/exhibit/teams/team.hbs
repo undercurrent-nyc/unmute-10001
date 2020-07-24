@@ -9,10 +9,10 @@
 
     <div class="flex flex-row w-full md:w-3/5 space-x-1">
       {{#each (shuffle @model.artists) as |artist|}}
-          <div class="flex flex-col w-1/2 space-y-4">
+          <div class="flex flex-col w-1/2 space-y-0">
             <LinkTo @route="exhibit.artists.artist" @model={{artist}}>
               <img class="w-full" src="{{artist.avatarUrl}}" alt="{{artist.fullName}}">
-              <p class="text-base pt-6 font-bold uppercase">{{artist.fullName}}</p>
+              <p class="text-base pt-4 font-bold uppercase">{{artist.fullName}}</p>
             </LinkTo>
             <SwallowtailFlag>
               {{artist.country.countryName}}
@@ -22,7 +22,7 @@
     </div>
   </div>
 
-  <MoreBox>
+  <MoreBox @heightClass="h-40">
   <h3 class="text-xl font-bold uppercase">{{@model.projectTitle}}</h3>
         <p class="pb-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum efficitur nisl, et ultricies nibh vehicula eget. Sed eget arcu mollis, placerat nunc sit amet, vehicula ligula. Pellentesque laoreet mattis ante id vulputate. Quisque facilisis aliquet magna, at facilisis ex dictum ac. Sed erat sem, scelerisque quis erat vitae, aliquet consectetur orci. Mauris varius accumsan nunc a iaculis. Duis eget est ultricies, rhoncus lacus at, ultricies felis. Duis placerat, diam in eleifend placerat, lorem ex rutrum ipsum, rhoncus malesuada augue turpis sit amet est. Curabitur aliquet volutpat egestas. Donec quis sem viverra, condimentum erat id, consequat nulla. Etiam viverra lorem risus, sagittis eleifend arcu tincidunt bibendum.

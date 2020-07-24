@@ -1,8 +1,14 @@
-<div class="relative">
-  <div class="{{if this.moreShown "" (concat @heightClass " overflow-y-hidden")}}">
+<div class="h-full">
+  {{log "showmorebutton" this.showMoreButton}}
+  <div class="relative {{if this.showMoreButton (concat @heightClass " overflow-y-hidden") ""}}"
+       {{did-insert this.measureOverflow}}
+       {{did-update this.measureOverflow}}
+       >
 		{{yield}}
-	</div>
-  <div class="hidden more-button {{if this.moreShown "hidden"}}" role="button" {{on "click" this.showMore}}>
-		<p class="bg-white">/MORE</p>
+    {{#if this.showMoreButton}}
+      <div class="more-button" role="button" {{on "click" this.showMoreText}}>
+        <p class="bg-white">/MORE</p>
+      </div>
+    {{/if}}
 	</div>
 </div>

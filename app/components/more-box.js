@@ -3,11 +3,16 @@ import { action } from "@ember/object";
 import { tracked } from "@glimmer/tracking";
 
 export default class MoreBoxComponent extends Component {
-  @tracked moreShown = false;
+  @tracked showMoreButton = true;
 
   @action
-  showMore() {
-    this.moreShown = true;
+  showMoreText() {
+    this.showMoreButton = false;
+  }
+
+  @action
+  measureOverflow(element) {
+    this.showMoreButton = element.clientHeight < element.scrollHeight;
   }
 
 }
