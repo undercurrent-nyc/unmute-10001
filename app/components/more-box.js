@@ -15,4 +15,10 @@ export default class MoreBoxComponent extends Component {
     this.showMoreButton = element.clientHeight < element.scrollHeight;
   }
 
+  @action 
+  remeasureOverflow(element) {
+    console.log("remeasuring");
+    this.showMoreButton = false;
+    this.measureOverflow(element);
+  }
 }

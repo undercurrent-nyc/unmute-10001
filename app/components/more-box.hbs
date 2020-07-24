@@ -1,8 +1,7 @@
 <div class="h-full">
-  {{log "showmorebutton" this.showMoreButton}}
   <div class="relative {{if this.showMoreButton (concat @heightClass " overflow-y-hidden") ""}}"
        {{did-insert this.measureOverflow}}
-       {{did-update this.measureOverflow}}
+       {{did-update this.reeasureOverflow}}
        >
 		{{yield}}
     {{#if this.showMoreButton}}
