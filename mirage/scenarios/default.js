@@ -21,7 +21,7 @@ export default function(server) {
     id: "team-i",
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-i.png",
-    artistIds: ["alex-camilleri", "jonas-tarm"],
+    artistIds: ["kira-nova", "jonas-tarm"],
     clips: [
       server.create("clip", clip1),
       server.create("clip", clip2),
@@ -33,7 +33,7 @@ export default function(server) {
     id: "team-t",
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-t.png",
-    artistIds: ["kira-nova", "anna-bera"],
+    artistIds: ["saddie-choua", "anna-bera"],
     clips: [
       server.create("clip", clip1),
       server.create("clip", clip2),
@@ -45,7 +45,7 @@ export default function(server) {
     id: "team-s",
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-s.png",
-    artistIds: ["terttu-uibopuu", "ada-van-hoorebeke"],
+    artistIds: ["luisa-muhr", "ada-van-hoorebeke"],
     clips: [
       server.create("clip", clip1),
       server.create("clip", clip2),
@@ -57,7 +57,7 @@ export default function(server) {
     id: "team-z",
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-z.png",
-    artistIds: ["justyna-gorowska", "luisa-muhr"],
+    artistIds: ["justyna-gorowska", "ieva-mediodia"],
     clips: [
       server.create("clip", clip1),
       server.create("clip", clip2),
@@ -69,7 +69,7 @@ export default function(server) {
     id: "team-l",
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-l.png",
-    artistIds: ["saddie-choua", "mariella-cassar-cordina"],
+    artistIds: ["nicola-ginzel", "mariella-cassar-cordina"],
     clips: [
       server.create("clip", clip1),
       server.create("clip", clip2),
@@ -81,7 +81,7 @@ export default function(server) {
     id: "team-j",
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-j.png",
-    artistIds: ["nicola-ginzel", "ieva-mediodia"],
+    artistIds: ["terttu-uibopuu", "alex-camilleri"],
     clips: [
       server.create("clip", clip1),
       server.create("clip", clip2),
