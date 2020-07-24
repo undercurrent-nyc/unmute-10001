@@ -1,24 +1,25 @@
 <div class="flex flex-col space-y-4 md:space-y-4 pb-6 md:pb-4">
-  <TeamLogoHeader @team={{@model}}>
-    <div class="flex flex-col justify-end">
-      <h2 class="text-xl uppercase font-bold">{{@model.slashName}}</h2>
-    </div>
-  </TeamLogoHeader>
-
   {{outlet}}
+  <div class="flex flex-col md:flex-row w-full space-y-6 md:space-y-0">  
+    <TeamLogoHeader @team={{@model}} @classes="md:w-2/5 md:flex-col md:space-y-10 md:justify-start md:items-start md:pr-20">
+      <div class="flex flex-col justify-end md:justify-start md:items-start">
+        <h2 class="text-xl uppercase font-bold">{{@model.slashName}}<br>{{@model.projectTitle}}</h2>
+      </div>
+    </TeamLogoHeader>
 
-  <div class="flex flex-row w-full space-x-1 md:space-x-1 pb-8">
-    {{#each (shuffle @model.artists) as |artist|}}
-        <div class="flex flex-col w-1/2 space-y-4 md:space-y-6">
-          <LinkTo @route="exhibit.artists.artist" @model={{artist}}>
-            <img class="w-full" src="{{artist.avatarUrl}}" alt="{{artist.fullName}}">
-            <p class="text-base pt-6 font-bold uppercase">{{artist.fullName}}</p>
-          </LinkTo>
-          <SwallowtailFlag>
-            {{artist.country.countryName}}
-          </SwallowtailFlag>
-        </div>
-    {{/each}}
+    <div class="flex flex-row w-full md:w-3/5 space-x-1">
+      {{#each (shuffle @model.artists) as |artist|}}
+          <div class="flex flex-col w-1/2 space-y-4">
+            <LinkTo @route="exhibit.artists.artist" @model={{artist}}>
+              <img class="w-full" src="{{artist.avatarUrl}}" alt="{{artist.fullName}}">
+              <p class="text-base pt-6 font-bold uppercase">{{artist.fullName}}</p>
+            </LinkTo>
+            <SwallowtailFlag>
+              {{artist.country.countryName}}
+            </SwallowtailFlag>
+          </div>
+      {{/each}}
+    </div>
   </div>
 
   <MoreBox>
@@ -53,7 +54,7 @@
 
     </MoreBox>
 
-  <h3 class="text-xl w-full py-4 md:py-8 font-bold uppercase">Clips</h3>
+  <h3 class="text-xl w-full py-4 font-bold uppercase">Clips</h3>
   <div class="h-32 md:h-64">
     <TeamClips @clickRoute="exhibit.teams.team.clip" @clips={{@model.clips}} @dummies={{false}} />
   </div>
