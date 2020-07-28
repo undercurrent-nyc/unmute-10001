@@ -1,19 +1,7 @@
 <div class="flex flex-col items-center justify-center w-full">
-  <div class="flex flex-row w-full justify-between px-2 text-xl font-bold uppercase">
-    <h2>
-      {{@clip.team.name}} /{{@clip.title}}
-    </h2>
-    <p>{{format-date @clip.postDate}}</p>
-  </div>
   <div class="relative w-full">
     <ClipPlayBox @vimeoCode={{@clip.vimeoCode}} />
-    <!--
-    <div class="flex items-center justify-center bg-black top-0 left-0 absolute z-10 w-full h-full text-black opacity-0 hover:opacity-25">
-    </div>
-    <div class="flex items-center justify-center top-0 left-0 absolute z-20 w-full h-full text-black">
-      {{svg-jar "play-button" height="5rem" class="fill-current"}}
-    </div>
-    -->
+    {{yield}}
   </div>
 </div>
 
