@@ -4,7 +4,7 @@
       <SwallowtailFlag>
         {{@model.country.countryName}}
       </SwallowtailFlag>
-      <h2 class="uppercase text-xl md:text-xl font-bold">{{@model.firstName}} {{@model.lastName}}</h2>
+      <h2 class="pt-2 uppercase text-sm md:text-xl font-bold">{{@model.firstName}} {{@model.lastName}}</h2>
     </div>
   </TeamLogoHeader>
   <div class="flex flex-col md:flex-row w-full">
@@ -12,17 +12,14 @@
       <img src="{{@model.avatarUrl}}" class="w-full" alt="{{@model.firstName}} {{@model.lastName}}" />
     </div>
     <div class="w-full md:w-3/5 py-8 md:py-0">
-        <MoreBox @heightClass="h-64">
         <TextBox>
-          <p class="uppercase"><a href="{{@model.websiteUrl}}">/Artist Website</a></p>
 
-          <p><a href="https://instagram.com/{{@model.instagramName}}">{{svg-jar "instagram" class="fill-current inline h-8"}}
+          <p class="uppercase"><a href="https://instagram.com/{{@model.instagramName}}">{{svg-jar "instagram" class="fill-current inline h-6"}}
               <span class="sr-only">{{@model.fullName}}’s Instagram account</span>
-            </a></p>
+            </a> <a href="{{@model.websiteUrl}}">/Artist Website</a></p>
 
           {{markdown-to-html @model.bio}}
         </TextBox>
-        </MoreBox>
     </div>
   </div>
 </div>
