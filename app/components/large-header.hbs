@@ -3,8 +3,10 @@
       {{did-insert this.waitAndLaunch}}
       {{in-viewport onEnter=@onEnter onExit=@onExit}}
       >
-    <div class="h-full bg-black w-full">
-      {{svg-jar "header" class="md:mx-auto md:w-3/4 h-full large-header-svg fill-current"}}
+    <div class="h-full bg-black w-full flex justify-end">
+      <div class="h-full w-full md:w-3/4 flex justify-center md:justify-end">
+        {{svg-jar "header" class="w-full large-header-svg fill-current"}}
+      </div>
     </div>
   </LinkTo>
 </div>
