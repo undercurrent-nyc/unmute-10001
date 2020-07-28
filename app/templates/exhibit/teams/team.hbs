@@ -21,8 +21,6 @@
             </div>
         {{/each}}
       </section>
-    </div>
-  </div>
 
   <MoreBox @heightClass="h-64">
   <h3 class="text-sm md:text-xl font-bold uppercase pt-6 md:pt-8 pb-2 md:pb-4">{{@model.projectTitle}}</h3>
@@ -55,8 +53,9 @@
         </p>
 
     </MoreBox>
-
-  <div class="pt-6 h-32 md:h-64">
-    <TeamClips @clickRoute="exhibit.teams.team.clip" @clips={{@model.clips}} @dummies={{false}} />
+      <div class="pt-6 h-32 md:h-64">
+        <TeamClips @clickRoute="exhibit.teams.team.clip" @clips={{@model.clips}} @dummies={{false}} />
+      </div>
+    </div>
   </div>
 </div>
