@@ -1,0 +1,325 @@
+.nypr-player {
+  height: 95px;
+  width: 100%;
+  z-index: 1200;
+  box-sizing: border-box;
+  background-color: #333;
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 25px;
+  position: fixed;
+  bottom: -15px;
+
+  & .nypr-player-backdrop {
+    top: 0;
+    z-index: -1;
+    height: 95px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+
+    & svg {
+      height: 95px;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      content: " ";
+      top: 0;
+      background: #3e4458;
+
+      & image {
+        opacity: .5;
+      }
+    }
+  }
+
+}
+
+.nypr-player__freestanding {
+  position: relative;
+  padding: 0;
+  bottom: auto;
+}
+
+.nypr-player .ember-holygrail, .nypr-player .ember-holygrail-centered, .nypr-player .ember-holygrail-left, .nypr-player .ember-holygrail-right {
+    height: 100%;
+}
+
+.ember-holygrail {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+}
+
+.nypr-player .ember-holygrail-left {
+    min-width: 230px;
+    flex: 0 1 230px;
+}
+
+.nypr-player .ember-holygrail-left .nypr-player-controls {
+    margin: 0;
+}
+
+.nypr-player .ember-holygrail-left .nypr-player-controls {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nypr-player .nypr-player-controls {
+    display: flex;
+    /* align-items: left; */
+    height: 100%;
+    width: 100%;
+    /* margin: 3.5px; */
+}
+
+.nypr-player-button.mod-fastforward:first-child, .nypr-player-button.mod-rewind:first-child {
+    margin-left: 30px;
+}
+
+.nypr-player-button>* {
+    pointer-events: none;
+}
+
+.nypr-player-button {
+    position: relative;
+    background: 0 0;
+    line-height: 34px;
+    appearance: none;
+    font-family: inherit;
+    font-size: 14px;
+    font-size: .875rem;
+    cursor: pointer;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    color: initial;
+    text-align: left;
+    transition: opacity .1s,background-color .1s,border-color .1s,color .1s;
+    display: flex;
+    height: 100%;
+}
+
+.u-visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.nypr-player-button.mod-fastforward>.nypr-player-icon, .nypr-player-button.mod-rewind>.nypr-player-icon {
+    height: 100%;
+    width: 30px;
+    transition: color .1s ease-in-out,opacity .1s ease-in-out;
+    pointer-events: none;
+}
+
+.nypr-player-button circle, .nypr-player-button path, .nypr-player-button polygon, .nypr-player-button rect {
+    color: #FFF;
+    fill: currentColor;
+    transition: color .1s ease-in-out,stroke .1s ease-in-out,fill .1s ease-in-out;
+}
+
+.nypr-player-button.mod-fastforward+.nypr-player-button.mod-listen, .nypr-player-button.mod-rewind+.nypr-player-button.mod-listen {
+    margin-left: 20px;
+}
+
+.nypr-player-button.mod-listen {
+    width: 55px;
+    height: 55px;
+}
+
+.nypr-player-button.mod-listen {
+    min-height: 100%;
+    /* width: 48px; */
+    /* height: 48px; */
+    position: relative;
+}
+
+.nypr-player-button.mod-fastforward, .nypr-player-button.mod-rewind {
+    margin-left: 20px;
+}
+
+.nypr-player-button.mod-listen .listen-button-content {
+    width: 55px;
+}
+
+.nypr-player-button.mod-listen .listen-button-content {
+    pointer-events: none;
+    width: 48px;
+    height: 100%;
+}
+
+.nypr-player-button.mod-listen.is-paused .nypr-player-icon.mod-play {
+    opacity: 1;
+}
+
+.nypr-player-button.mod-listen .nypr-player-icon {
+    width: 55px;
+    height: 55px;
+}
+
+.nypr-player-button.mod-listen .nypr-player-icon {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    transition: fill .1s ease-in-out,opacity .1s ease-in-out;
+    transform: translateZ(0);
+    will-change: fill,opacity;
+}
+
+.nypr-player-button.mod-listen.is-paused .listen-spinner, .nypr-player-button.mod-listen.is-paused .listen-spinner:after, .nypr-player-button.mod-listen.is-paused .listen-spinner:before, .nypr-player-button.mod-listen.is-paused .nypr-player-icon.mod-pause {
+    opacity: 0;
+}
+
+.nypr-player .ember-holygrail-middle {
+    min-width: 0;
+    flex: 1 0 0;
+}
+
+.ember-holygrail .ember-holygrail-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nypr-player-info {
+    white-space: nowrap;
+    color: #FFF;
+}
+
+.nypr-player-progress-container {
+    display: flex;
+    align-items: center;
+}
+
+.nypr-player-progress-container>.nypr-player-progress {
+    flex: 1;
+    position: relative;
+    bottom: 0;
+    margin: 0 15px 0 0;
+    height: 21px;
+}
+
+.nypr-player-progress {
+    position: absolute;
+    height: 10px;
+    bottom: 95px;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    display: flex;
+}
+
+.nypr-player-progress-container>.nypr-player-progress .nypr-player-progress-wrapper {
+    position: relative;
+    height: 3px;
+    top: 10px;
+}
+
+.nypr-player-progress-wrapper {
+    width: 100%;
+}
+
+.nypr-player-progress-bg, .nypr-player-progress-downloaded, .nypr-player-progress-played, .nypr-player-progress-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-height: 5px;
+    height: 100%;
+}
+
+.nypr-player-progress-container>.nypr-player-timelabel {
+    flex: 0 0 auto;
+}
+
+.nypr-player-timelabel {
+    color: #FFF;
+    font-size: 12px;
+}
+
+.nypr-player .ember-holygrail-right {
+    min-width: 194px;
+}
+
+.nypr-player .ember-holygrail-right .nypr-player-controls {
+    margin-right: 4px;
+}
+
+.nypr-player .ember-holygrail-right .nypr-player-controls {
+    justify-content: flex-end;
+}
+
+.nypr-player-volume {
+    margin-left: 42px;
+    margin-right: 18px;
+    display: flex;
+    height: 100%;
+}
+
+.nypr-player-volume-control {
+    display: flex;
+    height: 100%;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+
+.nypr-player-button.mod-volume, .nypr-player-button.mod-volume:active, .nypr-player-button.mod-volume:focus, .nypr-player-button.mod-volume:hover, .nypr-player-button:active, .nypr-player-button:focus, .nypr-player-button:hover, .nypr-player-queue-button, .nypr-player-queue-button:active, .nypr-player-queue-button:hover, .nypr-player-queue-button:hover .nypr-player-queue-icon, .nypr-player-volume .nypr-player-icon:active, .nypr-player-volume-control {
+    outline: 0;
+}
+
+.nypr-player-volume-slider-wrapper {
+    width: 0;
+    display: inline-block;
+    position: relative;
+    touch-action: none;
+    height: 100%;
+    overflow: hidden;
+    transition: width .3s cubic-bezier(.4,.4,.265,.99);
+}
+
+.nypr-player-volume-slider {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 76px;
+    margin-left: 15px;
+    margin-right: 9.5px;
+}
+
+.nypr-player-volume-slider-handle {
+    position: absolute;
+    top: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #de1e3d;
+    margin-top: -7.5px;
+    left: 100%;
+    transform: translateX(-7.5px);
+}
+
+.nypr-player-button.mod-volume {
+    flex-basis: 50px;
+    min-width: 50px;
+    position: relative;
+    height: 100%;
+    cursor: pointer;
+}
+
+.nypr-player-button.mod-volume {
+    margin-top: 0;
+    white-space: nowrap;
+}
+
+

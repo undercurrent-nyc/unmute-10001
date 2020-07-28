@@ -28,6 +28,11 @@ module.exports = function(defaults) {
           },
           require('tailwindcss')('./app/tailwind/config.js'),
           require('autoprefixer'),
+          require("postcss-preset-env")(
+            {
+              stage: 1,
+            }
+          ),
           // ...isProduction ? [purgeCSS] : []
         ]
       }

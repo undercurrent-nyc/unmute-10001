@@ -1,6 +1,16 @@
-<ul>
-  {{#each @model as |episode|}}
-    <li>{{episode.title}}</li>
-  {{/each}}
-</ul>
+{{#each @model as |episode|}}
+    <p>{{episode.title}}</p>
+  {{#nypr-player
+    sound=episode.sound
+    freestanding=true
+    currentTitle=episode.title
+    backdropImageUrl=episde.imageURL
+    as |content|}}
+    {{#content.for "trackInfo"}}
+      <a href={{episode.url}}>{{episode.title}}</a>
+    {{/content.for}}
+  {{/nypr-player}}
+{{/each}}
+
+
 {{outlet}}

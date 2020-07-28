@@ -6,6 +6,14 @@ module.exports = function(environment) {
     environment,
     rootURL: '/',
     locationType: 'auto',
+    emberHifi: {
+      connections: [
+        {name: 'NativeAudio', config: {}},
+        {name: 'HLS', config: {}},
+        {name: 'Howler', config: {}},
+      ],
+    },
+
     historySupportMiddleware: true, // For ember-router-scroll
     "ember-cli-mirage": {
       enabled: true
