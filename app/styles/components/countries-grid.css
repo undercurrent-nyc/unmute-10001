@@ -1,0 +1,9 @@
+.countries-grid {
+  max-height: 50vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .countries-grid {
+    max-height: 100vh;
+  }
+}

@@ -1,0 +1,19 @@
+<div class="countries-grid grid grid-cols-2 md:grid-cols-4 grid-rows-4 md:grid-rows-2 gap-2 py-6">
+  {{#each @orgs as |org index|}}
+  <div class="flex justify-center items-center py-4 md:py-6 xl:py-10
+    {{if (eq org.svg "austria-logo") "row-span-2" ""}}
+    "> 
+    <a href="{{org.website}}" class="block w-full h-full flex justify-center items-center">
+        {{svg-jar org.svg class=(if 
+          (eq org.svg "austria-logo") 
+            "w-1/5 md:w-1/6" 
+            (if
+              (eq org.svg "estonia-logo")
+               "w-2/3"
+               "w-3/5"
+               )
+          )}}
+      </a>
+    </div>
+  {{/each}}
+</div>
