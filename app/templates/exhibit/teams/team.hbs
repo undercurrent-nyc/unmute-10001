@@ -1,4 +1,4 @@
-<div class="flex flex-col space-y-4 md:space-y-4 pb-6 md:pb-4">
+<div class="flex flex-col space-y-4 md:space-y-4 pb-6 md:pb-16">
   <div class="flex flex-col md:flex-row w-full space-y-6 md:space-y-0">  
     <TeamLogoHeader @team={{@model}} @classes="md:w-2/5 md:flex-col md:space-y-10 md:justify-start md:items-start md:pr-20">
       <div class="flex flex-col justify-end md:justify-start md:items-start">
@@ -13,7 +13,7 @@
             <div class="flex flex-col w-1/2 space-y-0">
               <LinkTo @route="exhibit.artists.artist" @model={{artist}}>
                 <img class="w-full" src="{{artist.avatarUrl}}" alt="{{artist.fullName}}">
-                <p class="text-base pt-4 font-bold uppercase">{{artist.fullName}}</p>
+                <p class="text-sm md:text-base pt-4 font-bold uppercase">{{artist.fullName}}</p>
               </LinkTo>
               <SwallowtailFlag>
                 {{artist.country.countryName}}
@@ -24,8 +24,8 @@
     </div>
   </div>
 
-  <MoreBox @heightClass="h-40">
-  <h3 class="text-xl font-bold uppercase">{{@model.projectTitle}}</h3>
+  <MoreBox @heightClass="h-64">
+  <h3 class="text-sm md:text-xl font-bold uppercase pt-6 md:pt-8 pb-2 md:pb-4">{{@model.projectTitle}}</h3>
         <p class="pb-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum efficitur nisl, et ultricies nibh vehicula eget. Sed eget arcu mollis, placerat nunc sit amet, vehicula ligula. Pellentesque laoreet mattis ante id vulputate. Quisque facilisis aliquet magna, at facilisis ex dictum ac. Sed erat sem, scelerisque quis erat vitae, aliquet consectetur orci. Mauris varius accumsan nunc a iaculis. Duis eget est ultricies, rhoncus lacus at, ultricies felis. Duis placerat, diam in eleifend placerat, lorem ex rutrum ipsum, rhoncus malesuada augue turpis sit amet est. Curabitur aliquet volutpat egestas. Donec quis sem viverra, condimentum erat id, consequat nulla. Etiam viverra lorem risus, sagittis eleifend arcu tincidunt bibendum.
         </p>
@@ -56,8 +56,7 @@
 
     </MoreBox>
 
-  <h3 class="text-xl w-full py-4 font-bold uppercase">Clips</h3>
-  <div class="h-32 md:h-64">
+  <div class="pt-6 h-32 md:h-64">
     <TeamClips @clickRoute="exhibit.teams.team.clip" @clips={{@model.clips}} @dummies={{false}} />
   </div>
 </div>
