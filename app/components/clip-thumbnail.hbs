@@ -8,11 +8,11 @@
         {{on "mouseover" this.toggleShaded}}
         {{on "mouseout" this.toggleShaded}}
         >
-        <div class="z-15 hover:opacity-50 {{if this.shaded "opacity-50" "opacity-0"}} absolute bottom-0 left-0 w-full h-full bg-black">&nbsp;</div>
+        <div class="z-15 hover:opacity-75 {{if this.shaded "opacity-50" "opacity-0"}} absolute bottom-0 left-0 w-full h-full bg-black">&nbsp;</div>
       </LinkTo>
       <div class="pointer-events-none absolute bottom-0 left-0 text-white flex flex-col justify-end p-4 md:p-6 z-20">
         <LinkTo 
-          class="pointer-events-auto uppercase font-bold text-xs md:text-base"
+          class="pointer-events-auto font-bold text-xs md:text-base"
           
           @route={{@clickRoute}} @model={{@clip}} 
           {{on "mouseover" this.toggleShaded}} 
