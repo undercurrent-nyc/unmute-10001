@@ -1,3 +1,13 @@
+.team-clips .simplebar-content, 
+  .team-clips .ember-simplebar,
+  .team-clips .simplebar-wrapper,
+  .team-clips .simplebar-mask,
+  .team-clips .simplebar-offset,
+  .team-clips .simplebar-content-wrapper
+  {
+  @apply h-full;
+}
+
 .team-clips .simplebar-content {
-  @apply flex flex-row;
+  @apply flex flex-row
 }

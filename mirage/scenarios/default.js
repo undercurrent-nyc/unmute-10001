@@ -3,17 +3,9 @@ import faker from "faker";
 export default function(server) {
   server.loadFixtures();
   // create clip options
-  const clip1 = { 
-    vimeoCode: 11387248, 
-    thumbnailUrl: "https://i.imgur.com/UdM9jFt.png",
-  }
-  const clip2 = {
-    vimeoCode: 3346705, 
-    thumbnailUrl: "https://i.imgur.com/7muBvb0.png",
-  }
-  const clip3 = {
-    vimeoCode: 4556333,
-    thumbnailUrl: "https://i.imgur.com/X12fPSU.png",
+  const clip = { 
+    dummy: true,
+    title: "Stay Tuned for Team Videos",
   }
   // create teams
   const teamI = server.create("team", {
@@ -23,9 +15,9 @@ export default function(server) {
     tetrominoUrl: "/assets/png/team-i.png",
     artistIds: ["kira-nova", "jonas-tarm"],
     clips: [
-      server.create("clip", clip1),
-      server.create("clip", clip2),
-      server.create("clip", clip3),
+      server.create("clip", clip),
+      server.create("clip", clip),
+      server.create("clip", clip),
     ]
   });
   const teamT = server.create("team", {
@@ -35,9 +27,9 @@ export default function(server) {
     tetrominoUrl: "/assets/png/team-t.png",
     artistIds: ["saddie-choua", "anna-bera"],
     clips: [
-      server.create("clip", clip1),
-      server.create("clip", clip2),
-      server.create("clip", clip3),
+      server.create("clip", clip),
+      server.create("clip", clip),
+      server.create("clip", clip),
     ]
   });
   const teamS = server.create("team", {
@@ -47,9 +39,9 @@ export default function(server) {
     tetrominoUrl: "/assets/png/team-s.png",
     artistIds: ["luisa-muhr", "ada-van-hoorebeke"],
     clips: [
-      server.create("clip", clip1),
-      server.create("clip", clip2),
-      server.create("clip", clip3),
+      server.create("clip", clip),
+      server.create("clip", clip),
+      server.create("clip", clip),
     ]
   });
   const teamZ = server.create("team", {
@@ -59,9 +51,9 @@ export default function(server) {
     tetrominoUrl: "/assets/png/team-z.png",
     artistIds: ["justyna-gorowska", "ieva-mediodia"],
     clips: [
-      server.create("clip", clip1),
-      server.create("clip", clip2),
-      server.create("clip", clip3),
+      server.create("clip", clip),
+      server.create("clip", clip),
+      server.create("clip", clip),
     ]
   });
   const teamL = server.create("team", {
@@ -71,9 +63,9 @@ export default function(server) {
     tetrominoUrl: "/assets/png/team-l.png",
     artistIds: ["nicola-ginzel", "mariella-cassar-cordina"],
     clips: [
-      server.create("clip", clip1),
-      server.create("clip", clip2),
-      server.create("clip", clip3),
+      server.create("clip", clip),
+      server.create("clip", clip),
+      server.create("clip", clip),
     ]
   });
   const teamJ = server.create("team", {
@@ -83,9 +75,9 @@ export default function(server) {
     tetrominoUrl: "/assets/png/team-j.png",
     artistIds: ["terttu-uibopuu", "alex-camilleri"],
     clips: [
-      server.create("clip", clip1),
-      server.create("clip", clip2),
-      server.create("clip", clip3),
+      server.create("clip", clip),
+      server.create("clip", clip),
+      server.create("clip", clip),
     ]
   });
 }
