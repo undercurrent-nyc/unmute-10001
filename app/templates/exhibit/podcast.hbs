@@ -1,3 +1,7 @@
+<div class="flex flex-col md:flex-row">
+  <AboutGraphic />
+  <div class="w-full md:w-3/5">
+
 {{#each @model as |episode|}}
     <p>{{episode.title}}</p>
   {{#nypr-player
@@ -10,7 +14,30 @@
       <a href={{episode.url}}>{{episode.title}}</a>
     {{/content.for}}
   {{/nypr-player}}
+
+  <!--
+
+    <ul>
+  {{#each model.teaseList as |item|}}
+  <li class="story-list-item">
+    {{story-tease
+      flipped=flipTease
+      parentTitle=parentTitle
+      isStaff=session.data.isStaff
+      adminURL=adminURL
+      item=item
+      playContext=playContext}}
+  </li>
+  {{/each}}
+</ul>
+
+  -->
+
+
 {{/each}}
 
 
 {{outlet}}
+
+  </div>
+</div>
