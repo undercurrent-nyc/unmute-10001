@@ -1,5 +1,3 @@
-August 5 – September 12 
-
 On August 5, [Undercurrent](https://undercurrent.nyc) launched “10001,” a
 collaborative virtual project that continues through September 12. This
 project is co-organized by the [European Union National Institutes of
