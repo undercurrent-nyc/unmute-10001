@@ -227,7 +227,7 @@ export default [
     id: "mariella-cassar-cordina",
     firstName: "Mariella", lastName: "Cassar-Cordina",
     countryId: "malta" ,
-    websiteUrl: "https://mariellacassar.net",
+    websiteUrl: "https://MariellaCassarCordina.com",
     avatarUrl: "/assets/jpg/cassar-cordina-1.jpg",
     bio: cassarCordinaBio,
     instagramName: "cassarcordina",
