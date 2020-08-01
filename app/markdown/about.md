@@ -28,7 +28,7 @@ York’s internationalist energy has flowed into the makeup of the artists in
 “10001.” Their practices range from moving and still visual and performing
 arts to music composition and film. Participating artists include: [Anna
 Bera](https://www.thewholeelements.com) (Poland), [Alex
-Camilleri](http://www.alex-camilleri.com/index) (Malta), [Mariella Cassar-Cordina](http://www.mdinabiennale.org/index.php/42-mdbn-artists/590-mariella-cassar-cordina)
+Camilleri](http://www.alex-camilleri.com/index) (Malta), [Mariella Cassar-Cordina](http://MariellaCassarCordina.com)
 (Malta), [Saddie Choua](http://kooshkresidency.com/resident/saddie-choua/)
 (Flanders, Belgium), [Nicola Ginzel](https://www.nicolaginzel.com) (Austria),
 [Justyna Górowska](http://justynagorowska.com) (Poland), [Ada Van
