@@ -1,12 +1,15 @@
-<div class="flex flex-col md:flex-row">
-  <AboutGraphic />
-  <div class="w-full md:w-3/5">
-    <h2 class="text-xl font-bold pb-6">10001</h2>
-
-    <MoreBox @heightClass="h-64">
-      <TextBox @markdownPath="about">
-        <p>August 5 – September 12</p>
-      </TextBox>
-    </MoreBox>
-  </div>
+<div class="flex flex-col space-y-4 md:space-y-4 pb-6 md:pb-16">
+  <TwoColumn>
+    <TwoColumn::One>
+      <AboutGraphic />
+    </TwoColumn::One>
+    <TwoColumn::Two>
+      <h2 class="text-xl font-bold pb-6">10001</h2>
+      <MoreBox @heightClass="h-64">
+        <TextBox @markdownPath="about">
+          <p>August 5 – September 12</p>
+        </TextBox>
+      </MoreBox>
+    </TwoColumn::Two>
+  </TwoColumn>
 </div>
