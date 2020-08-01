@@ -1,43 +1,22 @@
-<div class="flex flex-col md:flex-row">
-  <AboutGraphic />
-  <div class="w-full md:w-3/5">
+<div class="flex flex-col space-y-4 md:space-y-4 pb-6 md:pb-16">
+  {{log @model}}
+  <TwoColumn>
+    <TwoColumn::One>
+      <AboutGraphic />
+    </TwoColumn::One>
+    <TwoColumn::Two>
+      {{outlet}}
 
-{{#each @model as |episode|}}
-    <p>{{episode.title}}</p>
-  {{#nypr-player
-    sound=episode.sound
-    freestanding=true
-    currentTitle=episode.title
-    backdropImageUrl=episde.imageURL
-    as |content|}}
-    {{#content.for "trackInfo"}}
-      <a href={{episode.url}}>{{episode.title}}</a>
-    {{/content.for}}
-  {{/nypr-player}}
-
-  <!--
-
-    <ul>
-  {{#each model.teaseList as |item|}}
-  <li class="story-list-item">
-    {{story-tease
-      flipped=flipTease
-      parentTitle=parentTitle
-      isStaff=session.data.isStaff
-      adminURL=adminURL
-      item=item
-      playContext=playContext}}
-  </li>
-  {{/each}}
-</ul>
-
-  -->
-
-
-{{/each}}
-
-
-{{outlet}}
-
-  </div>
+      {{#each @model as |episode|}}
+        <section class="flex flex-row w-full space-x-1">
+          <div class="w-1/2">
+            <LinkTo @route="exhibit.podcast.episode" @model={{episode}}>
+              <img class="w-full" src={{episode.imageURL}} alt={{episode.title}} />
+            </LinkTo>
+          </div>
+          <PodcastTile @episode={{episode}} />
+        </section>
+      {{/each}}
+    </TwoColumn::Two>
+  </TwoColumn>
 </div>

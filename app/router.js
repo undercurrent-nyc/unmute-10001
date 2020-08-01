@@ -20,7 +20,9 @@ Router.map(function() {
         this.route('clip', { path: '/clip/:id' });
       });
     });
-    this.route('podcast');
+    this.route('podcast', function() {
+      this.route('episode', { path: 'episode/:id' });
+    });
     this.route('about');
   });
 });
