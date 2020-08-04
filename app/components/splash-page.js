@@ -10,4 +10,30 @@ export default class SplashPageComponent extends Component {
     this.router.transitionTo("exhibit.index");
   }
 
+  teams = [
+    {
+      svg: "team-z",
+      name: "TEAM /Z",
+    },
+    {
+      svg: "team-s",
+      name: "TEAM /S",
+    },
+    {
+      svg: "team-t",
+      name: "TEAM /T",
+    },
+    {
+      svg: "team-l",
+      name: "TEAM /L",
+    },
+    {
+      svg: "team-j",
+      name: "TEAM /J",
+    },
+    {
+      svg: "team-i",
+      name: "TEAM /I",
+    },
+  ]
 }
