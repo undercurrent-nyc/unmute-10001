@@ -30,6 +30,13 @@ export default class EmpireStateBuildingComponent extends Component {
             .duration(500)
             .ease(d3.easeLinear)
             .style("opacity", 1);
+        setTimeout(() => {
+          d3.selectAll(".skyline")
+            .transition()
+              .duration(750)
+              .ease(d3.easeLinear)
+              .style("opacity", 1);
+        }, 500);
       }
     }, 200);
   }

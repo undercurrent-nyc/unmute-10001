@@ -1,0 +1,6 @@
+.skyline {
+  background-image: url("/assets/svg/skyline.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+}
