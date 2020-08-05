@@ -14,6 +14,7 @@ export default function(server) {
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-i.png",
     artistIds: ["kira-nova", "jonas-tarm"],
+    startingDate: "Thursday",
     clips: [
       server.create("clip", clip),
       server.create("clip", clip),
@@ -26,6 +27,7 @@ export default function(server) {
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-t.png",
     artistIds: ["saddie-choua", "anna-bera"],
+    startingDate: "Thursday",
     clips: [
       server.create("clip", clip),
       server.create("clip", clip),
@@ -38,6 +40,7 @@ export default function(server) {
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-s.png",
     artistIds: ["luisa-muhr", "ada-van-hoorebeke"],
+    startingDate: "Friday",
     clips: [
       server.create("clip", clip),
       server.create("clip", clip),
@@ -50,6 +53,7 @@ export default function(server) {
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-z.png",
     artistIds: ["justyna-gorowska", "ieva-mediodia"],
+    startingDate: "Saturday",
     clips: [
       server.create("clip", clip),
       server.create("clip", clip),
@@ -62,6 +66,7 @@ export default function(server) {
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-l.png",
     artistIds: ["nicola-ginzel", "mariella-cassar-cordina"],
+    startingDate: "Saturday",
     clips: [
       server.create("clip", clip),
       server.create("clip", clip),
@@ -74,6 +79,7 @@ export default function(server) {
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-j.png",
     artistIds: ["terttu-uibopuu", "alex-camilleri"],
+    startingDate: "Friday",
     clips: [
       server.create("clip", clip),
       server.create("clip", clip),

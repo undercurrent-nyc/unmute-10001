@@ -8,7 +8,10 @@
         <div class="absolute bottom-0 left-0 z-15
           opacity-0 hover:opacity-100 
           p-4 md:p-6 h-full w-full">
-          <p class="text-white">{{@clip.title}}</p>
+          <p class="text-white">
+            <span class="uppercase">{{@clip.team.slashName}}</span> 
+            videos debut on {{@clip.team.startingDate}}.
+          </p>
         </div>
       </div>
     {{else}}

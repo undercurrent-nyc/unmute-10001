@@ -6,6 +6,7 @@ export default class TeamModel extends Model {
   @attr('string') tetrominoUrl;
   @attr('string') description;
   @attr('string') projectTitle;
+  @attr('string') startingDate;
   @hasMany('artist') artists;
   @hasMany('clips') clips;
 
