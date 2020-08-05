@@ -17,6 +17,37 @@ const purgeCSS = {
 
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
+    prember: {
+      urls: [
+        "/",
+        "/exhibit",
+        "/exhibit/about",
+        "/exhibit/podcast",
+        // podcast episodes.
+        "/exhibit/teams",
+        // "/exhibit/teams/clip/",
+        "/exhibit/teams/team-i",
+        "/exhibit/teams/team-s",
+        "/exhibit/teams/team-z",
+        "/exhibit/teams/team-l",
+        "/exhibit/teams/team-j",
+        "/exhibit/teams/team-t",
+        // "/exhibit/teams/team-i/clip/",
+        "/exhibit/artists",
+        "/exhibit/artists/nicola-ginzel",
+        "/exhibit/artists/luisa-muhr",
+        "/exhibit/artists/terttu-uibopuu",
+        "/exhibit/artists/jonas-tarm",
+        "/exhibit/artists/saddie-choua",
+        "/exhibit/artists/ada-van-hoorebeke",
+        "/exhibit/artists/kira-nova",
+        "/exhibit/artists/ieva-mediodia",
+        "/exhibit/artists/alex-camilleri",
+        "/exhibit/artists/mariella-cassar-cordina",
+        "/exhibit/artists/justyna-gorowska",
+        "/exhibit/artists/anna-bera",
+      ],
+    },
     postcssOptions: {
       compile: {
         plugins: [

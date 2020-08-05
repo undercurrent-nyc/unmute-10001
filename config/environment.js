@@ -3,6 +3,9 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'u10001',
+    fastboot: {
+      hostWhitelist: ['10001.undercurrent.nyc', /^localhost:\d+$/]
+    },
     environment,
     rootURL: '/',
     locationType: 'auto',
