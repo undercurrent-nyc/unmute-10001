@@ -14,7 +14,7 @@ export default function(server) {
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-i.png",
     artistIds: ["kira-nova", "jonas-tarm"],
-    startingDate: "Thursday",
+    startingDate: "Thursday, 08/06",
     clips: [
       server.create("clip", clip),
       server.create("clip", clip),
@@ -27,7 +27,7 @@ export default function(server) {
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-t.png",
     artistIds: ["saddie-choua", "anna-bera"],
-    startingDate: "Thursday",
+    startingDate: "Thursday, 08/06",
     clips: [
       server.create("clip", clip),
       server.create("clip", clip),
@@ -40,7 +40,7 @@ export default function(server) {
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-s.png",
     artistIds: ["luisa-muhr", "ada-van-hoorebeke"],
-    startingDate: "Friday",
+    startingDate: "Friday, 08/07",
     clips: [
       server.create("clip", clip),
       server.create("clip", clip),
@@ -53,7 +53,7 @@ export default function(server) {
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-z.png",
     artistIds: ["justyna-gorowska", "ieva-mediodia"],
-    startingDate: "Saturday",
+    startingDate: "Saturday, 08/08",
     clips: [
       server.create("clip", clip),
       server.create("clip", clip),
@@ -66,7 +66,7 @@ export default function(server) {
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-l.png",
     artistIds: ["nicola-ginzel", "mariella-cassar-cordina"],
-    startingDate: "Saturday",
+    startingDate: "Saturday, 08/08",
     clips: [
       server.create("clip", clip),
       server.create("clip", clip),
@@ -79,7 +79,7 @@ export default function(server) {
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-j.png",
     artistIds: ["terttu-uibopuu", "alex-camilleri"],
-    startingDate: "Friday",
+    startingDate: "Friday, 08/07",
     clips: [
       server.create("clip", clip),
       server.create("clip", clip),
