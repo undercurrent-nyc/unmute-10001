@@ -1,0 +1,15 @@
+<!-- <audio autoplay controls> -->
+<!--   <source src={{@model.sound}} type="audio/mpeg"> -->
+<!--   Your browser does not support the audio element. -->
+<!-- </audio> -->
+
+{{#nypr-player
+  sound=@model.sound
+  freestanding=true
+  currentTitle=@model.title
+  backdropImageUrl=@model.imageURL
+  as |content|}}
+  {{#content.for "trackInfo"}}
+    <a href={{@model.url}}>{{@model.title}}</a>
+  {{/content.for}}
+{{/nypr-player}}

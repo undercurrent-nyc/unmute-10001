@@ -1,1 +1,22 @@
-{{outlet}}
+<div class="flex flex-col space-y-4 md:space-y-4 pb-6 md:pb-16">
+  {{log @model}}
+  <TwoColumn>
+    <TwoColumn::One>
+      <AboutGraphic />
+    </TwoColumn::One>
+    <TwoColumn::Two>
+      {{outlet}}
+
+      {{#each @model as |episode|}}
+        <section class="flex flex-row w-full space-x-1">
+          <div class="w-1/2">
+            <LinkTo @route="exhibit.podcast.episode" @model={{episode}}>
+              <img class="w-full" src={{episode.imageURL}} alt={{episode.title}} />
+            </LinkTo>
+          </div>
+          <PodcastTile @episode={{episode}} />
+        </section>
+      {{/each}}
+    </TwoColumn::Two>
+  </TwoColumn>
+</div>
