@@ -1,1 +1,14 @@
-{{outlet}}
+<div class="flex flex-col space-y-4 md:space-y-4 pb-6 md:pb-16">
+  <TwoColumn>
+    <TwoColumn::One>
+      <AboutGraphic />
+    </TwoColumn::One>
+    <TwoColumn::Two>
+      {{outlet}}
+      <h2 class="text-xl font-bold">“10001”-centered 
+        <em>Undercurrent</em> 
+        Podcast</h2>
+      <TextBox @markdownPath="podcast-coming-soon" />
+    </TwoColumn::Two>
+  </TwoColumn>
+</div>
