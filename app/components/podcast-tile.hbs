@@ -1,8 +1,10 @@
-<div class="w-1/2">
-  <p class="text-xs md:text-sm">“10001” Episode Nr. n</p>
-  <h2 class="font-bold">{{@episode.title}}</h2>
-  <p>Posted on: blah date</p>
-  <p>Duration: blah time</p>
-  <p>View on undercurrent.nyc</p>
+<div class="w-full md:w-1/2">
+  <p class="text-xs md:text-sm">“10001” Episode Nr. {{@episode.id}}</p>
+  <h2 class="py-4 md:py-6 font-bold">{{@episode.title}}</h2>
+  <p class="text-xs md:text-sm">Posted on: {{@episode.postDate}}</p>
+  <p class="text-xs md:text-sm">Duration: {{@episode.duration}}</p>
+  <p class="text-xs md:text-sm">View: <a class="text-gray-600" href={{@episode.url}}>on undercurrent.nyc</a></p>
+
+  <p class="text-xs md:text-xs py-4 md:py-6">{{@episode.streamInfo}}</p>
 </div>
 

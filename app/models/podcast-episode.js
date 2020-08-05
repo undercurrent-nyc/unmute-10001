@@ -6,4 +6,6 @@ export default class PodcastEpisodeModel extends Model {
   @attr("string") imageURL;
   @attr("string") title;
   @attr("string") streamInfo;
+  @attr("string") duration;
+  @attr("string") postDate;
 }

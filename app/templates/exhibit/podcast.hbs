@@ -7,11 +7,10 @@
       <h2 class="text-xl font-bold">“10001”-centered 
         <em>Undercurrent</em> 
         Podcast</h2>
-      <TextBox @markdownPath="podcast-coming-soon" />
       {{outlet}}
       {{#each @model as |episode|}}
-        <section class="flex flex-row w-full space-x-1">
-          <div class="w-1/2">
+        <section class="flex flex-col md:flex-row w-full space-y-1 space-x-1">
+          <div class="w-full md:w-1/2">
             <LinkTo @route="exhibit.podcast.episode" @model={{episode}}>
               <img class="w-full" src={{episode.imageURL}} alt={{episode.title}} />
             </LinkTo>
@@ -19,6 +18,7 @@
           <PodcastTile @episode={{episode}} />
         </section>
       {{/each}}
+      <TextBox @markdownPath="podcast-text" />
     </TwoColumn::Two>
   </TwoColumn>
 </div>
