@@ -7,7 +7,8 @@ export default class SplashPageComponent extends Component {
 
   @action 
   transition() {
-    this.router.transitionTo("exhibit.index");
+    // this.router.transitionTo("exhibit.index");
+    this.router.transitionTo("exhibit.about");
   }
 
   teams = [

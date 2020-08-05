@@ -4,7 +4,34 @@
       <AboutGraphic />
     </TwoColumn::One>
     <TwoColumn::Two>
-      <h2 class="text-xl font-bold pb-6">10001</h2>
+      <ClipPlayBox @url="https://vimeo.com/444352834/050bf66d35" />
+      <TextBox>
+        <p>
+          <LinkTo @route="exhibit.teams.index">Continue to Teams’ Page →</LinkTo>
+        </p>
+
+        <p>Schedule of debut videos:</p>
+
+        <ul>
+          <li>Thursday, August 6: 
+            <LinkTo @route="exhibit.teams.team" @model="team-i">TEAM /I</LinkTo>
+            and
+            <LinkTo @route="exhibit.teams.team" @model="team-t">TEAM /T</LinkTo>
+          </li>
+          <li>Friday, August 7: 
+            <LinkTo @route="exhibit.teams.team" @model="team-s">TEAM /S</LinkTo>
+            and
+            <LinkTo @route="exhibit.teams.team" @model="team-j">TEAM /J</LinkTo>
+          </li>
+          <li>Saturday, August 8: 
+            <LinkTo @route="exhibit.teams.team" @model="team-l">TEAM /L</LinkTo>
+            and
+            <LinkTo @route="exhibit.teams.team" @model="team-z">TEAM /Z</LinkTo>
+          </li>
+        </ul>
+
+      </TextBox>
+      <h2 class="text-xl font-bold py-6">10001</h2>
       <MoreBox @heightClass="h-64">
         <TextBox @markdownPath="about">
           <p>August 5 – September 12</p>
