@@ -1,0 +1,6 @@
+Estonian-American Jonas Tarm has focused in recent years primarily on work as a composer for the concert stage and film. Various ensembles have commissioned him to write original music, including the [Tallinn Philharmonic Society](http://www.tko.ee/en), [New York Virtuoso Singers](http://nyvirtuoso.org) and the [Boston Musica Viva](https://www.bmv.org). His work has also been performed worldwide by ensembles such as the [Wurttemberg Chamber Orchestra Heilbronn](https://www.wko-heilbronn.de/en/orchestra/) in Germany, [Camerata Notturna Orchestra](http://camerata-notturna.org) in New York, and [New World Symphony Players](https://www.nws.edu/about/alumni/) in Miami, among others.
+
+Jonas recently released his first album _There Was a Beginning_–a movie soundtrack recorded by the Estonian National Symphony Orchestra for Mida Chu’s eponymous film. Other recent events include Jonas’s Estonian Song Festival debut with the newly commissioned work [_Päike laulab (The Sun Sings)_](https://www.youtube.com/watch?v=qVUxZojSHsE) for an 800-person symphony orchestra.
+
+Jonas received his bachelor’s degree from the New England Conservatory with artistic and academic honors in 2016. He completed his master’s degree studies with Efstratios Minakakis and Michael Gandolfi at the New England Conservatory in 2019 on the Francis Judd Cooke Scholarship.
+
