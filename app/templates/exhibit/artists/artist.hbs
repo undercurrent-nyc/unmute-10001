@@ -12,14 +12,13 @@
       <img src="{{@model.avatarUrl}}" class="w-full" alt="{{@model.firstName}} {{@model.lastName}}" />
     </div>
     <div class="w-full md:w-3/5 py-8 md:py-0">
-        <TextBox>
+      <TextBox @markdownPath={{concat "bios/" @model.id}}>
 
           <p class="uppercase"><a target="_blank" rel="noreferrer noopener" href="https://instagram.com/{{@model.instagramName}}">{{svg-jar "instagram" class="fill-current inline h-6"}}
               <span class="sr-only">{{@model.fullName}}’s Instagram account</span>
             </a> <a href="{{@model.websiteUrl}}" rel="noreferrer noopener" target="_blank">/Artist Website</a></p>
 
-          {{markdown-to-html @model.bio}}
-        </TextBox>
+      </TextBox>
     </div>
   </div>
 </div>
