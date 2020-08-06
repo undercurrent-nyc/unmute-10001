@@ -15,10 +15,8 @@ export default function(server) {
     tetrominoUrl: "/assets/png/team-i.png",
     artistIds: ["kira-nova", "jonas-tarm"],
     startingDate: "Thursday, 08/06",
-    clips: [
-      server.create("clip", clip),
-      server.create("clip", clip),
-      server.create("clip", clip),
+    clipIds: [
+      "i-01",
     ]
   });
   const teamT = server.create("team", {
@@ -28,10 +26,8 @@ export default function(server) {
     tetrominoUrl: "/assets/png/team-t.png",
     artistIds: ["saddie-choua", "anna-bera"],
     startingDate: "Thursday, 08/06",
-    clips: [
-      server.create("clip", clip),
-      server.create("clip", clip),
-      server.create("clip", clip),
+    clipIds: [
+      "t-01",
     ]
   });
   const teamS = server.create("team", {

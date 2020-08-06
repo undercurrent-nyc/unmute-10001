@@ -15,7 +15,7 @@
         </div>
       </div>
     {{else}}
-      <img src="{{@clip.thumbnailUrl}}" class="h-full w-full" alt="{{@clip.title}}">
+    <div class="h-full w-full {{object-at 0 (shuffle this.backgrounds)}}">&nbsp;</div>
       <LinkTo @route={{@clickRoute}} @model={{@clip}}
         {{on "mouseover" this.toggleShaded}}
         {{on "mouseout" this.toggleShaded}}
@@ -31,8 +31,7 @@
           {{on "mouseout" this.toggleShaded}}
           >
           <p class="{{if this.shaded "opacity-100 text-accent-500" "opacity-0"}} hover:opacity-100 text-xs md:text-base">
-            {{@clip.title}}<br>
-            {{format-date @clip.postDate}}
+            Posted: {{format-date @clip.postDate}}
           </p>
         </LinkTo>
       </div>
