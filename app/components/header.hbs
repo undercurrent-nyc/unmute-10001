@@ -12,7 +12,7 @@
   <div class="pl-10 flex flex-grow flex-col">
     <AnimatedContainer class="flex w-full justify-end align-end h-12 md:h-16">
       {{#animated-if this.showSmallHeader use=this.transition}}
-        <LinkTo @route="index" class="hover:text-accent-500 pb-4">
+        <LinkTo @route="exhibit.teams" class="hover:text-accent-500 pb-4">
           {{svg-jar "header-small" class="fill-current pt-2 md:pt-0 h-10 md:h-16 md:w-64"}}
         </LinkTo>
       {{/animated-if}}
