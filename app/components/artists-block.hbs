@@ -1,10 +1,5 @@
 <div class="grid gap-1 grid-cols-2 grid-rows-8 md:grid-rows-4 md:grid-cols-4 pb-0 md:pb-8">
-  {{#each (shuffle 
-    (append 
-      (flatten @artists) 
-      this.dummies
-    )
-   ) as |artist|}}
+  {{#each (shuffle this.artists) as |artist|}}
       {{#if (eq artist "dummy")}}
         <div class="artist-tile">
           <p>&nbsp;</p>
