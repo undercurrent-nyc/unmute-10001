@@ -2,7 +2,7 @@
   {{#each (shuffle 
     (append 
       (flatten @artists) 
-      (array "dummy" "dummy" "dummy" "dummy")
+      this.dummies
     )
    ) as |artist|}}
       {{#if (eq artist "dummy")}}
