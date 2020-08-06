@@ -16,6 +16,7 @@
       </div>
     {{else}}
     <div class="h-full w-full {{object-at 0 (shuffle this.backgrounds)}}">&nbsp;</div>
+      {{svg-jar "play-button" class="absolute bottom-0 left-0 w-full h-full"}}
       <LinkTo @route={{@clickRoute}} @model={{@clip}}
         {{on "mouseover" this.toggleShaded}}
         {{on "mouseout" this.toggleShaded}}
