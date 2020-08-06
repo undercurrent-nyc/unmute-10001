@@ -86,7 +86,7 @@
 
 .nypr-player-progress-played {
     width: 0%;
-    background-color: #de1e3d
+    background-color: #33FF5E;
 }
 
 .nypr-player-progress-playhead {
@@ -125,7 +125,7 @@
     content: '';
     height: 22px;
     width: 22px;
-    background-color: #de1e3d;
+    background-color: #33FF5E;
     border-radius: 50%;
     opacity: 1;
     display: block;
@@ -201,7 +201,7 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background: #de1e3d;
+    background: ##33ff5E;
     margin-top: -7.5px;
     left: 100%;
     transform: translateX(-7.5px)
@@ -228,7 +228,7 @@
 }
 
 .nypr-player-button.mod-volume:active circle,.nypr-player-button.mod-volume:active path,.nypr-player-button.mod-volume:active polygon,.nypr-player-button.mod-volume:active rect {
-    color: #de1e3d;
+    color: #33FF5E;
     fill: currentColor;
     transition: color .1s ease-in-out,stroke .1s ease-in-out,fill .1s ease-in-out
 }
@@ -264,7 +264,7 @@
 }
 
 .nypr-player-volume .nypr-player-icon:active circle,.nypr-player-volume .nypr-player-icon:active path,.nypr-player-volume .nypr-player-icon:active polygon,.nypr-player-volume .nypr-player-icon:active rect {
-    color: #de1e3d;
+    color: #33ff5E;
     fill: currentColor;
     transition: color .1s ease-in-out,stroke .1s ease-in-out,fill .1s ease-in-out
 }
@@ -339,7 +339,7 @@
 }
 
 .nypr-player-button:active circle,.nypr-player-button:active path,.nypr-player-button:active polygon,.nypr-player-button:active rect {
-    color: #de1e3d;
+    color: #33FF5e;
     fill: currentColor;
     transition: color .1s ease-in-out,stroke .1s ease-in-out,fill .1s ease-in-out
 }
@@ -670,15 +670,15 @@
 }
 
 .nypr-player-queue-button:active .nypr-player-queue-icon .nypr-player-queue-bar,.nypr-player-queue-button:active .nypr-player-queue-icon .nypr-player-queue-dot {
-    background: #de1e3d
+    background: #33FF5E
 }
 
 .nypr-player-queue-button:active .nypr-player-queue-icon path {
-    fill: #de1e3d
+    fill: #33FF5E
 }
 
 .nypr-player-queue-button:active .nypr-player-queue-label {
-    color: #de1e3d
+    color: #33FF5E
 }
 
 .nypr-player-queue-label {
@@ -791,7 +791,7 @@
     padding-bottom: 25px;
     position: fixed;
     bottom: -15px;
-    z-index: 1200;
+    z-index: 12;
     box-sizing: border-box;
     background-color: #333;
     color: #fff;
