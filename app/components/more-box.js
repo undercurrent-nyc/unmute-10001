@@ -17,7 +17,6 @@ export default class MoreBoxComponent extends Component {
 
   @action 
   remeasureOverflow(element) {
-    console.log("remeasuring");
     this.showMoreButton = false;
     this.measureOverflow(element);
   }
