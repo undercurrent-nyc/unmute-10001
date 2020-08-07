@@ -37,10 +37,8 @@ export default function(server) {
     tetrominoUrl: "/assets/png/team-s.png",
     artistIds: ["luisa-muhr", "ada-van-hoorebeke"],
     startingDate: "Friday, 08/07",
-    clips: [
-      server.create("clip", clip),
-      server.create("clip", clip),
-      server.create("clip", clip),
+    clipIds: [
+      "s-01",
     ]
   });
   const teamZ = server.create("team", {
@@ -76,10 +74,8 @@ export default function(server) {
     tetrominoUrl: "/assets/png/team-j.png",
     artistIds: ["terttu-uibopuu", "alex-camilleri"],
     startingDate: "Friday, 08/07",
-    clips: [
-      server.create("clip", clip),
-      server.create("clip", clip),
-      server.create("clip", clip),
+    clipIds: [
+      "j-01",
     ]
   });
 }
