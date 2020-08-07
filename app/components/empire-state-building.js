@@ -5,6 +5,15 @@ import * as d3 from "d3";
 export default class EmpireStateBuildingComponent extends Component {
 
   fadeInTetrominoes() {
+    d3.select(".enter-button-text")
+      .on("mouseover", function() {
+        return d3.select(".enter-button-background")
+          .style("fill", "#33ff5E");
+      })
+      .on("mouseout", function() {
+        return d3.select(".enter-button-background")
+          .style("fill", "black");
+      });
     d3.select(".enter-button-background")
       .style("fill", "black")
       .on("mouseover", function() {
