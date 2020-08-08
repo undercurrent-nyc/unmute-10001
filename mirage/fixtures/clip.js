@@ -31,6 +31,22 @@ export default [
     postDate: new Date(2020, 7, 2),
     teamId: "team-s",
   },
+  {
+    id: "l-01",
+    title: "10001 /TEAM L /WEEK-1 /07/29/20",
+    vimeoCode: 445821516,
+    duration: "12:43",
+    postDate: new Date(2020, 6, 29),
+    teamId: "team-l",
+  },
+  {
+    id: "z-01",
+    title: "10001 /TEAM Z /WEEK-1 /07/30/20",
+    vimeoCode: 445819143,
+    duration: "13:44",
+    postDate: new Date(2020, 6, 30),
+    teamId: "team-z",
+  },
 ];
 
 
