@@ -5,3 +5,7 @@
 .text-box a {
   @apply text-gray-600;
 }
+
+.text-box h2 {
+  @apply text-xl font-bold py-6
+}

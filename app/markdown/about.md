@@ -47,3 +47,14 @@ in New York, [Austrian Cultural Forum](https://www.acfny.org) New York, the
 [General Delegation of the Government of
 Flanders](https://flandersintheusa.org) to the USA, and the [Polish Cultural
 Institute](https://instytutpolski.pl/newyork/) in New York.
+
+## Undercurrent “10001” Team:
+
+* **Producer**: [Daina Mattis](https://dainamattis.com)
+* **Designer**: [Laura Zaveckaitė](http://instagram.com/laura.zaveckaite)
+* **Art Directors**: D. Mattis & L. Zaveckaitė
+* **Editors**: [Adriana Furlong](http://adrianafurlong.com) & D. Mattis
+* **Web Developer**: [Moacir P. de Sá Pereira](https://moacir.com)
+* **Podcast Hosts/Producers**: A. Furlong & M. P. de Sá Pereira
+* **Proposal Drafters**: [Julius
+  Ludavičius](http://juliusl.com), D. Mattis, & L. Zaveckaitė
