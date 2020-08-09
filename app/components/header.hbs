@@ -10,9 +10,9 @@
     </a>
   </div>
   <div class="pl-10 flex flex-grow flex-col">
-    <AnimatedContainer class="flex w-full justify-end align-end h-12 md:h-16">
+    <AnimatedContainer class="flex w-full justify-end align-end">
       {{#animated-if this.showSmallHeader use=this.transition}}
-        <div class="pb-4">
+        <div class="pb-4 h-12 md:h-16">
           {{svg-jar "header-small" class="fill-current pt-2 md:pt-0 h-10 md:h-16 md:w-64"}}
         </div>
       {{/animated-if}}
