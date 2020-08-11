@@ -17,6 +17,7 @@ export default function(server) {
     startingDate: "Thursday, 08/06",
     clipIds: [
       "i-01",
+      "i-02",
     ]
   });
   const teamT = server.create("team", {
@@ -28,6 +29,7 @@ export default function(server) {
     startingDate: "Thursday, 08/06",
     clipIds: [
       "t-01",
+      "t-02",
     ]
   });
   const teamS = server.create("team", {
