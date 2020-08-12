@@ -11,7 +11,7 @@ export default class ClipThumbnailComponent extends Component {
     },
     {
       background: "bg-magenta",
-      text: "text-black",
+      text: "text-white",
     },
     {
       background: "bg-yello",

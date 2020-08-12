@@ -1,9 +1,9 @@
 <div class="h-full flex justify-center items-center pr-1">
-  <div class="relative h-full w-32 md:w-64"> 
-    {{#if @clip.dummy}}
-      <div class="h-full w-full bg-{{@clip.color}}">&nbsp; </div>
-    {{else}}
-      {{#let (object-at 0 (shuffle this.colors)) as |color| }}
+  {{#let (object-at 0 (shuffle this.colors)) as |color| }}
+    <div class="relative {{color.text}} h-full w-32 md:w-64"> 
+      {{#if @clip.dummy}}
+        <div class="h-full w-full bg-{{@clip.color}}">&nbsp; </div>
+      {{else}}
         <div class="h-full w-full {{color.background}}">
           <div class="absolute bottom-0 left-0 {{color.text}} flex flex-col justify-end p-4 md:p-6">
               <p class="font-bold text-xs md:text-base">
@@ -11,7 +11,7 @@
               </p>
           </div>
         </div>
-        {{svg-jar "play-button" class="absolute bottom-0 left-0 w-full h-full"}}
+        {{svg-jar "play-button" class="fill-current absolute bottom-0 left-0 w-full h-full"}}
         <LinkTo @route={{@clickRoute}} @model={{@clip}}
           {{on "mouseover" this.toggleShaded}}
           {{on "mouseout" this.toggleShaded}}
@@ -31,7 +31,7 @@
             </p>
           </LinkTo>
         </div>
-      {{/let}}
-    {{/if}}
-  </div>
+      {{/if}}
+    </div>
+  {{/let}}
 </div>
