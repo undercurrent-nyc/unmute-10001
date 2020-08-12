@@ -1,7 +1,7 @@
 export default [
   {
     id: "t-01",
-    title: "10001 /TEAM T /WEEK-1 /07/31/2020",
+    title: "Icebreaker with Saddie and Anna, 1",
     vimeoCode: 445037359,
     duration: "12:38",
     postDate: new Date(2020, 6, 31),
@@ -9,7 +9,7 @@ export default [
   },
   {
     id: "i-01",
-    title: "10001 /TEAM I /WEEK-1 /07/28/2020",
+    title: "Icebreaker with Kira and Jonas, 1",
     vimeoCode: 445037357,
     duration: "12:38",
     postDate: new Date(2020, 6, 28),
@@ -17,7 +17,7 @@ export default [
   },
   {
     id: "j-01",
-    title: "10001 /TEAM J /WEEK-1 /07/31/20",
+    title: "Icebreaker with Alexander and Terttu, 1",
     vimeoCode: 445426453,
     duration: "14:58",
     postDate: new Date(2020, 6, 31),
@@ -25,7 +25,7 @@ export default [
   },
   {
     id: "s-01",
-    title: "10001 /TEAM S /WEEK-1 /08/02/20",
+    title: "Icebreaker with Luisa and Ada, 1",
     vimeoCode: 445508593,
     duration: "11:42",
     postDate: new Date(2020, 7, 2),
@@ -33,7 +33,7 @@ export default [
   },
   {
     id: "l-01",
-    title: "10001 /TEAM L /WEEK-1 /07/29/20",
+    title: "Icebreaker with Mariella and Nicola, 1",
     vimeoCode: 445821516,
     duration: "12:43",
     postDate: new Date(2020, 6, 29),
@@ -41,7 +41,7 @@ export default [
   },
   {
     id: "z-01",
-    title: "10001 /TEAM Z /WEEK-1 /07/30/20",
+    title: "Icebreaker with Ieva and Justyna, 1",
     vimeoCode: 445819143,
     duration: "13:44",
     postDate: new Date(2020, 6, 30),
@@ -49,7 +49,7 @@ export default [
   },
   {
     id: "i-02",
-    title: "10001 /TEAM I /WEEK-1 /PART-2 /07/30/20",
+    title: "Icebreaker with Jonas and Kira, 2",
     vimeoCode: 446601284,
     duration: "14:19",
     postDate: new Date(2020, 6, 30),
@@ -57,11 +57,27 @@ export default [
   },
   {
     id: "t-02",
-    title: "10001 /TEAM T /WEEK-1 /PART-2  /07/31/20",
+    title: "Icebreaker with Anna and Saddie, 2",
     vimeoCode: 446647312,
     duration: "13:36",
     postDate: new Date(2020, 6, 31),
     teamId: "team-t",
+  },
+  {
+    id: "s-02",
+    title: "Icebreaker with Ada and Luisa, 2",
+    vimeoCode: 446981548,
+    duration: "16:10",
+    postDate: new Date(2020, 7, 2),
+    teamId: "team-s",
+  },
+  {
+    id: "j-02",
+    title: "Icebreaker with Terttu and Alexander, 2",
+    vimeoCode: 446980961,
+    duration: "13:26",
+    postDate: new Date(2020, 7, 3),
+    teamId: "team-j",
   },
 ];
 
