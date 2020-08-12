@@ -4,7 +4,7 @@ import { tracked } from "@glimmer/tracking";
 
 export default class ClipThumbnailComponent extends Component {
 
-  backgrounds = ["bg-magenta", "bg-yello", "bg-cyan"];
+  backgrounds = ["bg-black", "bg-magenta", "bg-yello", "bg-cyan"];
 
   @tracked shaded = false;
 
