@@ -3,7 +3,13 @@
     {{#if @clip.dummy}}
       <div class="h-full w-full bg-{{@clip.color}}">&nbsp; </div>
     {{else}}
-    <div class="h-full w-full {{object-at 0 (shuffle this.backgrounds)}}">&nbsp;</div>
+    <div class="h-full w-full {{object-at 0 (shuffle this.backgrounds)}}">
+      <div class="absolute bottom-0 left-0 text-white flex flex-col justify-end p-4 md:p-6">
+          <p class="font-bold text-xs md:text-base">
+            Filmed: {{format-date @clip.postDate}}
+          </p>
+      </div>
+    </div>
       {{svg-jar "play-button" class="absolute bottom-0 left-0 w-full h-full"}}
       <LinkTo @route={{@clickRoute}} @model={{@clip}}
         {{on "mouseover" this.toggleShaded}}
