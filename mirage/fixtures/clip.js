@@ -5,6 +5,7 @@ export default [
     vimeoCode: 445037359,
     duration: "12:38",
     postDate: new Date(2020, 6, 31),
+    description: "Anna and Saddie consider the integrity of identity politics within work. Both artists also discuss their utilization of the archive, with Saddle working more within the digital realm, and Anna with an emphasis on sculpture.",
     teamId: "team-t",
   },
   {
@@ -29,6 +30,7 @@ export default [
     vimeoCode: 446601284,
     duration: "14:19",
     postDate: new Date(2020, 6, 30),
+    description: "Kira and Jonas discuss how they got their start: Jonas studied violin and piano while Kira studied clowning.",
     teamId: "team-i",
   },
   {
@@ -37,11 +39,12 @@ export default [
     vimeoCode: 445426453,
     duration: "14:58",
     postDate: new Date(2020, 6, 31),
+    description: "Terttu and Alex discuss their preference to dive deep with their work and consider the importance of maintaining honesty with political work. Tertuu discusses how the pandemic has made them feel more connected to New York.",
     teamId: "team-j",
   },
   {
     id: "j-02",
-    title: "Icebreaker with Terttu and Alexander, 2",
+    title: "Icebreaker with Terttu and Alexander",
     vimeoCode: 446980961,
     duration: "13:26",
     postDate: new Date(2020, 7, 3),
@@ -53,6 +56,7 @@ export default [
     vimeoCode: 445508593,
     duration: "11:42",
     postDate: new Date(2020, 7, 2),
+    description: "Ada and Luisa share their experiences living in NYC and abroad and how they found home in a foreign place.",
     teamId: "team-s",
   },
   {
@@ -65,10 +69,11 @@ export default [
   },
   {
     id: "l-01",
-    title: "Icebreaker with Mariella and Nicola, 1",
+    title: "Icebreaker with Mariella and Nicola",
     vimeoCode: 445821516,
     duration: "12:43",
     postDate: new Date(2020, 6, 29),
+    description: "Nicola and Mariella zero in on a concept for their project and make a game plan at how they will tap into the essence of the city through their material and compositional skills.",
     teamId: "team-l",
   },
   {
@@ -77,6 +82,7 @@ export default [
     vimeoCode: 445819143,
     duration: "13:44",
     postDate: new Date(2020, 6, 30),
+    description: "Ieva and Justyna share how they were preoccupied with their practice when the pandemic hit.",
     teamId: "team-z",
   },
 ];
