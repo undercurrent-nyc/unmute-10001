@@ -99,7 +99,7 @@ export default [
     vimeoCode: 447345505,
     duration: "7:18",
     postDate: new Date(2020, 6, 30),
-    description: "Ieva and Justyna share how they were preoccupied with their practice when the pandemic hit.",
+    description: "Ieva and Justyna share how the pandemic let them reconsider their practice.",
     teamId: "team-z",
   },
   {
