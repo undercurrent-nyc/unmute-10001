@@ -17,6 +17,15 @@ export default [
     teamId: "team-t",
   },
   {
+    id: "t-03",
+    title: "Pressing on with Saddie and Anna",
+    vimeoCode: 448175805,
+    duration: "9:46",
+    postDate: new Date(2020, 7, 4),
+    description: "Anna and Saddie confront the predicament of finding a link between their respective practices, but eventually decide on a game plan moving forward that allows space for both.",
+    teamId: "team-t",
+  },
+  {
     id: "i-01",
     title: "Icebreaker with Kira and Jonas, 1",
     vimeoCode: 445037357,
@@ -31,6 +40,15 @@ export default [
     duration: "14:19",
     postDate: new Date(2020, 6, 30),
     description: "Kira and Jonas discuss how they got their start: Jonas studied violin and piano while Kira studied clowning.",
+    teamId: "team-i",
+  },
+  {
+    id: "i-03",
+    title: "Pressing on with Kira and Jonas",
+    vimeoCode: 448175486,
+    duration: "13:07",
+    postDate: new Date(2020, 7, 5),
+    description: "Jonas and Kira discuss the crossroads of universal languages, misunderstandings, and revolution.",
     teamId: "team-i",
   },
   {

@@ -18,6 +18,7 @@ export default function(server) {
     clipIds: [
       "i-01",
       "i-02",
+      "i-03",
     ]
   });
   const teamT = server.create("team", {
@@ -30,6 +31,7 @@ export default function(server) {
     clipIds: [
       "t-01",
       "t-02",
+      "t-03",
     ]
   });
   const teamS = server.create("team", {
