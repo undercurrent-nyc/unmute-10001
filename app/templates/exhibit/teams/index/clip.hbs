@@ -11,14 +11,14 @@
             <h3 class="text-sm md:text-sm font-bold">“{{@model.title}}”<br>
               <span class="hidden md:inline">{{format-date @model.postDate}}</span>
             </h3>
-            <p class="hidden md:block pt-10 text-xs">{{@model.description}}</p>
+            <p class="hidden md:block pt-10 text-xs">{{markdown-to-html @model.description}}</p>
 
           </div>
         </TeamLogoHeader>
     </TwoColumn::One>
     <TwoColumn::Two>
       <Clip @clip={{@model}} />
-      <p class="block md:hidden py-4 text-xs">{{@model.description}}</p>
+      <p class="block md:hidden py-4 text-xs">{{markdown-to-html @model.description}}</p>
     </TwoColumn::Two>
   </TwoColumn>
 </div>

@@ -69,6 +69,15 @@ export default [
     teamId: "team-j",
   },
   {
+    id: "j-03",
+    title: "Pressing on with Alexander and Terttu",
+    vimeoCode: 448877081,
+    duration: "15:11",
+    postDate: new Date(2020, 7, 7),
+    description: "Tertuu and Alexander further develop their preliminary concepts, and decide on focusing on a single location in the city to be examined from each of their perspectives, and practices. Alexander discusses the power of juxtaposition in film, referencing Bresson’s _Au Hasard Balthazar_.",
+    teamId: "team-j",
+  },
+  {
     id: "s-01",
     title: "Icebreaker with Luisa and Ada, 1",
     vimeoCode: 445508593,
@@ -145,6 +154,15 @@ export default [
     duration: "21:51",
     postDate: new Date(2020, 6, 31),
     description: "Justyna and Ieva go through a brief evolution of their work and the subject matter that surrounds their concepts.",
+    teamId: "team-z",
+  },
+  {
+    id: "z-04",
+    title: "Pressing on with Ieva and Justyna",
+    vimeoCode: 448878947,
+    duration: "12:24",
+    postDate: new Date(2020, 7, 6),
+    description: "Justyna and Ieva begin exploring their shared interests and concerns over climate change, specifically melting glaciers, and how to integrate that into their collaborative project.",
     teamId: "team-z",
   },
 ];
