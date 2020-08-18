@@ -74,7 +74,6 @@ export default [
     vimeoCode: 445508593,
     duration: "11:42",
     postDate: new Date(2020, 7, 2),
-    description: "Ada and Luisa share their experiences living in NYC and abroad and how they found home in a foreign place.",
     teamId: "team-s",
   },
   {
@@ -82,7 +81,17 @@ export default [
     title: "Icebreaker with Ada and Luisa, 2",
     vimeoCode: 446981548,
     duration: "16:10",
+    description: "Ada and Luisa share their experiences living in NYC and abroad and how they found home in a foreign place.",
     postDate: new Date(2020, 7, 2),
+    teamId: "team-s",
+  },
+  {
+    id: "s-03",
+    title: "Pressing on with Luisa and Ada",
+    vimeoCode: 448540175,
+    duration: "14:13",
+    postDate: new Date(2020, 7, 7),
+    description: "Ada and Luisa explore their impressions of industrial landscapes flushed against raw nature, drawing parallels to their own practices and how they are connected.",
     teamId: "team-s",
   },
   {
@@ -101,6 +110,15 @@ export default [
     duration: "9:00",
     postDate: new Date(2020, 7, 2),
     description: "Nicola and Mariella zero in on a concept for their project and make a game plan at how they will tap into the essence of the city through their material and compositional skills.",
+    teamId: "team-l",
+  },
+  {
+    id: "l-03",
+    title: "Pressing on with Mariella and Nicola",
+    vimeoCode: 448540675,
+    duration: "12:00",
+    postDate: new Date(2020, 7, 7),
+    description: "Nicola and Mariella explore the crossover of their practices, and how they will create an organic dialogue for their final project.",
     teamId: "team-l",
   },
   {
