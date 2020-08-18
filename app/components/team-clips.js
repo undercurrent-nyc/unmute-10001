@@ -9,12 +9,9 @@ export default class TeamClipsComponent extends Component {
       return this.args.clips
     }
 
-    let limit = 3
     const clips = this.args.clips.toArray();
 
-    clips.length > 3 ? limit = clips.length : limit;
-
-    for(let i = 0; i <= limit; i += 1) {
+    for(let i = 0; i < clips.length; i += 1) {
 
       this.insertDummy(i);
 
