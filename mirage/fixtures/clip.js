@@ -44,11 +44,20 @@ export default [
   },
   {
     id: "i-03",
-    title: "Pressing on with Kira and Jonas",
+    title: "Pressing on with Kira and Jonas, 1",
     vimeoCode: 448175486,
     duration: "13:07",
     postDate: new Date(2020, 7, 5),
     description: "Jonas and Kira discuss the crossroads of universal languages, misunderstandings, and revolution.",
+    teamId: "team-i",
+  },
+  {
+    id: "i-04",
+    title: "Pressing on with Jonas and Kira, 2",
+    vimeoCode: 450207292,
+    duration: "13:35",
+    postDate: new Date(2020, 7, 12),
+    description: "Kira and Jonas meet in person, on a rooftop in Manhattan, and discuss how soundscapes, the city, and spontaneity could collide as an expressive element in their project.",
     teamId: "team-i",
   },
   {
@@ -123,11 +132,20 @@ export default [
   },
   {
     id: "l-03",
-    title: "Pressing on with Mariella and Nicola",
+    title: "Pressing on with Mariella and Nicola, 1",
     vimeoCode: 448540675,
     duration: "12:00",
     postDate: new Date(2020, 7, 7),
     description: "Nicola and Mariella explore the crossover of their practices, and how they will create an organic dialogue for their final project.",
+    teamId: "team-l",
+  },
+  {
+    id: "l-04",
+    title: "Pressing on with Nicola and Mariella, 2",
+    vimeoCode: 450210892,
+    duration: "9:13",
+    postDate: new Date(2020, 7, 10),
+    description: "",
     teamId: "team-l",
   },
   {
