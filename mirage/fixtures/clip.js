@@ -18,11 +18,20 @@ export default [
   },
   {
     id: "t-03",
-    title: "Pressing on with Saddie and Anna",
+    title: "Pressing on with Saddie and Anna, 1",
     vimeoCode: 448175805,
     duration: "9:46",
     postDate: new Date(2020, 7, 4),
     description: "Anna and Saddie confront the predicament of finding a link between their respective practices, but eventually decide on a game plan moving forward that allows space for both.",
+    teamId: "team-t",
+  },
+  {
+    id: "t-04",
+    title: "Pressing on with Anna and Saddie, 2",
+    vimeoCode: 450320342,
+    duration: "13:31",
+    postDate: new Date(2020, 7, 17),
+    description: "Anna and Saddie discuss how the process of “10001” has resulted in their finding common ground between their disparate practices. Anna’s interest in pinpointing apocalyptic desires in our society leads to her and Saddie discussing the delicate balance between human activity and the natural world.",
     teamId: "team-t",
   },
   {
@@ -105,11 +114,20 @@ export default [
   },
   {
     id: "s-03",
-    title: "Pressing on with Luisa and Ada",
+    title: "Pressing on with Luisa and Ada, 1",
     vimeoCode: 448540175,
     duration: "14:13",
     postDate: new Date(2020, 7, 7),
     description: "Ada and Luisa explore their impressions of industrial landscapes flushed against raw nature, drawing parallels to their own practices and how they are connected.",
+    teamId: "team-s",
+  },
+  {
+    id: "s-04",
+    title: "Pressing on with Ada and Luisa, 2",
+    vimeoCode: 450321958,
+    duration: "9:49",
+    postDate: new Date(2020, 7, 10),
+    description: "",
     teamId: "team-s",
   },
   {
