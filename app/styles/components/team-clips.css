@@ -11,3 +11,12 @@
 .team-clips .simplebar-content {
   @apply flex flex-row
 }
+
+/* .team-clips .simplebar-track.simplebar-horizontal { */
+/*   height: 50px; */
+/* } */
+
+/* .team-clips .simplebar-track.simplebar-horizontal .simplebar-scrollbar { */
+/*   height: 45px; */
+/* } */
+
