@@ -9,6 +9,8 @@ export default class TeamClipsComponent extends Component {
       return this.args.clips
     }
 
+    this.clipsWithDummies = [];
+
     const clips = this.args.clips.toArray();
 
     for(let i = 0; i < clips.length; i += 1) {
