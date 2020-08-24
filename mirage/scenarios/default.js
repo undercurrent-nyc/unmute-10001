@@ -62,6 +62,7 @@ export default function(server) {
       "z-02",
       "z-03",
       "z-04",
+      "z-05",
     ]
   });
   const teamL = server.create("team", {
@@ -89,6 +90,7 @@ export default function(server) {
       "j-01",
       "j-02",
       "j-03",
+      "j-04",
     ]
   });
 }

@@ -88,11 +88,20 @@ export default [
   },
   {
     id: "j-03",
-    title: "Pressing on with Alexander and Terttu",
+    title: "Pressing on with Alexander and Terttu, 1",
     vimeoCode: 448877081,
     duration: "15:11",
     postDate: new Date(2020, 7, 7),
     description: "Terttu and Alexander further develop their preliminary concepts, and decide on focusing on a single location in the city to be examined from each of their perspectives, and practices. Alexander discusses the power of juxtaposition in film, referencing Bresson’s _Au Hasard Balthazar_.",
+    teamId: "team-j",
+  },
+  {
+    id: "j-04",
+    title: "Pressing on with Terttu and Alexander, 2",
+    vimeoCode: 450795942,
+    duration: "15:24",
+    postDate: new Date(2020, 7, 9),
+    description: "Alex and Terttu discuss the influence of Chris Marker and the power of utilizing themes of obscurity in film and photography. Terttu gears up to go out and photograph.",
     teamId: "team-j",
   },
   {
@@ -194,11 +203,20 @@ export default [
   },
   {
     id: "z-04",
-    title: "Pressing on with Ieva and Justyna",
+    title: "Pressing on with Ieva and Justyna, 1",
     vimeoCode: 448878947,
     duration: "12:24",
     postDate: new Date(2020, 7, 6),
     description: "Justyna and Ieva begin exploring their shared interests and concerns over climate change, specifically melting glaciers, and how to integrate that into their collaborative project.",
+    teamId: "team-z",
+  },
+  {
+    id: "z-05",
+    title: "Pressing on with Justyna and Ieva, 2",
+    vimeoCode: 450800269,
+    duration: "16:59",
+    postDate: new Date(2020, 7, 8),
+    description: "Justyna and Ieva focus on the importance of presence and experience rather than passive viewership as they begin to consider how animation and virtual reality can better communicate global warming concerns, especially in regards to inaccessible locations.",
     teamId: "team-z",
   },
 ];
