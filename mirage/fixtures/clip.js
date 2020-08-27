@@ -70,6 +70,15 @@ export default [
     teamId: "team-i",
   },
   {
+    id: "i-05",
+    title: "In Tempo with Kira and Jonas",
+    vimeoCode: 451961439,
+    duration: "19:18",
+    postDate: new Date(2020, 7, 16),
+    description: "Kira and Jonas explore what type of medium they will engage with for their collaborative project, and what types of techniques and approaches they will employ.",
+    teamId: "team-i",
+  },
+  {
     id: "j-01",
     title: "Icebreaker with Alexander and Terttu, 1",
     vimeoCode: 445426453,
@@ -102,6 +111,15 @@ export default [
     duration: "15:24",
     postDate: new Date(2020, 7, 9),
     description: "Alex and Terttu discuss the influence of Chris Marker and the power of utilizing themes of obscurity in film and photography. Terttu gears up to go out and photograph.",
+    teamId: "team-j",
+  },
+  {
+    id: "j-05",
+    title: "Alexander and Terttu in Tempo",
+    vimeoCode: 451963153,
+    duration: "14:47",
+    postDate: new Date(2020, 7, 14),
+    description: "Terttu elaborates on her preliminary research and discusses her shifting practice lent by a more improvisational approach. While figuring out a way to create more visual dialogue, Alex and Terttu decide on photography to achieve that end.",
     teamId: "team-j",
   },
   {
