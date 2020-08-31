@@ -6,6 +6,19 @@ module.exports = function(environment) {
     environment,
     rootURL: '/',
     locationType: 'auto',
+    metricsAdapters: [
+      {
+        name: "GoogleAnalytics",
+        environments: ["development", "production"],
+        config: {
+          id: "UA-176143043-1",
+          debug: environment === "development",
+          trace: environment === "development",
+          sendHitTask: environment === "development",
+          // require: ["ecommerce"]
+        },
+      },
+    ],
     emberHifi: {
       connections: [
         {name: 'NativeAudio', config: {}},
