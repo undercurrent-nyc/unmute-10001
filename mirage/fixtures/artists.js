@@ -67,7 +67,7 @@ export default [
     id: "alex-camilleri",
     countryId: "malta",
     firstName: "Alex", lastName: "Camilleri",
-    websiteUrl: "https://alex-camilleri.com",
+    websiteUrl: "http://alex-camilleri.com",
     avatarUrl: "https://i.imgur.com/bbjjhR0.jpg",
     instagramName: "alexcamilleri",
   },

@@ -35,6 +35,15 @@ export default [
     teamId: "team-t",
   },
   {
+    id: "t-05",
+    title: "Saddie and Ana in Tempo",
+    vimeoCode: 452642501,
+    duration: "13:43",
+    postDate: new Date(2020, 7, 17),
+    description: "Saddle and Anna discuss the viral images of various cities being taken over by wild animals, the delicate balance that by mere human absence will result in these industrial spaces traversed by non-domesticated animals. Saddle discuses interest in the conceptual possibilities of instrumenting mass silence, citeing Islam and other religions.",
+    teamId: "team-t",
+  },
+  {
     id: "i-01",
     title: "Icebreaker with Kira and Jonas, 1",
     vimeoCode: 445037357,
@@ -158,6 +167,15 @@ export default [
     teamId: "team-s",
   },
   {
+    id: "s-05",
+    title: "Luisa and Ada in Tempo",
+    vimeoCode: 452639509,
+    duration: "9:13",
+    postDate: new Date(2020, 7, 13),
+    description: "Ada and Luisa discuss the creative process as a safe space, and share their feelings about the documentation procedure of this project.",
+    teamId: "team-s",
+  },
+  {
     id: "l-01",
     title: "Icebreaker with Mariella and Nicola, 1",
     vimeoCode: 445821516,
@@ -191,6 +209,15 @@ export default [
     duration: "9:13",
     postDate: new Date(2020, 7, 10),
     description: "",
+    teamId: "team-l",
+  },
+  {
+    id: "l-05",
+    title: "Mariella and Nicola in Tempo",
+    vimeoCode: 452640495,
+    duration: "11:59",
+    postDate: new Date(2020, 7, 14),
+    description: "Nicola discusses the desire to incorporate human rights issues such as the impending and current U.S. housing crisis into her work, as Mariella touches upon a conceptual interest in incorporating found sound in her compositions. Both share giggles when Nicola shares her preoccupation with scoring a “perfect tomato”, which results in a deeper conversation regarding access to clean food and healthcare.",
     teamId: "team-l",
   },
   {
@@ -235,6 +262,15 @@ export default [
     duration: "16:59",
     postDate: new Date(2020, 7, 8),
     description: "Justyna and Ieva focus on the importance of presence and experience rather than passive viewership as they begin to consider how animation and virtual reality can better communicate global warming concerns, especially in regards to inaccessible locations.",
+    teamId: "team-z",
+  },
+  {
+    id: "z-06",
+    title: "Ieva and Justyna in Tempo",
+    vimeoCode: 452641970,
+    duration: "17:09",
+    postDate: new Date(2020, 7, 14),
+    description: "Ieva and Justyna discuss global warming’s impact on a personal and global level. They dive deeper into their project, identifying issues and problem solving blind spots.",
     teamId: "team-z",
   },
 ];
