@@ -11,7 +11,7 @@ export default class TeamClipsComponent extends Component {
 
     this.clipsWithDummies = [];
 
-    const clips = this.args.clips.toArray();
+    const clips = this.args.clips.toArray().reverse();
 
     for(let i = 0; i < clips.length; i += 1) {
 
