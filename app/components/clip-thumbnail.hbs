@@ -5,10 +5,10 @@
         <div class="h-full w-full bg-{{@clip.color}}">&nbsp; </div>
       {{else}}
         <div class="h-full w-full {{color.background}}">
-          <div class="absolute bottom-0 left-0 {{color.text}} flex flex-col justify-end p-4 md:p-6">
-              <p class="font-bold text-xs md:text-base">
-                <span class="w-8 inline-block">{{svg-jar "voicemail" class="fill-current inline h-5 align-top"}}</span><span class="sr-only">Recorded On:</span> {{format-date @clip.recordDate}}<br>
-                <span class="w-8 inline-block">{{svg-jar "file-upload" class="fill-current inline h-4"}}</span><span class="sr-only">Posted On:</span>  {{format-date @clip.postDate}}<br>
+          <div class="absolute bottom-0 left-0 {{color.text}} flex flex-col justify-end px-4 py-2 md:p-6">
+              <p class="font-bold text-xs md:text-base leading-tight">
+                <span class="w-5 md:w-8 inline-block">{{svg-jar "voicemail" class="fill-current inline h-3 md:h-5 align-top"}}</span><span class="sr-only">Recorded On:</span> {{format-date @clip.recordDate}}<br>
+                <span class="w-5 md:w-8 inline-block">{{svg-jar "file-upload" class="fill-current inline h-3 md:h-4"}}</span><span class="sr-only">Posted On:</span>  {{format-date @clip.postDate}}<br>
               </p>
           </div>
         </div>
@@ -20,7 +20,7 @@
           {{on "mouseout" this.toggleShaded}}
           >
         </LinkTo>
-        <div class="pointer-events-none absolute bottom-0 left-0 text-white flex flex-col justify-end p-4 md:p-6 z-20">
+        <div class="pointer-events-none absolute bottom-0 left-0 text-white flex flex-col justify-end px-4 py-2 md:p-6 z-20">
           <LinkTo 
             class="clip-text md:text-base"
             
@@ -28,9 +28,9 @@
             {{on "mouseover" this.toggleShaded}} 
             {{on "mouseout" this.toggleShaded}}
             >
-            <p class="{{if this.shaded "opacity-100 text-accent-500" "opacity-0"}} hover:opacity-100 text-xs md:text-base">
-              <span class="w-8 inline-block">{{svg-jar "voicemail" class="fill-current inline h-5 align-top"}}</span><span class="sr-only">Recorded On:</span>  {{format-date @clip.recordDate}}<br>
-                  <span class="w-8 inline-block">{{svg-jar "file-upload" class="fill-current inline h-4"}}</span><span class="sr-only">Posted On:</span>  {{format-date @clip.postDate}}<br>
+            <p class="{{if this.shaded "opacity-100 text-accent-500" "opacity-0"}} hover:opacity-100 text-xs md:text-base leading-tight">
+                <span class="w-5 md:w-8 inline-block">{{svg-jar "voicemail" class="fill-current inline h-3 md:h-5 align-top"}}</span><span class="sr-only">Recorded On:</span> {{format-date @clip.recordDate}}<br>
+                <span class="w-5 md:w-8 inline-block">{{svg-jar "file-upload" class="fill-current inline h-3 md:h-4"}}</span><span class="sr-only">Posted On:</span>  {{format-date @clip.postDate}}<br>
             </p>
           </LinkTo>
         </div>
