@@ -13,7 +13,8 @@
           </div>
         </div>
         {{svg-jar "play-button" class="fill-current absolute bottom-0 left-0 w-full h-full"}}
-        <LinkTo class="clip-link"
+        <LinkTo 
+          class="clip-link hover:opacity-75 {{if this.shaded "opacity-75" "opacity-0"}}"
           @route={{@clickRoute}} 
           @model={{@clip}}
           {{on "mouseover" this.toggleShaded}}
