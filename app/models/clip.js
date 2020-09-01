@@ -8,6 +8,7 @@ export default class ClipModel extends Model {
   @attr('string') duration;
   @attr('string') thumbnailUrl;
   @attr('string') description;
+  @attr('date') recordDate;
   @attr('date') postDate;
   @attr('boolean') dummy;
   @belongsTo('team') team;
