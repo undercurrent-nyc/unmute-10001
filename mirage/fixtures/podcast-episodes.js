@@ -1,5 +1,16 @@
 export default [
   {
+    id: "3",
+    sound: "https://chtbl.com/track/9474E/https://dts.podtrac.com/redirect.mp3/static1.squarespace.com/static/55199391e4b0f81fe422a536/t/5f4ee810b1e2cd057b73171d/1599006833107/e14_mixdown.mp3",
+    duration: "16:09",
+    postDate: "09/01",
+    number: 3,
+    url: "http://feedproxy.google.com/~r/undercurrent70/podcast/~3/3w0wJKxwheQ/10001-pressing-on",
+    imageURL: "https://images.squarespace-cdn.com/content/v1/55199391e4b0f81fe422a536/1599005868169-WHQ3THL61XF2LXKPERQ2/ke17ZwdGBToddI8pDm48kPNavg8tWO0Q2vbuhQvBHMZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmEkY4w3IC-ul6iJRwaiU0QAqcQIfZYmaXuEFLMfjVgwWs9FyACT1Q8HS9DWpuNWfx/teams.png?format=1500w",
+    title: "“10001” Pressing On",
+    streamInfo: "Adriana and Moacir review the second week of videos to the virtual collaboration “10001,” focusing on Team T, featuring Saddie Choua and Anna Bera, and Team I, with Kira Nova and Jonas Tarm.  Adriana also talks about what she’s learning from editing team videos. Next, Adriana asks Moacir for more detail about Daniel Jodocy’s show “Soundboxgarden.”",
+  },
+  {
     id: "2",
     sound: "https://chtbl.com/track/9474E/https://dts.podtrac.com/redirect.mp3/static1.squarespace.com/static/55199391e4b0f81fe422a536/t/5f418b0a0502cb348f9f9cb5/1598131014433/e12_mixdown_better_cover.mp3",
     duration: "14:52",
