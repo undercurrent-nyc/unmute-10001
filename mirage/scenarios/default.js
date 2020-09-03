@@ -21,6 +21,7 @@ export default function(server) {
       "i-03",
       "i-04",
       "i-05",
+      "i-06",
     ]
   });
   const teamT = server.create("team", {
@@ -36,6 +37,7 @@ export default function(server) {
       "t-03",
       "t-04",
       "t-05",
+      "t-06",
     ]
   });
   const teamS = server.create("team", {
@@ -51,6 +53,7 @@ export default function(server) {
       "s-03",
       "s-04",
       "s-05",
+      "s-06",
     ]
   });
   const teamZ = server.create("team", {
@@ -67,6 +70,7 @@ export default function(server) {
       "z-04",
       "z-05",
       "z-06",
+      "z-07",
     ]
   });
   const teamL = server.create("team", {
@@ -82,6 +86,7 @@ export default function(server) {
       "l-03",
       "l-04",
       "l-05",
+      "l-06",
     ]
   });
   const teamJ = server.create("team", {
@@ -97,6 +102,7 @@ export default function(server) {
       "j-03",
       "j-04",
       "j-05",
+      "j-06",
     ]
   });
 }
