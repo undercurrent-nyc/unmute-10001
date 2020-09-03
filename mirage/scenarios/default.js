@@ -15,6 +15,7 @@ export default function(server) {
     tetrominoUrl: "/assets/png/team-i.png",
     artistIds: ["kira-nova", "jonas-tarm"],
     startingDate: "Thursday, 08/06",
+    consultantId: "john-baldacchino",
     clipIds: [
       "i-01",
       "i-02",
@@ -31,6 +32,7 @@ export default function(server) {
     tetrominoUrl: "/assets/png/team-t.png",
     artistIds: ["saddie-choua", "anna-bera"],
     startingDate: "Thursday, 08/06",
+    consultantId: "john-baldacchino",
     clipIds: [
       "t-01",
       "t-02",
@@ -47,6 +49,7 @@ export default function(server) {
     tetrominoUrl: "/assets/png/team-s.png",
     artistIds: ["luisa-muhr", "ada-van-hoorebeke"],
     startingDate: "Friday, 08/07",
+    consultantId: "carolina-rubio-macwright",
     clipIds: [
       "s-01",
       "s-02",
@@ -62,6 +65,7 @@ export default function(server) {
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-z.png",
     artistIds: ["justyna-gorowska", "ieva-mediodia"],
+    consultantId: "sozita-goudouna",
     startingDate: "Saturday, 08/08",
     clipIds: [
       "z-01",
@@ -80,6 +84,7 @@ export default function(server) {
     tetrominoUrl: "/assets/png/team-l.png",
     artistIds: ["nicola-ginzel", "mariella-cassar-cordina"],
     startingDate: "Saturday, 08/08",
+    consultantId: "sozita-goudouna",
     clipIds: [
       "l-01",
       "l-02",
@@ -95,6 +100,7 @@ export default function(server) {
     projectTitle: "Untitled Collaborative Project",
     tetrominoUrl: "/assets/png/team-j.png",
     artistIds: ["terttu-uibopuu", "alex-camilleri"],
+    consultantId: "carolina-rubio-macwright",
     startingDate: "Friday, 08/07",
     clipIds: [
       "j-01",

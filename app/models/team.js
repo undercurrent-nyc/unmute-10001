@@ -1,4 +1,4 @@
-import Model, { attr, hasMany } from '@ember-data/model';
+import Model, { attr, belongsTo, hasMany } from '@ember-data/model';
 
 export default class TeamModel extends Model {
   @attr('string') name;
@@ -7,6 +7,7 @@ export default class TeamModel extends Model {
   @attr('string') description;
   @attr('string') projectTitle;
   @attr('string') startingDate;
+  @belongsTo("consultant") consultant;
   @hasMany('artist') artists;
   @hasMany('clips') clips;
 

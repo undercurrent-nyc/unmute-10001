@@ -25,6 +25,7 @@ export default function() {
   */
 
   this.resource("artist");
+  this.resource("consultant");
   this.resource("clip");
   this.resource("country");
   this.resource("podcast-episode");
