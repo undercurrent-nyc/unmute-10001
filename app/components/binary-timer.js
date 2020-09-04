@@ -7,7 +7,8 @@ export default class BinaryTimerComponent extends Component {
     repeat();
 
     function repeat() {
-      const liveTime = new Date("2020-09-11T13:00:00");
+      const liveTime = 1599843600000;
+      // const liveTime = new Date("2020-09-11T13:00:00");
       const now = new Date();
       const diff = Math.floor((liveTime - now)/1000);
       if (diff > 0) {
@@ -15,7 +16,7 @@ export default class BinaryTimerComponent extends Component {
           .toString(2)
           .padStart(20, "0")
           .split("").forEach( (value, index) => {
-            d3.select(`.binary-timer-block-${index}`)
+            d3.selectAll(`.binary-timer-block-${index}`)
               .transition()
               .duration(1000)
               .ease(d3.easeSinIn)

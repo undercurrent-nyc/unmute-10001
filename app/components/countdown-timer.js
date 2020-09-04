@@ -3,7 +3,9 @@ import { tracked } from "@glimmer/tracking";
 import { action } from "@ember/object";
 
 export default class CountdownTimerComponent extends Component {
-  liveTime = new Date("2020-09-11T13:00:00");
+  
+  // liveTime = new Date("2020-09-11T13:00:00");
+  liveTime = 1599843600000;
 
   @tracked diff = {};
 

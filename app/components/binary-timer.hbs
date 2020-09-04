@@ -1,5 +1,10 @@
-<div class="hidden md:block w-full text-white"
-     {{did-insert this.runBinaryTimer}}
+<div class="w-full text-white"
+   {{did-insert this.runBinaryTimer}}
      >
-  {{svg-jar "binary-timer" class="fill-current binary-timer w-full"}}
+  <div class="md:hidden w-full">
+    {{svg-jar "binary-timer-mobile" class="fill-current binary-timer w-full"}}
+  </div>
+  <div class="hidden md:block w-full" >
+    {{svg-jar "binary-timer-desktop" class="fill-current binary-timer w-full"}}
+  </div>
 </div>
