@@ -11,5 +11,6 @@ export default class ClipModel extends Model {
   @attr('date') recordDate;
   @attr('date') postDate;
   @attr('boolean') dummy;
+  @attr('boolean') consultant;
   @belongsTo('team') team;
 }
