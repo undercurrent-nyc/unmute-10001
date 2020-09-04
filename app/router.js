@@ -24,5 +24,6 @@ Router.map(function() {
       this.route('episode', { path: 'episode/:id' });
     });
     this.route('about');
+    this.route('unveiling');
   });
 });

@@ -1,0 +1,24 @@
+<svg id="binary-timer-desktop-svg" data-name="binary-timer-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61.8 77.67">
+  <g class="binary-timer-blocks">
+    <rect class="binary-timer-block-0"  width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-1"  x="15.87" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-2"  x="31.75" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-3"  x="47.62" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-4"  y="15.87" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-5"  x="15.87" y="15.87" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-6"  x="31.75" y="15.87" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-7"  x="47.62" y="15.87" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-8"  y="31.75" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-9"  x="15.87" y="31.75" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-10"  x="31.75" y="31.75" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-11"  x="47.62" y="31.75" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-12"  y="47.62" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-13"  x="15.87" y="47.62" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-14"  x="31.75" y="47.62" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-15"  x="47.62" y="47.62" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-16"  y="63.5" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-17"  x="15.87" y="63.5" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-18"  x="31.75" y="63.5" width="14.17" height="14.17"/>
+    <rect class="binary-timer-block-19"  x="47.62" y="63.5" width="14.17" height="14.17"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<div 
+  {{did-insert this.startClock}}
+  >
+  {{#if this.live}}
+    <p class="pb-6">The Unveiling has begun. Follow along on 
+      <a class="text-gray-600" href="https://zoom.us/j/99159405929" target="_blank">Undercurrent’s Zoom channel</a>.
+    </p>
+    {{ yield }}
+  {{else}}
+      <p class="pb-6">The unveiling begins in {{this.diff.days}} days, {{this.diff.hours}} hours, and {{this.diff.minutes}} minutes.</p>
+      {{ yield }}
+      <p>Join the unveiling on Sept. 11 at 
+        <a class="text-gray-600"href="https://zoom.us/j/99159405929" target="_blank">Undercurrent’s Zoom channel</a>.
+      </p>
+  {{/if}}
+</div>
+
