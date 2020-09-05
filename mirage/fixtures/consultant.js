@@ -1,7 +1,8 @@
 export default [
   {
     id: "sozita-goudouna",
-    name: "Sozita Goudouna",
+    firstName: "Sozita",
+    lastName: "Goudouna",
     websiteUrl: "https://cuny.academia.edu/DrSozitaGoudouna",
     avatarUrl: "https://i.imgur.com/Bjrrxxl.jpg",
     bio: "Bio",
@@ -9,7 +10,8 @@ export default [
   },
   {
     id: "carolina-rubio-macwright",
-    name: "Carolina Rubio-MacWright",
+    firstName: "Carolina",
+    lastName: "Rubio-MacWright",
     websiteUrl: "http://www.touchingland.org",
     avatarUrl: "https://i.imgur.com/bmpr2kT.jpg",
     bio: "Bio",
@@ -17,7 +19,8 @@ export default [
   },
   {
     id: "john-baldacchino",
-    name: "John Baldacchino",
+    firstName: "John",
+    lastName: "Baldacchino",
     websiteUrl: "https://www.johnbaldacchino.com",
     avatarUrl: "https://i.imgur.com/Z4u0EUC.jpg",
     bio: "Bio",
