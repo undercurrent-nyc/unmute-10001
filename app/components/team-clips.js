@@ -11,7 +11,17 @@ export default class TeamClipsComponent extends Component {
 
     this.clipsWithDummies = [];
 
-    const clips = this.args.clips.toArray().reverse();
+    let clips = this.args.clips.toArray().sort((a, b) => {
+      if (a.postDate > b.postDate) {
+        return -1;
+      }
+
+      return 1;
+    });
+
+    if(this.args.consultants) {
+      clips = clips.filter(v => v.consultant);
+    }
 
     for(let i = 0; i < clips.length; i += 1) {
 

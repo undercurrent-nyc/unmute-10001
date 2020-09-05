@@ -10,7 +10,7 @@ export default class ClipModel extends Model {
   @attr('string') description;
   @attr('date') recordDate;
   @attr('date') postDate;
-  @attr('boolean') dummy;
-  @attr('boolean') consultant;
+  @attr('boolean', { defaultValue: false }) dummy;
+  @attr('boolean', { defaultValue: false }) consultant;
   @belongsTo('team') team;
 }

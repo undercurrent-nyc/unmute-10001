@@ -1,7 +1,11 @@
 <div class="team-clips h-full w-full">
   <SimpleBar>
     {{#each this.clips as |clip|}}
-      <ClipThumbnail @showScrollBar={{this.showScrollBar}} @clickRoute={{@clickRoute}} @clip={{clip}} />
+      <ClipThumbnail 
+        @showScrollBar={{this.showScrollBar}} 
+        @showTeam={{@consultants}}
+        @clickRoute={{@clickRoute}} 
+        @clip={{clip}} />
     {{/each}}
   </SimpleBar>
 </div>

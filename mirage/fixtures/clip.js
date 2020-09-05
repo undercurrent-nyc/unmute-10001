@@ -7,6 +7,7 @@ export default [
     recordDate: new Date(2020, 6, 31),
     postDate: new Date(2020, 7, 5),
     description: "Anna and Saddie consider the integrity of identity politics within work. Both artists also discuss their utilization of the archive, with Saddle working more within the digital realm, and Anna with an emphasis on sculpture.",
+    consultant: true,
     teamId: "team-t",
   },
   {
@@ -16,6 +17,7 @@ export default [
     duration: "13:36",
     recordDate: new Date(2020, 6, 31),
     postDate: new Date(2020, 7, 11),
+    consultant: false,
     teamId: "team-t",
   },
   {
@@ -26,6 +28,7 @@ export default [
     recordDate: new Date(2020, 7, 4),
     postDate: new Date(2020, 7, 16),
     description: "Anna and Saddie confront the predicament of finding a link between their respective practices, but eventually decide on a game plan moving forward that allows space for both.",
+    consultant: false,
     teamId: "team-t",
   },
   {
@@ -36,6 +39,7 @@ export default [
     recordDate: new Date(2020, 7, 17),
     postDate: new Date(2020, 7, 22),
     description: "Anna and Saddie discuss how the process of “10001” has resulted in their finding common ground between their disparate practices. Anna’s interest in pinpointing apocalyptic desires in our society leads to her and Saddie discussing the delicate balance between human activity and the natural world.",
+    consultant: false,
     teamId: "team-t",
   },
   {
@@ -46,6 +50,7 @@ export default [
     recordDate: new Date(2020, 7, 17),
     postDate: new Date(2020, 7, 31),
     description: "Saddie and Anna discuss the viral images of various cities being taken over by wild animals, the delicate balance that by mere human absence will result in these industrial spaces traversed by non-domesticated animals. Saddie discuses interest in the conceptual possibilities of instrumenting mass silence, citing Islam and other religions.",
+    consultant: false,
     teamId: "team-t",
   },
   {
@@ -56,6 +61,7 @@ export default [
     recordDate: new Date(2020, 7, 17),
     postDate: new Date(2020, 8, 3),
     description: "Team T considers the fertile materiality of silence, and how it can be harnessed to create somatic moments of pauses in our quotidian day to day.",
+    consultant: false,
     teamId: "team-t",
   },
   {
@@ -65,6 +71,7 @@ export default [
     duration: "12:38",
     recordDate: new Date(2020, 6, 28),
     postDate: new Date(2020, 7, 5),
+    consultant: false,
     teamId: "team-i",
   },
   {
@@ -75,6 +82,7 @@ export default [
     recordDate: new Date(2020, 6, 30),
     postDate: new Date(2020, 7, 11),
     description: "Kira and Jonas discuss how they got their start: Jonas studied violin and piano while Kira studied clowning.",
+    consultant: false,
     teamId: "team-i",
   },
   {
@@ -85,6 +93,7 @@ export default [
     recordDate: new Date(2020, 7, 5),
     postDate: new Date(2020, 7, 16),
     description: "Jonas and Kira discuss the crossroads of universal languages, misunderstandings, and revolution.",
+    consultant: false,
     teamId: "team-i",
   },
   {
@@ -95,6 +104,7 @@ export default [
     recordDate: new Date(2020, 7, 12),
     postDate: new Date(2020, 7, 21),
     description: "Kira and Jonas meet in person, on a rooftop in Manhattan, and discuss how soundscapes, the city, and spontaneity could collide as an expressive element in their project.",
+    consultant: false,
     teamId: "team-i",
   },
   {
@@ -105,6 +115,7 @@ export default [
     recordDate: new Date(2020, 7, 16),
     postDate: new Date(2020, 7, 26),
     description: "Kira and Jonas explore what type of medium they will engage with for their collaborative project, and what types of techniques and approaches they will employ.",
+    consultant: false,
     teamId: "team-i",
   },
   {
@@ -115,6 +126,7 @@ export default [
     recordDate: new Date(2020, 7, 17),
     postDate: new Date(2020, 8, 3),
     description: "As Kira and Jonas explore subject matter for their project, Kira paints a metaphor of her current experience of New York City’, the end of a really good party, when it’s time to leave.",
+    consultant: false,
     teamId: "team-i",
   },
   {
@@ -124,6 +136,7 @@ export default [
     duration: "14:58",
     recordDate: new Date(2020, 6, 31),
     postDate: new Date(2020, 7, 7),
+    consultant: false,
     teamId: "team-j",
   },
   {
@@ -134,6 +147,7 @@ export default [
     description: "Terttu and Alex discuss their preference to dive deep with their work and consider the importance of maintaining honesty with political work. Terttu discusses how the pandemic has made them feel more connected to New York.",
     recordDate: new Date(2020, 7, 3),
     postDate: new Date(2020, 7, 11),
+    consultant: false,
     teamId: "team-j",
   },
   {
@@ -144,6 +158,7 @@ export default [
     recordDate: new Date(2020, 7, 7),
     postDate: new Date(2020, 7, 18),
     description: "Terttu and Alexander further develop their preliminary concepts, and decide on focusing on a single location in the city to be examined from each of their perspectives, and practices. Alexander discusses the power of juxtaposition in film, referencing Bresson’s _Au Hasard Balthazar_.",
+    consultant: false,
     teamId: "team-j",
   },
   {
@@ -154,6 +169,7 @@ export default [
     recordDate: new Date(2020, 7, 9),
     postDate: new Date(2020, 7, 23),
     description: "Alex and Terttu discuss the influence of Chris Marker and the power of utilizing themes of obscurity in film and photography. Terttu gears up to go out and photograph.",
+    consultant: false,
     teamId: "team-j",
   },
   {
@@ -164,6 +180,7 @@ export default [
     recordDate: new Date(2020, 7, 14),
     postDate: new Date(2020, 7, 26),
     description: "Terttu elaborates on her preliminary research and discusses her shifting practice lent by a more improvisational approach. While figuring out a way to create more visual dialogue, Alex and Terttu decide on photography to achieve that end.",
+    consultant: false,
     teamId: "team-j",
   },
   {
@@ -174,6 +191,7 @@ export default [
     recordDate: new Date(2020, 7, 16),
     postDate: new Date(2020, 8, 3),
     description: "Terttu and Alexander share the footage from their photo conversation, and notice the subtle ways in which each of them picked up visual cues from each other.",
+    consultant: false,
     teamId: "team-j",
   },
   {
@@ -183,6 +201,7 @@ export default [
     duration: "11:42",
     recordDate: new Date(2020, 7, 2),
     postDate: new Date(2020, 7, 7),
+    consultant: false,
     teamId: "team-s",
   },
   {
@@ -193,6 +212,7 @@ export default [
     description: "Ada and Luisa share their experiences living in NYC and abroad and how they found home in a foreign place.",
     recordDate: new Date(2020, 7, 2),
     postDate: new Date(2020, 7, 11),
+    consultant: false,
     teamId: "team-s",
   },
   {
@@ -203,6 +223,7 @@ export default [
     recordDate: new Date(2020, 7, 7),
     postDate: new Date(2020, 7, 17),
     description: "Ada and Luisa explore their impressions of industrial landscapes flushed against raw nature, drawing parallels to their own practices and how they are connected.",
+    consultant: false,
     teamId: "team-s",
   },
   {
@@ -213,6 +234,7 @@ export default [
     recordDate: new Date(2020, 7, 10),
     postDate: new Date(2020, 7, 22),
     description: "",
+    consultant: false,
     teamId: "team-s",
   },
   {
@@ -223,6 +245,7 @@ export default [
     recordDate: new Date(2020, 7, 13),
     postDate: new Date(2020, 7, 31),
     description: "Ada and Luisa discuss the creative process as a safe space, and share their feelings about the documentation procedure of this project.",
+    consultant: false,
     teamId: "team-s",
   },
   {
@@ -233,6 +256,7 @@ export default [
     recordDate: new Date(2020, 7, 13),
     postDate: new Date(2020, 8, 3),
     description: "Luisa and Ada embrace a bird’s eye view while exploring their project’s visual shape, projected experience, and concepts of human vulnerability.",
+    consultant: false,
     teamId: "team-s",
   },
   {
@@ -243,6 +267,7 @@ export default [
     recordDate: new Date(2020, 6, 29),
     postDate: new Date(2020, 7, 8),
     description: "",
+    consultant: false,
     teamId: "team-l",
   },
   {
@@ -253,6 +278,7 @@ export default [
     recordDate: new Date(2020, 7, 2),
     postDate: new Date(2020, 7, 13),
     description: "Nicola and Mariella zero in on a concept for their project and make a game plan at how they will tap into the essence of the city through their material and compositional skills.",
+    consultant: false,
     teamId: "team-l",
   },
   {
@@ -263,6 +289,7 @@ export default [
     recordDate: new Date(2020, 7, 7),
     postDate: new Date(2020, 7, 17),
     description: "Nicola and Mariella explore the crossover of their practices, and how they will create an organic dialogue for their final project.",
+    consultant: false,
     teamId: "team-l",
   },
   {
@@ -273,6 +300,7 @@ export default [
     recordDate: new Date(2020, 7, 10),
     postDate: new Date(2020, 7, 21),
     description: "",
+    consultant: false,
     teamId: "team-l",
   },
   {
@@ -283,6 +311,7 @@ export default [
     recordDate: new Date(2020, 7, 14),
     postDate: new Date(2020, 7, 31),
     description: "Nicola discusses the desire to incorporate human rights issues such as the impending and current U.S. housing crisis into her work, as Mariella touches upon a conceptual interest in incorporating found sound in her compositions. Both share giggles when Nicola shares her preoccupation with scoring a “perfect tomato”, which results in a deeper conversation regarding access to clean food and healthcare.",
+    consultant: false,
     teamId: "team-l",
   },
   {
@@ -293,6 +322,7 @@ export default [
     recordDate: new Date(2020, 7, 16),
     postDate: new Date(2020, 8, 3),
     description: "Team L discusses the passages supplied by Nicola that Mariella requested, and how they have held importance in various stages of Nicola's life, artistically and spiritually.",
+    consultant: false,
     teamId: "team-l",
   },
   {
@@ -302,6 +332,7 @@ export default [
     duration: "13:44",
     recordDate: new Date(2020, 6, 30),
     postDate: new Date(2020, 7, 8),
+    consultant: false,
     teamId: "team-z",
   },
   {
@@ -312,6 +343,7 @@ export default [
     recordDate: new Date(2020, 6, 30),
     postDate: new Date(2020, 7, 13),
     description: "Ieva and Justyna share how the pandemic let them reconsider their practice.",
+    consultant: false,
     teamId: "team-z",
   },
   {
@@ -322,6 +354,7 @@ export default [
     recordDate: new Date(2020, 6, 31),
     postDate: new Date(2020, 7, 13),
     description: "Justyna and Ieva go through a brief evolution of their work and the subject matter that surrounds their concepts.",
+    consultant: false,
     teamId: "team-z",
   },
   {
@@ -332,6 +365,7 @@ export default [
     recordDate: new Date(2020, 7, 6),
     postDate: new Date(2020, 7, 18),
     description: "Justyna and Ieva begin exploring their shared interests and concerns over climate change, specifically melting glaciers, and how to integrate that into their collaborative project.",
+    consultant: false,
     teamId: "team-z",
   },
   {
@@ -342,6 +376,7 @@ export default [
     recordDate: new Date(2020, 7, 8),
     postDate: new Date(2020, 7, 23),
     description: "Justyna and Ieva focus on the importance of presence and experience rather than passive viewership as they begin to consider how animation and virtual reality can better communicate global warming concerns, especially in regards to inaccessible locations.",
+    consultant: false,
     teamId: "team-z",
   },
   {
@@ -352,6 +387,7 @@ export default [
     recordDate: new Date(2020, 7, 14),
     postDate: new Date(2020, 7, 31),
     description: "Ieva and Justyna discuss global warming’s impact on a personal and global level. They dive deeper into their project, identifying issues and problem solving blind spots.",
+    consultant: false,
     teamId: "team-z",
   },
   {
@@ -362,6 +398,7 @@ export default [
     recordDate: new Date(2020, 7, 14),
     postDate: new Date(2020, 8, 3),
     description: "Ieva and Justyna discuss the further details of how their virtual glacier will appear and if they can humanize it with the physicality of breath.",
+    consultant: true,
     teamId: "team-z",
   },
 ];

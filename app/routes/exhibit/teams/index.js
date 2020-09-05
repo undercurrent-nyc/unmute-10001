@@ -6,6 +6,7 @@ export default class ExhibitTeamsIndexRoute extends Route {
     return RSVP.hash({
       teams: this.store.findAll("team", { include: "artists,clips" }),
       consultants: this.store.findAll("consultant"),
+      consultantClips: this.store.findAll("clip"),
     });
   }
 }
