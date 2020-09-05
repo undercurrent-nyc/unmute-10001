@@ -25,5 +25,8 @@ Router.map(function() {
     });
     this.route('about');
     this.route('unveiling');
+    this.route('consultants', function() {
+      this.route('consultant', { path: '/:id' });
+    });
   });
 });
