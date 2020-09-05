@@ -1,7 +1,7 @@
 import { Model, belongsTo, hasMany } from 'ember-cli-mirage';
 
 export default Model.extend({
-  consultant: belognsTo(),
+  consultant: belongsTo(),
   clips: hasMany(),
   artists: hasMany(),
 });
