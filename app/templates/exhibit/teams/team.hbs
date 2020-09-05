@@ -24,9 +24,19 @@
         {{/each}}
       </section>
 
+      <p class="text-sm md:text-base pt-6 md:pt-8">
+        Consultant: <LinkTo 
+          @route="exhibit.consultants.consultant"
+          @model="@model.consultant"
+          class="font-bold"
+          >
+            {{@model.consultant.fullName}}
+        </LinkTo>
+      </p>
+
       <MoreBox @heightClass="h-64">
         <TextBox>
-          <h3 class="text-sm md:text-base font-bold italic pt-6 md:pt-8 pb-2 md:pb-4">{{@model.projectTitle}} Notes</h3>
+          <h3 class="text-sm md:text-base font-bold italic pt-2 md:pt-2 pb-2 md:pb-4">{{@model.projectTitle}} Notes</h3>
 
           <p>No notes yet.</p>
         </TextBox>
