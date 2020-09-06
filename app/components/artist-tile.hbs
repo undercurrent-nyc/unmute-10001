@@ -4,7 +4,7 @@
       alt="{{@artist.firstName}} {{@artist.lastName}}"
       class="w-full h-full"
     />
-  <LinkTo @route="exhibit.artists.artist" @model={{@artist}} 
+    <LinkTo @route={{if @consultant "exhibit.consultants.consultant" "exhibit.artists.artist"}} @model={{@artist}} 
     {{on "mouseover" this.toggleShaded}}
     {{on "mouseout" this.toggleShaded}}
   >
@@ -14,7 +14,8 @@
       <LinkTo 
         class="pointer-events-auto uppercase font-bold text-sm md:text-xl"
         
-        @route="exhibit.artists.artist" @model={{@artist}} {{on "mouseover" this.toggleShaded}} {{on "mouseout" this.toggleShaded}}>
+        @route={{if @consultant "exhibit.consultants.consultant" "exhibit.artists.artist"}}
+        @model={{@artist}} {{on "mouseover" this.toggleShaded}} {{on "mouseout" this.toggleShaded}}>
       <p class="{{if this.shaded "opacity-100" "opacity-0"}} hover:opacity-100 pb-6 md:pb-8">
          {{@artist.fullName}}
       </p>

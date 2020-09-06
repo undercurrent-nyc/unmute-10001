@@ -1,1 +1,14 @@
-{{outlet}}
+<div class="pb-6">
+  {{outlet}}
+</div>
+<div class="grid gap-1 grid-cols-2 md-grid-cols-4 grid-rows-2 md:grid-rows-1 pb-0 md:pb-8">
+  {{#each (shuffle @model) as |consultant|}}
+      {{#if (eq consultant "dummy")}}
+        <div class="artist-tile">
+          <p>&nbsp;</p>
+        </div>
+      {{else}}
+        <ArtistTile @artist={{consultant}} @consultant={{true}} />
+      {{/if}}
+  {{/each}}
+</div>
