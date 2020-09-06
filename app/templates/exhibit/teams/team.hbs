@@ -27,7 +27,7 @@
       <p class="text-sm md:text-base pt-6 md:pt-8">
         Consultant: <LinkTo 
           @route="exhibit.consultants.consultant"
-          @model="@model.consultant"
+          @model={{@model.consultant.id}}
           class="font-bold"
           >
             {{@model.consultant.fullName}}
