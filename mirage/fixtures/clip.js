@@ -7,7 +7,7 @@ export default [
     recordDate: new Date(2020, 6, 31),
     postDate: new Date(2020, 7, 5),
     description: "Anna and Saddie consider the integrity of identity politics within work. Both artists also discuss their utilization of the archive, with Saddle working more within the digital realm, and Anna with an emphasis on sculpture.",
-    consultant: true,
+    consultant: false,
     teamId: "team-t",
   },
   {
@@ -431,7 +431,7 @@ export default [
     recordDate: new Date(2020, 7, 14),
     postDate: new Date(2020, 8, 3),
     description: "Ieva and Justyna discuss the further details of how their virtual glacier will appear and if they can humanize it with the physicality of breath.",
-    consultant: true,
+    consultant: false,
     teamId: "team-z",
   },
 ];
