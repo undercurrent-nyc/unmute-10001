@@ -130,7 +130,7 @@ export default [
     teamId: "team-i",
   },
   {
-    id: "i-06",
+    id: "i-07",
     title: "Kira and Jonas Consult with John",
     vimeoCode: 455100129,
     duration: "1:14:24",
