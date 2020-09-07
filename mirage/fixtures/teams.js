@@ -2,7 +2,7 @@ export default [
   {
     name: "Team I",
     id: "team-i",
-    projectTitle: "Untitled Collaborative Project",
+    projectTitle: "Careful Nordic Conclusions 🌎",
     tetrominoUrl: "/assets/png/team-i.png",
     artistIds: ["kira-nova", "jonas-tarm"],
     startingDate: "Thursday, 08/06",
@@ -37,7 +37,7 @@ export default [
   {
     name: "Team S",
     id: "team-s",
-    projectTitle: "Untitled Collaborative Project",
+    projectTitle: "Stoff Stuk",
     tetrominoUrl: "/assets/png/team-s.png",
     artistIds: ["luisa-muhr", "ada-van-hoorebeke"],
     startingDate: "Friday, 08/07",
@@ -54,7 +54,7 @@ export default [
   {
     name: "Team Z",
     id: "team-z",
-    projectTitle: "Untitled Collaborative Project",
+    projectTitle: "Arktikaantarktika 0.9 (beta version)",
     tetrominoUrl: "/assets/png/team-z.png",
     artistIds: ["justyna-gorowska", "ieva-mediodia"],
     consultantId: "sozita-goudouna",
@@ -72,7 +72,7 @@ export default [
   {
     name: "Team L",
     id: "team-l",
-    projectTitle: "Untitled Collaborative Project",
+    projectTitle: "Sonos Civitatem MMXX",
     tetrominoUrl: "/assets/png/team-l.png",
     artistIds: ["nicola-ginzel", "mariella-cassar-cordina"],
     startingDate: "Saturday, 08/08",
@@ -90,7 +90,7 @@ export default [
   {
     name: "Team J",
     id: "team-j",
-    projectTitle: "Untitled Collaborative Project",
+    projectTitle: "76% Humidity, Chance of Rain",
     tetrominoUrl: "/assets/png/team-j.png",
     artistIds: ["terttu-uibopuu", "alex-camilleri"],
     consultantId: "carolina-rubio-macwright",
