@@ -434,5 +434,16 @@ export default [
     consultant: false,
     teamId: "team-z",
   },
+  {
+    id: "z-08",
+    title: "Ieva and Justyna Consult with Sozita",
+    vimeoCode: 455353263,
+    duration: "58:08",
+    recordDate: new Date(2020, 7, 27),
+    postDate: new Date(2020, 8, 7),
+    description: "",
+    consultant: true,
+    teamId: "team-z",
+  },
 ];
 
