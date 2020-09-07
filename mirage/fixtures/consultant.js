@@ -23,7 +23,6 @@ export default [
     id: "john-baldacchino",
     firstName: "John",
     lastName: "Baldacchino",
-    instagramName: "johnbaldacchino",
     websiteUrl: "https://www.johnbaldacchino.com",
     avatarUrl: "https://i.imgur.com/Z4u0EUC.jpg",
     bio: "Bio",
