@@ -17,6 +17,7 @@ const purgeCSS = {
 
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
+    includePolyfill: true, //so it works on IEii
     postcssOptions: {
       compile: {
         plugins: [
