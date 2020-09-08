@@ -2,12 +2,18 @@
 <!-- <div class="clip-play-box w-full md:w-1/2"> 
       Needs also adjustment to padding-bottom.
 -->
-  {{#let (if @url @url 
-    (concat "https://player.vimeo.com/video/" @vimeoCode)
-    ) as |src| }}
+  {{#if @youTube}}
     <iframe 
       class="absolute top-0 left-0 w-full h-full"
-      src={{src}}
+      src={{concat "https://www.youtube-nocookie.com/embed/" @vimeoCode}}
+      frameborder="0" 
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen
+    ></iframe>
+  {{else}}
+    <iframe 
+      class="absolute top-0 left-0 w-full h-full"
+      src={{concat "https://player.vimeo.com/video/" @vimeoCode}}
       frameborder="0" 
       allow="autoplay; fullscreen" 
       allowfullscreen
@@ -15,6 +21,6 @@
       mozallowfullscreen
       >
     </iframe>
-  {{/let}}
+  {{/if}}
 </div>
 
