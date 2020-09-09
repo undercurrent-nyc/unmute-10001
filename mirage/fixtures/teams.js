@@ -20,7 +20,7 @@ export default [
   {
     name: "Team T",
     id: "team-t",
-    projectTitle: "Untitled Collaborative Project",
+    projectTitle: "CLOSE UP BLACK",
     tetrominoUrl: "/assets/png/team-t.png",
     artistIds: ["saddie-choua", "anna-bera"],
     startingDate: "Thursday, 08/06",
