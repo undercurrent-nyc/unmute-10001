@@ -1,5 +1,5 @@
  The virtual collaborative project “10001” wraps up on September 11th, 2020,
- with a [live presentation](https://www.facebook.com/events/s/the-unveiling-10001-collaborat/1441272542726896/?ti=icl) from all six participating teams, starting at 1pm,
+ with a [live presentation](https://www.facebook.com/undercurrent.nyc) from all six participating teams, starting at 1pm,
  EDT.
  
  Back on August 5, [Undercurrent](https://undercurrent.nyc) took twelve
