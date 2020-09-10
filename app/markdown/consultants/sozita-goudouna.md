@@ -1,5 +1,5 @@
 Dr. Sozita Goudouna is a professor, curator, and the author of _Beckett’s
-Breath: Anti-theatricality and the Visual Arts,” published by Edinburgh
+Breath: Anti-theatricality and the Visual Arts_, published by Edinburgh
 Critical Studies in Modernism and released in the US by Oxford University Press.
 According to William Hutchings’s review, Goudouna’s book is “surely the most
 ever said about the least in the entire history of literary criticism.” Her
