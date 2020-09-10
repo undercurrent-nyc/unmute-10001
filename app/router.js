@@ -29,4 +29,5 @@ Router.map(function() {
       this.route('consultant', { path: '/:id' });
     });
   });
+  this.route('unveiling');
 });
