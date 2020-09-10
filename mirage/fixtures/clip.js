@@ -78,7 +78,7 @@ export default [
   },
   {
     id: "t-08",
-    title: "Anna and Saddie Conclude",
+    title: "Anna and Saddie Reflect",
     vimeoCode: "n_751Ui9Q4M",
     duration: "33:15",
     recordDate: new Date(2020, 7, 27),
@@ -166,7 +166,7 @@ export default [
   },
   {
     id: "i-08",
-    title: "Jonas and Kira Conclude",
+    title: "Jonas and Kira Reflect",
     vimeoCode: "_B048p_8Eko",
     duration: "7:34",
     recordDate: new Date(2020, 8, 1),
@@ -253,7 +253,7 @@ export default [
   },
   {
     id: "j-08",
-    title: "Terttu and Alexander Conclude",
+    title: "Terttu and Alexander Reflect",
     vimeoCode: "wdNd6V8lOmE",
     duration: "12:51",
     recordDate: new Date(2020, 7, 29),
@@ -341,7 +341,7 @@ export default [
   },
   {
     id: "s-08",
-    title: "Ada and Luisa Conclude",
+    title: "Ada and Luisa Reflect",
     vimeoCode: "M5jqdGDycIo",
     duration: "16:29",
     recordDate: new Date(2020, 8, 8),
@@ -429,7 +429,7 @@ export default [
   },
   {
     id: "l-08",
-    title: "Nicola and Mariella Conclude",
+    title: "Nicola and Mariella Reflect",
     vimeoCode: "AMqoVnsWLTw",
     duration: "14:13",
     recordDate: new Date(2020, 8, 8),
@@ -527,7 +527,7 @@ export default [
   },
   {
     id: "z-09",
-    title: "Justyna and Ieva Conclude",
+    title: "Justyna and Ieva Reflect",
     vimeoCode: "43hlfu3S5wk",
     duration: "31:26",
     recordDate: new Date(2020, 8, 5),
