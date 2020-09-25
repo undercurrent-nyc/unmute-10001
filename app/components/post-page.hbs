@@ -1,0 +1,25 @@
+<div class="overflow-y-hidden w-full h-screen bg-black flex flex-col justify-between text-white cursor-pointer">
+  <SplashHeader />
+  <div class="w-full flex-grow flex flex-row">
+    <div class="pt-6 md:pt-0 w-2/5 h-40 md:h-full">
+      <EmpireStateBuilding @showEnterButton={{false}} />
+    </div>
+    <div class="w-3/5 pr-10">
+
+      <p class="py-6 md:py-8 text-sm md:text-base leading-tight
+        md:leading-snug">“<LinkTo @route="exhibit.about" class="underline
+        hover:text-accent-500">10001</LinkTo>” was a 2020 virtual project that
+        focused on the collaboration of strangers and the narrative of their
+        collective creative process using New York City as the linchpin.
+        <LinkTo @route="exhibit.artists" class="underline
+        hover:text-accent-500">Twelve artists</LinkTo> from six different
+        European Union nations were split into <LinkTo @route="exhibit.teams"
+        class="underline hover:text-accent-500">teams of two</LinkTo>. Each
+        team recorded their collaboration over the course of a month and then
+        presented their results in the video below.</p>
+
+      <ClipPlayBox @vimeoCode="459342370" />
+
+    </div>
+  </div>
+</div>

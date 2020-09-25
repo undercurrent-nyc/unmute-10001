@@ -1,29 +1,38 @@
 import Component from '@glimmer/component';
+import { action } from "@ember/object";
 import * as d3 from "d3";
 // import { shuffle } from "../helpers/shuffle";
 
 export default class EmpireStateBuildingComponent extends Component {
 
+  showEnterButton = this.args.showEnterButton;
+
+  @action
   fadeInTetrominoes() {
-    d3.select(".enter-button-text")
-      .on("mouseover", function() {
-        return d3.select(".enter-button-background")
-          .style("fill", "#33ff5E");
-      })
-      .on("mouseout", function() {
-        return d3.select(".enter-button-background")
-          .style("fill", "black");
-      });
-    d3.select(".enter-button-background")
-      .style("fill", "black")
-      .on("mouseover", function() {
-        return d3.select(this)
-          .style("fill", "#33ff5E");
-      })
-      .on("mouseout", function() {
-        return d3.select(this)
-          .style("fill", "black");
-      });
+    if(this.showEnterButton) {
+      d3.select(".enter-button-text")
+        .on("mouseover", function() {
+          return d3.select(".enter-button-background")
+            .style("fill", "#33ff5E");
+        })
+        .on("mouseout", function() {
+          return d3.select(".enter-button-background")
+            .style("fill", "black");
+        });
+      d3.select(".enter-button-background")
+        .style("fill", "black")
+        .on("mouseover", function() {
+          return d3.select(this)
+            .style("fill", "#33ff5E");
+        })
+        .on("mouseout", function() {
+          return d3.select(this)
+            .style("fill", "black");
+        });
+    } else {
+      d3.select(".enter-button")
+        .style("opacity", 0);
+    }
     d3.select(".empire_state_tetrominoes")
       .selectAll("g")
       .style("opacity", 0.0);
