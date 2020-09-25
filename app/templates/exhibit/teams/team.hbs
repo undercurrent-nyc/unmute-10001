@@ -35,10 +35,9 @@
       </p>
 
       <MoreBox @heightClass="h-64">
-        <TextBox>
+        <TextBox @markdownPath={{concat "notes/" @model.id}}>
           <h3 class="text-sm md:text-base font-bold italic pt-2 md:pt-2 pb-2 md:pb-4">{{@model.projectTitle}} Notes</h3>
 
-          <p>No notes yet.</p>
         </TextBox>
       </MoreBox>
       <div class="pt-6 h-32 md:h-64">

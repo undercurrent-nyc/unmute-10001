@@ -90,7 +90,7 @@ export default [
   },
   {
     id: "t-09",
-    title: "Saddie and Anna Unveil _CLOSE UP BLACK_",
+    title: "Saddie and Anna Unveil <em>CLOSE UP BLACK</em>",
     vimeoCode: 459657112,
     duration: "7:17",
     recordDate: new Date(2020, 8, 11),
@@ -188,7 +188,7 @@ export default [
   },
   {
     id: "i-09",
-    title: "Kira and Jonas Unveil _Careful Nordic Conclusions 🌎_",
+    title: "Kira and Jonas Unveil <em>Careful Nordic Conclusions 🌎</em>",
     vimeoCode: 459692242,
     duration: "7:38",
     recordDate: new Date(2020, 8, 11),
@@ -224,7 +224,7 @@ export default [
     duration: "15:11",
     recordDate: new Date(2020, 7, 7),
     postDate: new Date(2020, 7, 18),
-    description: "Terttu and Alex further develop their preliminary concepts, and decide on focusing on a single location in the city to be examined from each of their perspectives, and practices. Alex discusses the power of juxtaposition in film, referencing Bresson’s _Au Hasard Balthazar_.",
+    description: "Terttu and Alex further develop their preliminary concepts, and decide on focusing on a single location in the city to be examined from each of their perspectives, and practices. Alex discusses the power of juxtaposition in film, referencing Bresson’s <em>Au Hasard Balthazar_.",
     consultant: false,
     teamId: "team-j",
   },
@@ -285,7 +285,7 @@ export default [
   },
   {
     id: "j-09",
-    title: "Alex and Terttu Unveil _76% Humidity, Chance of Rain_",
+    title: "Alex and Terttu Unveil <em>76% Humidity, Chance of Rain</em>",
     vimeoCode: 459693767,
     duration: "6:18",
     recordDate: new Date(2020, 8, 11),
@@ -383,7 +383,7 @@ export default [
   },
   {
     id: "s-09",
-    title: "Luisa and Ada Unveil _Stoff Stuk_",
+    title: "Luisa and Ada Unveil <em>Stoff Stuk</em>",
     vimeoCode: 459680825,
     duration: "18:28",
     recordDate: new Date(2020, 8, 11),
@@ -481,7 +481,7 @@ export default [
   },
   {
     id: "l-09",
-    title: "Mariella and Nicola Unveil _Sonos Civitatem MMXX_",
+    title: "Mariella and Nicola Unveil <em>Sonos Civitatem MMXX</em>",
     vimeoCode: 459741166,
     duration: "10:00",
     recordDate: new Date(2020, 8, 11),
@@ -589,7 +589,7 @@ export default [
   },
   {
     id: "z-10",
-    title: "Ieva and Justyna Unveil _Arktikaantarktika 0.9 (beta version)_",
+    title: "Ieva and Justyna Unveil <em>Arktikaantarktika 0.9 (beta version)</em>",
     vimeoCode: 459677497,
     duration: "6:59",
     recordDate: new Date(2020, 8, 11),

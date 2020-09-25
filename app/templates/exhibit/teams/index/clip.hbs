@@ -8,7 +8,7 @@
               <br>
               <span class="italic hidden md:inline">{{@model.team.projectTitle}}</span>
             </h2>
-            <h3 class="text-sm md:text-sm font-bold">“{{@model.title}}”<br>
+            <h3 class="text-sm md:text-sm font-bold">“{{raw-html @model.title}}”<br>
               <span class="hidden md:inline">Recorded on: {{format-date @model.recordDate}}<br>
                 Posted on: {{format-date @model.postDate}}
               </span>
