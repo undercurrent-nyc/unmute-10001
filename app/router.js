@@ -30,4 +30,5 @@ Router.map(function() {
     });
   });
   this.route('unveiling');
+  this.route('original_intro');
 });
