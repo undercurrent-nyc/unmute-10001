@@ -4,6 +4,21 @@
       <AboutGraphic />
     </TwoColumn::One>
     <TwoColumn::Two>
+      <h2 class="text-xl font-bold pt-6">10001</h2>
+        <p>August 5 – September 12</p>
+
+        <p>“10001” was a 2020 virtual project that
+          focused on the collaboration of strangers and the narrative of their
+          collective creative process using New York City as the linchpin.
+          <LinkTo @route="exhibit.artists" class="underline
+          hover:text-accent-500">Twelve artists</LinkTo> from six different
+          European Union nations were split into <LinkTo @route="exhibit.teams"
+          class="underline hover:text-accent-500">teams of two</LinkTo>. Each
+          team recorded their collaboration over the course of a month and then
+          presented their results in the video below.</p>
+
+      <ClipPlayBox @vimeoCode="459342370" />
+
       <ClipPlayBox @vimeoCode="444743824" />
       <TextBox>
         <p>
@@ -11,10 +26,8 @@
         </p>
 
       </TextBox>
-      <h2 class="text-xl font-bold pt-6">10001</h2>
       <MoreBox @heightClass="h-64">
         <TextBox @markdownPath="about">
-          <p>August 5 – September 12</p>
         </TextBox>
       </MoreBox>
     </TwoColumn::Two>
